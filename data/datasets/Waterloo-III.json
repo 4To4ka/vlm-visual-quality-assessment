@@ -1,0 +1,4052 @@
+[
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.2319011183048852,
+            "MOS_raw": 31.38,
+            "MOS_sigmoid_to_lin": 0.1297549770420575,
+            "MOS_sigmoid_to_std": -3.219352614510208
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.462978222483814,
+            "MOS_raw": 51.01,
+            "MOS_sigmoid_to_lin": 0.3461097163162355,
+            "MOS_sigmoid_to_std": -1.849052328310354
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.438728663919953,
+            "MOS_raw": 48.95,
+            "MOS_sigmoid_to_lin": 0.316665481924194,
+            "MOS_sigmoid_to_std": -2.035539774574331
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5492642731018247,
+            "MOS_raw": 58.34,
+            "MOS_sigmoid_to_lin": 0.4593159022360121,
+            "MOS_sigmoid_to_std": -1.1320517694786938
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6020011771630371,
+            "MOS_raw": 62.82,
+            "MOS_sigmoid_to_lin": 0.5314702124736803,
+            "MOS_sigmoid_to_std": -0.6750565943282587
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.3797527957622131,
+            "MOS_raw": 43.94,
+            "MOS_sigmoid_to_lin": 0.2511497178217482,
+            "MOS_sigmoid_to_std": -2.450489179433051
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6198940553266629,
+            "MOS_raw": 64.34,
+            "MOS_sigmoid_to_lin": 0.5558040600194655,
+            "MOS_sigmoid_to_std": -0.520936197575236
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6028251912889936,
+            "MOS_raw": 62.89,
+            "MOS_sigmoid_to_lin": 0.5325950467219247,
+            "MOS_sigmoid_to_std": -0.6679323654000289
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.3994114184814597,
+            "MOS_raw": 45.61,
+            "MOS_sigmoid_to_lin": 0.2719589947956408,
+            "MOS_sigmoid_to_std": -2.3186919362175877
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.475927015891701,
+            "MOS_raw": 52.11,
+            "MOS_sigmoid_to_lin": 0.3623478012988014,
+            "MOS_sigmoid_to_std": -1.7462071002668411
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.4056503825779871,
+            "MOS_raw": 46.14,
+            "MOS_sigmoid_to_lin": 0.2787844295332497,
+            "MOS_sigmoid_to_std": -2.2754624918071675
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.527722189523249,
+            "MOS_raw": 56.51,
+            "MOS_sigmoid_to_lin": 0.4301578118507425,
+            "MOS_sigmoid_to_std": -1.3167268994713042
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5964685108887582,
+            "MOS_raw": 62.35,
+            "MOS_sigmoid_to_lin": 0.5239100298533356,
+            "MOS_sigmoid_to_std": -0.7229396240374117
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.3706886403766922,
+            "MOS_raw": 43.17,
+            "MOS_sigmoid_to_lin": 0.2419191380684435,
+            "MOS_sigmoid_to_std": -2.5089518048424937
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.4806356680400236,
+            "MOS_raw": 52.51,
+            "MOS_sigmoid_to_lin": 0.3683336841423578,
+            "MOS_sigmoid_to_std": -1.7082950258597744
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.024131842260153,
+            "MOS_raw": 13.73,
+            "MOS_sigmoid_to_lin": 0.0455520020086492,
+            "MOS_sigmoid_to_std": -3.7526589852153007
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.444261330194232,
+            "MOS_raw": 49.42,
+            "MOS_sigmoid_to_lin": 0.3232656848901765,
+            "MOS_sigmoid_to_std": -1.9937368538543856
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6010594467333726,
+            "MOS_raw": 62.74,
+            "MOS_sigmoid_to_lin": 0.5301842965661121,
+            "MOS_sigmoid_to_std": -0.6832010470085237
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.657327839905827,
+            "MOS_raw": 67.52,
+            "MOS_sigmoid_to_lin": 0.6057282289897864,
+            "MOS_sigmoid_to_std": -0.2047374248660056
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6268393172454386,
+            "MOS_raw": 64.93,
+            "MOS_sigmoid_to_lin": 0.565184234096852,
+            "MOS_sigmoid_to_std": -0.4615261043830632
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5065332548557976,
+            "MOS_raw": 54.71,
+            "MOS_sigmoid_to_lin": 0.4019416439539908,
+            "MOS_sigmoid_to_std": -1.4954362869989049
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6643908181283109,
+            "MOS_raw": 68.12,
+            "MOS_sigmoid_to_lin": 0.6149376650984643,
+            "MOS_sigmoid_to_std": -0.1464087144444232
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.7153619776339024,
+            "MOS_raw": 72.45,
+            "MOS_sigmoid_to_lin": 0.6786509343260947,
+            "MOS_sigmoid_to_std": 0.2571244429536703
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.7374926427310183,
+            "MOS_raw": 74.33,
+            "MOS_sigmoid_to_lin": 0.7045201616314631,
+            "MOS_sigmoid_to_std": 0.4209692919236429
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.7309005297233667,
+            "MOS_raw": 73.77,
+            "MOS_sigmoid_to_lin": 0.6969410075028661,
+            "MOS_sigmoid_to_std": 0.372966104628504
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.7420835785756328,
+            "MOS_raw": 74.72,
+            "MOS_sigmoid_to_lin": 0.709732947715577,
+            "MOS_sigmoid_to_std": 0.4539848953115015
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6291936433195998,
+            "MOS_raw": 65.13,
+            "MOS_sigmoid_to_lin": 0.5683537348654994,
+            "MOS_sigmoid_to_std": -0.4414518142382824
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.7399646851088878,
+            "MOS_raw": 74.54,
+            "MOS_sigmoid_to_lin": 0.7073338019885781,
+            "MOS_sigmoid_to_std": 0.4387897112939445
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6433195997645674,
+            "MOS_raw": 66.33,
+            "MOS_sigmoid_to_lin": 0.5872447739301349,
+            "MOS_sigmoid_to_std": -0.3218038863781132
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.8673337257210125,
+            "MOS_raw": 85.36,
+            "MOS_sigmoid_to_lin": 0.8293185596312524,
+            "MOS_sigmoid_to_std": 1.21139006601946
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5273690406121249,
+            "MOS_raw": 56.48,
+            "MOS_sigmoid_to_lin": 0.4296832622160922,
+            "MOS_sigmoid_to_std": -1.3197324980653486
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5910535609181873,
+            "MOS_raw": 61.89,
+            "MOS_sigmoid_to_lin": 0.516500052309148,
+            "MOS_sigmoid_to_std": -0.7698713177160381
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.8111830488522661,
+            "MOS_raw": 80.59,
+            "MOS_sigmoid_to_lin": 0.7812463076991013,
+            "MOS_sigmoid_to_std": 0.9069205600502874
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.70335491465568,
+            "MOS_raw": 71.43,
+            "MOS_sigmoid_to_lin": 0.6641284867938102,
+            "MOS_sigmoid_to_std": 0.1651453438289074
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6556798116539141,
+            "MOS_raw": 67.38,
+            "MOS_sigmoid_to_lin": 0.6035682451213623,
+            "MOS_sigmoid_to_std": -0.2184178578577587
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6542672160094175,
+            "MOS_raw": 67.26,
+            "MOS_sigmoid_to_lin": 0.6017136068027145,
+            "MOS_sigmoid_to_std": -0.2301643600484029
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.8120070629782224,
+            "MOS_raw": 80.66,
+            "MOS_sigmoid_to_lin": 0.7820174349104451,
+            "MOS_sigmoid_to_std": 0.911804556776894
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.8157739846968808,
+            "MOS_raw": 80.98,
+            "MOS_sigmoid_to_lin": 0.7855175911299326,
+            "MOS_sigmoid_to_std": 0.9339730800336444
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.8189523248969983,
+            "MOS_raw": 81.25,
+            "MOS_sigmoid_to_lin": 0.7884389290852915,
+            "MOS_sigmoid_to_std": 0.9524756108760206
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6540317834020012,
+            "MOS_raw": 67.24,
+            "MOS_sigmoid_to_lin": 0.6014042147892543,
+            "MOS_sigmoid_to_std": -0.2321239194553963
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6077692760447323,
+            "MOS_raw": 63.31,
+            "MOS_sigmoid_to_lin": 0.5393367003381593,
+            "MOS_sigmoid_to_std": -0.6252335555159547
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5390229546792231,
+            "MOS_raw": 57.47,
+            "MOS_sigmoid_to_lin": 0.4454065677617401,
+            "MOS_sigmoid_to_std": -1.2201476673309264
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6290759270158919,
+            "MOS_raw": 65.12,
+            "MOS_sigmoid_to_lin": 0.5681953904731905,
+            "MOS_sigmoid_to_std": -0.4424547012877045
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6439081812831078,
+            "MOS_raw": 66.38,
+            "MOS_sigmoid_to_lin": 0.58802675447845,
+            "MOS_sigmoid_to_std": -0.3168511491616614
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.6656856974690996,
+            "MOS_raw": 68.23,
+            "MOS_sigmoid_to_lin": 0.6166173800687579,
+            "MOS_sigmoid_to_std": -0.1357701034657625
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.8779281930547383,
+            "MOS_raw": 86.26,
+            "MOS_sigmoid_to_lin": 0.8373841843527965,
+            "MOS_sigmoid_to_std": 1.2624743542647303
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.577751618599176,
+            "MOS_raw": 60.76,
+            "MOS_sigmoid_to_lin": 0.4982731719939386,
+            "MOS_sigmoid_to_std": -0.8853127422776246
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.7608004708652149,
+            "MOS_raw": 76.31,
+            "MOS_sigmoid_to_lin": 0.7304108126898389,
+            "MOS_sigmoid_to_std": 0.5849498299706184
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5590347263095939,
+            "MOS_raw": 59.17,
+            "MOS_sigmoid_to_lin": 0.4726453906688969,
+            "MOS_sigmoid_to_std": -1.047628373551449
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.4557975279576222,
+            "MOS_raw": 50.4,
+            "MOS_sigmoid_to_lin": 0.3372543550735407,
+            "MOS_sigmoid_to_std": -1.9051384768549915
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5407886992348441,
+            "MOS_raw": 57.62,
+            "MOS_sigmoid_to_lin": 0.4477992533784117,
+            "MOS_sigmoid_to_std": -1.2049933989460015
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.9502060035314892,
+            "MOS_raw": 92.4,
+            "MOS_sigmoid_to_lin": 0.8844410724482553,
+            "MOS_sigmoid_to_std": 1.5605129710345995
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5870512065921131,
+            "MOS_raw": 61.55,
+            "MOS_sigmoid_to_lin": 0.5110182622536534,
+            "MOS_sigmoid_to_std": -0.8045906795711644
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5226603884638023,
+            "MOS_raw": 56.08,
+            "MOS_sigmoid_to_lin": 0.4233686071404392,
+            "MOS_sigmoid_to_std": -1.3597268780657568
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5718658034137729,
+            "MOS_raw": 60.26,
+            "MOS_sigmoid_to_lin": 0.4902067714323164,
+            "MOS_sigmoid_to_std": -0.9364019443689462
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.5206592113007652,
+            "MOS_raw": 55.91,
+            "MOS_sigmoid_to_lin": 0.4206923161106579,
+            "MOS_sigmoid_to_std": -1.3766773843332252
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BigBuckBunny23.mp4",
+        "scores": {
+            "MOS_minmax": 0.8879340788699237,
+            "MOS_raw": 87.11,
+            "MOS_sigmoid_to_lin": 0.8447170132079338,
+            "MOS_sigmoid_to_std": 1.3089174204649838
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.2391995291347852,
+            "MOS_raw": 32.0,
+            "MOS_sigmoid_to_lin": 0.134340804754053,
+            "MOS_sigmoid_to_std": -3.190307902814536
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.3324308416715715,
+            "MOS_raw": 39.92,
+            "MOS_sigmoid_to_lin": 0.2055525158222583,
+            "MOS_sigmoid_to_std": -2.7392827559427504
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5385520894643909,
+            "MOS_raw": 57.43,
+            "MOS_sigmoid_to_lin": 0.444768940729847,
+            "MOS_sigmoid_to_std": -1.2241861298449583
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5021777516185992,
+            "MOS_raw": 54.34,
+            "MOS_sigmoid_to_lin": 0.3962148869056229,
+            "MOS_sigmoid_to_std": -1.5317071671686748
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.4995879929370218,
+            "MOS_raw": 54.12,
+            "MOS_sigmoid_to_lin": 0.3928231208081496,
+            "MOS_sigmoid_to_std": -1.5531891927978925
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.4918187168922897,
+            "MOS_raw": 53.46,
+            "MOS_sigmoid_to_lin": 0.3827108324347649,
+            "MOS_sigmoid_to_std": -1.617236191253629
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5502060035314892,
+            "MOS_raw": 58.42,
+            "MOS_sigmoid_to_lin": 0.4605984459500379,
+            "MOS_sigmoid_to_std": -1.1239286748596928
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5741024131842262,
+            "MOS_raw": 60.45,
+            "MOS_sigmoid_to_lin": 0.4932716305946956,
+            "MOS_sigmoid_to_std": -0.9169904103232404
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.644143613890524,
+            "MOS_raw": 66.4,
+            "MOS_sigmoid_to_lin": 0.5883394225441776,
+            "MOS_sigmoid_to_std": -0.3148708406119649
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.3937610359034727,
+            "MOS_raw": 45.13,
+            "MOS_sigmoid_to_lin": 0.2658685992466687,
+            "MOS_sigmoid_to_std": -2.357265950319726
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5932901706886404,
+            "MOS_raw": 62.08,
+            "MOS_sigmoid_to_lin": 0.5195617614662736,
+            "MOS_sigmoid_to_std": -0.7504797344840513
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5974102413184227,
+            "MOS_raw": 62.43,
+            "MOS_sigmoid_to_lin": 0.5251977396272195,
+            "MOS_sigmoid_to_std": -0.7147838097593646
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.3632725132430842,
+            "MOS_raw": 42.54,
+            "MOS_sigmoid_to_lin": 0.2345406007157362,
+            "MOS_sigmoid_to_std": -2.5556843695187776
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5010005885815186,
+            "MOS_raw": 54.24,
+            "MOS_sigmoid_to_lin": 0.3946719160974968,
+            "MOS_sigmoid_to_std": -1.5414796979071568
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.4462625073572691,
+            "MOS_raw": 49.59,
+            "MOS_sigmoid_to_lin": 0.3256706133871748,
+            "MOS_sigmoid_to_std": -1.9785050441940912
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.1779870512065921,
+            "MOS_raw": 26.8,
+            "MOS_sigmoid_to_lin": 0.0998649990914342,
+            "MOS_sigmoid_to_std": -3.408663213749458
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.4898175397292525,
+            "MOS_raw": 53.29,
+            "MOS_sigmoid_to_lin": 0.3801221290879404,
+            "MOS_sigmoid_to_std": -1.6336319538282802
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6838140082401413,
+            "MOS_raw": 69.77,
+            "MOS_sigmoid_to_lin": 0.6398259055096579,
+            "MOS_sigmoid_to_std": 0.0112229744794341
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6572101236021191,
+            "MOS_raw": 67.51,
+            "MOS_sigmoid_to_lin": 0.6055740802580472,
+            "MOS_sigmoid_to_std": -0.2057137383589675
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.764920541494997,
+            "MOS_raw": 76.66,
+            "MOS_sigmoid_to_lin": 0.7348356937379135,
+            "MOS_sigmoid_to_std": 0.6129751729185857
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.69240729841083,
+            "MOS_raw": 70.5,
+            "MOS_sigmoid_to_lin": 0.6506104667332545,
+            "MOS_sigmoid_to_std": 0.079527867549082
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.7662154208357859,
+            "MOS_raw": 76.77,
+            "MOS_sigmoid_to_lin": 0.7362167441926886,
+            "MOS_sigmoid_to_std": 0.6217221679683984
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6375515008828724,
+            "MOS_raw": 65.84,
+            "MOS_sigmoid_to_lin": 0.5795586338491322,
+            "MOS_sigmoid_to_std": -0.3704846778787005
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.8092995879929371,
+            "MOS_raw": 80.43,
+            "MOS_sigmoid_to_lin": 0.7794763638770804,
+            "MOS_sigmoid_to_std": 0.8957104773222202
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.677457327839906,
+            "MOS_raw": 69.23,
+            "MOS_sigmoid_to_lin": 0.6317557423689323,
+            "MOS_sigmoid_to_std": -0.0398900582117605
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.8476751030017657,
+            "MOS_raw": 83.69,
+            "MOS_sigmoid_to_lin": 0.8135162350078339,
+            "MOS_sigmoid_to_std": 1.1113047615480278
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.8215420835785756,
+            "MOS_raw": 81.47,
+            "MOS_sigmoid_to_lin": 0.7907976742352145,
+            "MOS_sigmoid_to_std": 0.9674149145624362
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.8729841082989995,
+            "MOS_raw": 85.84,
+            "MOS_sigmoid_to_lin": 0.8336590926295102,
+            "MOS_sigmoid_to_std": 1.2388811837538167
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.599882283696292,
+            "MOS_raw": 62.64,
+            "MOS_sigmoid_to_lin": 0.5285763399283679,
+            "MOS_sigmoid_to_std": -0.6933851707688334
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.8213066509711597,
+            "MOS_raw": 81.45,
+            "MOS_sigmoid_to_lin": 0.790584044493576,
+            "MOS_sigmoid_to_std": 0.9660618732697416
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6103590347263097,
+            "MOS_raw": 63.53,
+            "MOS_sigmoid_to_lin": 0.542862464901259,
+            "MOS_sigmoid_to_std": -0.6029028397382605
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.4566215420835786,
+            "MOS_raw": 50.47,
+            "MOS_sigmoid_to_lin": 0.3382649055850349,
+            "MOS_sigmoid_to_std": -1.89873807324116
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.7790464979399648,
+            "MOS_raw": 77.86,
+            "MOS_sigmoid_to_lin": 0.7496500343805192,
+            "MOS_sigmoid_to_std": 0.7068030007282609
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5318422601530313,
+            "MOS_raw": 56.86,
+            "MOS_sigmoid_to_lin": 0.4357034882386327,
+            "MOS_sigmoid_to_std": -1.281602908349171
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.7084167157151267,
+            "MOS_raw": 71.86,
+            "MOS_sigmoid_to_lin": 0.6702905919001123,
+            "MOS_sigmoid_to_std": 0.2041735362275902
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5341965862271926,
+            "MOS_raw": 57.06,
+            "MOS_sigmoid_to_lin": 0.438879775657621,
+            "MOS_sigmoid_to_std": -1.2614856344041017
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.9206592113007652,
+            "MOS_raw": 89.89,
+            "MOS_sigmoid_to_lin": 0.8668254499609089,
+            "MOS_sigmoid_to_std": 1.4489429974949433
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.8206003531489113,
+            "MOS_raw": 81.39,
+            "MOS_sigmoid_to_lin": 0.7899421933278759,
+            "MOS_sigmoid_to_std": 0.9619966568616922
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.8258975868157741,
+            "MOS_raw": 81.84,
+            "MOS_sigmoid_to_lin": 0.7947209108572556,
+            "MOS_sigmoid_to_std": 0.9922630518579164
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.7695114773396117,
+            "MOS_raw": 77.05,
+            "MOS_sigmoid_to_lin": 0.739711252241715,
+            "MOS_sigmoid_to_std": 0.6438549180795032
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6072984108299001,
+            "MOS_raw": 63.27,
+            "MOS_sigmoid_to_lin": 0.5386952186234742,
+            "MOS_sigmoid_to_std": -0.6292964319760399
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6130665097115952,
+            "MOS_raw": 63.76,
+            "MOS_sigmoid_to_lin": 0.5465439000875382,
+            "MOS_sigmoid_to_std": -0.5795861714447517
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6662742789876399,
+            "MOS_raw": 68.28,
+            "MOS_sigmoid_to_lin": 0.6173799703031486,
+            "MOS_sigmoid_to_std": -0.1309401763749833
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6951147733961155,
+            "MOS_raw": 70.73,
+            "MOS_sigmoid_to_lin": 0.65397727023223,
+            "MOS_sigmoid_to_std": 0.1008517905364039
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.7152442613301943,
+            "MOS_raw": 72.44,
+            "MOS_sigmoid_to_lin": 0.6785101642344281,
+            "MOS_sigmoid_to_std": 0.2562328641625324
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.553619776339023,
+            "MOS_raw": 58.71,
+            "MOS_sigmoid_to_lin": 0.4652519190640794,
+            "MOS_sigmoid_to_std": -1.0944555255245474
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.8328428487345498,
+            "MOS_raw": 82.43,
+            "MOS_sigmoid_to_lin": 0.8008634717753738,
+            "MOS_sigmoid_to_std": 1.0311674595558251
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6556798116539141,
+            "MOS_raw": 67.38,
+            "MOS_sigmoid_to_lin": 0.6035682451213623,
+            "MOS_sigmoid_to_std": -0.2184178578577587
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5125367863449088,
+            "MOS_raw": 55.22,
+            "MOS_sigmoid_to_lin": 0.4098790441669114,
+            "MOS_sigmoid_to_std": -1.445164119077201
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6446144791053562,
+            "MOS_raw": 66.44,
+            "MOS_sigmoid_to_lin": 0.5889645445417466,
+            "MOS_sigmoid_to_std": -0.3109115797469042
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6058858151854033,
+            "MOS_raw": 63.15,
+            "MOS_sigmoid_to_lin": 0.5367700128178982,
+            "MOS_sigmoid_to_std": -0.6414898790677226
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5732783990582697,
+            "MOS_raw": 60.38,
+            "MOS_sigmoid_to_lin": 0.4921424008875467,
+            "MOS_sigmoid_to_std": -0.9241424782468864
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.4807533843437317,
+            "MOS_raw": 52.52,
+            "MOS_sigmoid_to_lin": 0.3684838609557641,
+            "MOS_sigmoid_to_std": -1.7073438688336724
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5643319599764568,
+            "MOS_raw": 59.62,
+            "MOS_sigmoid_to_lin": 0.4798897860673989,
+            "MOS_sigmoid_to_std": -1.0017454078201924
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.8841671571512657,
+            "MOS_raw": 86.79,
+            "MOS_sigmoid_to_lin": 0.8419886046456093,
+            "MOS_sigmoid_to_std": 1.2916368235787496
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5604473219540907,
+            "MOS_raw": 59.29,
+            "MOS_sigmoid_to_lin": 0.4745762298556525,
+            "MOS_sigmoid_to_std": -1.0353992469832345
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5866980576809889,
+            "MOS_raw": 61.52,
+            "MOS_sigmoid_to_lin": 0.5105344283672999,
+            "MOS_sigmoid_to_std": -0.8076550807262657
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.6001177163037081,
+            "MOS_raw": 62.66,
+            "MOS_sigmoid_to_lin": 0.5288979797759745,
+            "MOS_sigmoid_to_std": -0.6913480387110513
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.5338434373160683,
+            "MOS_raw": 57.03,
+            "MOS_sigmoid_to_lin": 0.4384030066087912,
+            "MOS_sigmoid_to_std": -1.2645052898378326
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/BirdOfPrey56.mp4",
+        "scores": {
+            "MOS_minmax": 0.7698646262507359,
+            "MOS_raw": 77.08,
+            "MOS_sigmoid_to_lin": 0.7400838790098587,
+            "MOS_sigmoid_to_std": 0.6462149799332257
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.1771630370806357,
+            "MOS_raw": 26.73,
+            "MOS_sigmoid_to_lin": 0.0994596112689365,
+            "MOS_sigmoid_to_std": -3.4112307703976468
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.4953502060035315,
+            "MOS_raw": 53.76,
+            "MOS_sigmoid_to_lin": 0.3872953253474103,
+            "MOS_sigmoid_to_std": -1.5881999336178851
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.3984696880517952,
+            "MOS_raw": 45.53,
+            "MOS_sigmoid_to_lin": 0.2709378811680457,
+            "MOS_sigmoid_to_std": -2.3251592421838456
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.4772218952324897,
+            "MOS_raw": 52.22,
+            "MOS_sigmoid_to_lin": 0.3639897584400787,
+            "MOS_sigmoid_to_std": -1.7358076315601778
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.5705709240729842,
+            "MOS_raw": 60.15,
+            "MOS_sigmoid_to_lin": 0.4884327009394424,
+            "MOS_sigmoid_to_std": -0.9476381637015084
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.6579164214243672,
+            "MOS_raw": 67.57,
+            "MOS_sigmoid_to_lin": 0.6064986565493634,
+            "MOS_sigmoid_to_std": -0.1998578594406015
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.7178340200117717,
+            "MOS_raw": 72.66,
+            "MOS_sigmoid_to_lin": 0.6815995805899971,
+            "MOS_sigmoid_to_std": 0.2757999331827392
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.6714537963507947,
+            "MOS_raw": 68.72,
+            "MOS_sigmoid_to_lin": 0.6240654935816055,
+            "MOS_sigmoid_to_std": -0.0885968725370416
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.6933490288404944,
+            "MOS_raw": 70.58,
+            "MOS_sigmoid_to_lin": 0.6517832538868844,
+            "MOS_sigmoid_to_std": 0.0869558100922489
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Cheetah02.mp4",
+        "scores": {
+            "MOS_minmax": 0.6031783402001178,
+            "MOS_raw": 62.92,
+            "MOS_sigmoid_to_lin": 0.5330770178038248,
+            "MOS_sigmoid_to_std": -0.6648797624679954
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.3237198351971748,
+            "MOS_raw": 39.18,
+            "MOS_sigmoid_to_lin": 0.1978628010082693,
+            "MOS_sigmoid_to_std": -2.787986188304595
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.6243672748675693,
+            "MOS_raw": 64.72,
+            "MOS_sigmoid_to_lin": 0.5618505176255997,
+            "MOS_sigmoid_to_std": -0.4826404679971512
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.5806945261918777,
+            "MOS_raw": 61.01,
+            "MOS_sigmoid_to_lin": 0.5023069719109924,
+            "MOS_sigmoid_to_std": -0.8597643433871949
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.1771630370806357,
+            "MOS_raw": 26.73,
+            "MOS_sigmoid_to_lin": 0.0994596112689365,
+            "MOS_sigmoid_to_std": -3.4112307703976468
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.6354326074161272,
+            "MOS_raw": 65.66,
+            "MOS_sigmoid_to_lin": 0.5767252275129653,
+            "MOS_sigmoid_to_std": -0.3884302866802236
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.7431430253090054,
+            "MOS_raw": 74.81,
+            "MOS_sigmoid_to_lin": 0.7109281517967276,
+            "MOS_sigmoid_to_std": 0.4615548172829928
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.8281341965862272,
+            "MOS_raw": 82.03,
+            "MOS_sigmoid_to_lin": 0.7967142335419115,
+            "MOS_sigmoid_to_std": 1.004887922727101
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.8616833431430253,
+            "MOS_raw": 84.88,
+            "MOS_sigmoid_to_lin": 0.8248885549164203,
+            "MOS_sigmoid_to_std": 1.1833322719125867
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.7099470276633314,
+            "MOS_raw": 71.99,
+            "MOS_sigmoid_to_lin": 0.6721422126222751,
+            "MOS_sigmoid_to_std": 0.2159009262261877
+        }
+    },
+    {
+        "path": "waterloo-i/Test/CostaRica2_1920x1080_25_3000_10s.mp4",
+        "scores": {
+            "MOS_minmax": 0.6230723955267805,
+            "MOS_raw": 64.61,
+            "MOS_sigmoid_to_lin": 0.560102034157949,
+            "MOS_sigmoid_to_std": -0.4937146298305146
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.2709829311359624,
+            "MOS_raw": 34.7,
+            "MOS_sigmoid_to_lin": 0.1559271043823254,
+            "MOS_sigmoid_to_std": -3.053589323605914
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.2218952324896998,
+            "MOS_raw": 30.53,
+            "MOS_sigmoid_to_lin": 0.1236850739152157,
+            "MOS_sigmoid_to_std": -3.257796838194978
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.4045909358446145,
+            "MOS_raw": 46.05,
+            "MOS_sigmoid_to_lin": 0.2776180120096272,
+            "MOS_sigmoid_to_std": -2.282850091782146
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.4607416127133609,
+            "MOS_raw": 50.82,
+            "MOS_sigmoid_to_lin": 0.3433396836916302,
+            "MOS_sigmoid_to_std": -1.866596554570493
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.4193054738081224,
+            "MOS_raw": 47.3,
+            "MOS_sigmoid_to_lin": 0.2940838579126818,
+            "MOS_sigmoid_to_std": -2.1785623214787417
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.4122424955856387,
+            "MOS_raw": 46.7,
+            "MOS_sigmoid_to_lin": 0.2861092525336525,
+            "MOS_sigmoid_to_std": -2.2290701313370995
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.5589170100058859,
+            "MOS_raw": 59.16,
+            "MOS_sigmoid_to_lin": 0.4724845235336593,
+            "MOS_sigmoid_to_std": -1.0486472385977883
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.5047675103001766,
+            "MOS_raw": 54.56,
+            "MOS_sigmoid_to_lin": 0.3996166641453945,
+            "MOS_sigmoid_to_std": -1.5101617351578698
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.5160682754561507,
+            "MOS_raw": 55.52,
+            "MOS_sigmoid_to_lin": 0.4145704147240812,
+            "MOS_sigmoid_to_std": -1.4154509432127584
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/CSGO04.mp4",
+        "scores": {
+            "MOS_minmax": 0.7254855797527959,
+            "MOS_raw": 73.31,
+            "MOS_sigmoid_to_lin": 0.6906338665626575,
+            "MOS_sigmoid_to_std": 0.3330193160142816
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.0054149499705709,
+            "MOS_raw": 12.14,
+            "MOS_sigmoid_to_lin": 0.0412927411095952,
+            "MOS_sigmoid_to_std": -3.779635359518695
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.2008240141259564,
+            "MOS_raw": 28.74,
+            "MOS_sigmoid_to_lin": 0.1116977377455052,
+            "MOS_sigmoid_to_std": -3.333719603923312
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.2022366097704532,
+            "MOS_raw": 28.86,
+            "MOS_sigmoid_to_lin": 0.1124685153841239,
+            "MOS_sigmoid_to_std": -3.328837821243908
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.397998822836963,
+            "MOS_raw": 45.49,
+            "MOS_sigmoid_to_lin": 0.2704282287330208,
+            "MOS_sigmoid_to_std": -2.3283871672106784
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.2801648028251913,
+            "MOS_raw": 35.48,
+            "MOS_sigmoid_to_lin": 0.1626681639941756,
+            "MOS_sigmoid_to_std": -3.0108942758967787
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5491465567981166,
+            "MOS_raw": 58.33,
+            "MOS_sigmoid_to_lin": 0.4591556218068212,
+            "MOS_sigmoid_to_std": -1.1330669185747078
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.2082401412595645,
+            "MOS_raw": 29.37,
+            "MOS_sigmoid_to_lin": 0.1157963176907886,
+            "MOS_sigmoid_to_std": -3.3077609154708374
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.3941141848145968,
+            "MOS_raw": 45.16,
+            "MOS_sigmoid_to_lin": 0.2662466897148708,
+            "MOS_sigmoid_to_std": -2.354871283678612
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.4885226603884638,
+            "MOS_raw": 53.18,
+            "MOS_sigmoid_to_lin": 0.3784507016589466,
+            "MOS_sigmoid_to_std": -1.6442180749920512
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.4409652736904061,
+            "MOS_raw": 49.14,
+            "MOS_sigmoid_to_lin": 0.3193249608180367,
+            "MOS_sigmoid_to_std": -2.0186957493331885
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.3423190111830488,
+            "MOS_raw": 40.76,
+            "MOS_sigmoid_to_lin": 0.2145471759580299,
+            "MOS_sigmoid_to_std": -2.6823143465625487
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.351736315479694,
+            "MOS_raw": 41.56,
+            "MOS_sigmoid_to_lin": 0.2233763570583433,
+            "MOS_sigmoid_to_std": -2.626394012072729
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.3644496762801648,
+            "MOS_raw": 42.64,
+            "MOS_sigmoid_to_lin": 0.2357013013929869,
+            "MOS_sigmoid_to_std": -2.548332977653895
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.3437316068275457,
+            "MOS_raw": 40.88,
+            "MOS_sigmoid_to_lin": 0.2158552129404448,
+            "MOS_sigmoid_to_std": -2.674029788260862
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.296291936433196,
+            "MOS_raw": 36.85,
+            "MOS_sigmoid_to_lin": 0.1750737427102706,
+            "MOS_sigmoid_to_std": -2.932322537084082
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.0986462625073572,
+            "MOS_raw": 20.06,
+            "MOS_sigmoid_to_lin": 0.0669987250555922,
+            "MOS_sigmoid_to_std": -3.61682442560331
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.373984696880518,
+            "MOS_raw": 43.45,
+            "MOS_sigmoid_to_lin": 0.2452487912856179,
+            "MOS_sigmoid_to_std": -2.4878631761776124
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.398234255444379,
+            "MOS_raw": 45.51,
+            "MOS_sigmoid_to_lin": 0.2706829795200012,
+            "MOS_sigmoid_to_std": -2.3267736824426537
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.4340200117716304,
+            "MOS_raw": 48.55,
+            "MOS_sigmoid_to_lin": 0.3111057196954406,
+            "MOS_sigmoid_to_std": -2.0707529795118447
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5271336080047088,
+            "MOS_raw": 56.46,
+            "MOS_sigmoid_to_lin": 0.4293669675202371,
+            "MOS_sigmoid_to_std": -1.3217357761710549
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6175397292525016,
+            "MOS_raw": 64.14,
+            "MOS_sigmoid_to_lin": 0.5526149460003631,
+            "MOS_sigmoid_to_std": -0.5411347098322845
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6836962919364333,
+            "MOS_raw": 69.76,
+            "MOS_sigmoid_to_lin": 0.6396771577923335,
+            "MOS_sigmoid_to_std": 0.0102808687492563
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5914067098293114,
+            "MOS_raw": 61.92,
+            "MOS_sigmoid_to_lin": 0.5169835683458166,
+            "MOS_sigmoid_to_std": -0.7668089296876914
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.7615067686874633,
+            "MOS_raw": 76.37,
+            "MOS_sigmoid_to_lin": 0.7311726634023545,
+            "MOS_sigmoid_to_std": 0.5897750732396307
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.7068864037669219,
+            "MOS_raw": 71.73,
+            "MOS_sigmoid_to_lin": 0.6684336724541272,
+            "MOS_sigmoid_to_std": 0.1924125863319705
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5442024720423779,
+            "MOS_raw": 57.91,
+            "MOS_sigmoid_to_lin": 0.4524318771204862,
+            "MOS_sigmoid_to_std": -1.1756523007989612
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.7533843437316069,
+            "MOS_raw": 75.68,
+            "MOS_sigmoid_to_lin": 0.7223296357262662,
+            "MOS_sigmoid_to_std": 0.5337670403392707
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5690406121247794,
+            "MOS_raw": 60.02,
+            "MOS_sigmoid_to_lin": 0.4863364512952995,
+            "MOS_sigmoid_to_std": -0.9609149308153316
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5376103590347264,
+            "MOS_raw": 57.35,
+            "MOS_sigmoid_to_lin": 0.4434942341378706,
+            "MOS_sigmoid_to_std": -1.2322595874159177
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6028251912889936,
+            "MOS_raw": 62.89,
+            "MOS_sigmoid_to_lin": 0.5325950467219247,
+            "MOS_sigmoid_to_std": -0.6679323654000289
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.52583872866392,
+            "MOS_raw": 56.35,
+            "MOS_sigmoid_to_lin": 0.4276283841956963,
+            "MOS_sigmoid_to_std": -1.332747234645193
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6488522660388465,
+            "MOS_raw": 66.8,
+            "MOS_sigmoid_to_lin": 0.5945774985580671,
+            "MOS_sigmoid_to_std": -0.2753614803093156
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5560918187168924,
+            "MOS_raw": 58.92,
+            "MOS_sigmoid_to_lin": 0.468625502635925,
+            "MOS_sigmoid_to_std": -1.073088660395881
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6503825779870513,
+            "MOS_raw": 66.93,
+            "MOS_sigmoid_to_lin": 0.5965984201749409,
+            "MOS_sigmoid_to_std": -0.2625618093648287
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.7167745732783991,
+            "MOS_raw": 72.57,
+            "MOS_sigmoid_to_lin": 0.6803376384854309,
+            "MOS_sigmoid_to_std": 0.2678073205279112
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6111830488522662,
+            "MOS_raw": 63.6,
+            "MOS_sigmoid_to_lin": 0.5439834161965789,
+            "MOS_sigmoid_to_std": -0.5958032038072614
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6056503825779872,
+            "MOS_raw": 63.13,
+            "MOS_sigmoid_to_lin": 0.5364490370124416,
+            "MOS_sigmoid_to_std": -0.6435228053606981
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.7181871689228959,
+            "MOS_raw": 72.69,
+            "MOS_sigmoid_to_lin": 0.6820196375860527,
+            "MOS_sigmoid_to_std": 0.2784603982312337
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6552089464390819,
+            "MOS_raw": 67.34,
+            "MOS_sigmoid_to_lin": 0.6029503602803941,
+            "MOS_sigmoid_to_std": -0.2223312816046005
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.7436138905238376,
+            "MOS_raw": 74.85,
+            "MOS_sigmoid_to_lin": 0.7114584152201557,
+            "MOS_sigmoid_to_std": 0.4649132836762994
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.8003531489111244,
+            "MOS_raw": 79.67,
+            "MOS_sigmoid_to_lin": 0.7709293376418606,
+            "MOS_sigmoid_to_std": 0.8415771935514531
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6658034137728076,
+            "MOS_raw": 68.24,
+            "MOS_sigmoid_to_lin": 0.6167699441570623,
+            "MOS_sigmoid_to_std": -0.1348038264404993
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.494290759270159,
+            "MOS_raw": 53.67,
+            "MOS_sigmoid_to_lin": 0.3859178388535381,
+            "MOS_sigmoid_to_std": -1.5969243560323043
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5822248381400825,
+            "MOS_raw": 61.14,
+            "MOS_sigmoid_to_lin": 0.5044044623918607,
+            "MOS_sigmoid_to_std": -0.8464797173333465
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.4349617422012949,
+            "MOS_raw": 48.63,
+            "MOS_sigmoid_to_lin": 0.3122133892383796,
+            "MOS_sigmoid_to_std": -2.063737464636616
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.8021188934667451,
+            "MOS_raw": 79.82,
+            "MOS_sigmoid_to_lin": 0.7726345211812986,
+            "MOS_sigmoid_to_std": 0.8523771117781305
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.7874043555032372,
+            "MOS_raw": 78.57,
+            "MOS_sigmoid_to_lin": 0.758151347757177,
+            "MOS_sigmoid_to_std": 0.7606467584023004
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6257798705120661,
+            "MOS_raw": 64.84,
+            "MOS_sigmoid_to_lin": 0.5637562021707282,
+            "MOS_sigmoid_to_std": -0.4705706603915645
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6343731606827546,
+            "MOS_raw": 65.57,
+            "MOS_sigmoid_to_lin": 0.5753066173858105,
+            "MOS_sigmoid_to_std": -0.3974151689609062
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6781636256621544,
+            "MOS_raw": 69.29,
+            "MOS_sigmoid_to_lin": 0.6326561749418366,
+            "MOS_sigmoid_to_std": -0.0341870954918599
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.8396703943496177,
+            "MOS_raw": 83.01,
+            "MOS_sigmoid_to_lin": 0.8067663008069104,
+            "MOS_sigmoid_to_std": 1.068553505909323
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5837551500882874,
+            "MOS_raw": 61.27,
+            "MOS_sigmoid_to_lin": 0.5065017978538854,
+            "MOS_sigmoid_to_std": -0.8331960731039154
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5945850500294292,
+            "MOS_raw": 62.19,
+            "MOS_sigmoid_to_lin": 0.5213336734060043,
+            "MOS_sigmoid_to_std": -0.7392571865228672
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5705709240729842,
+            "MOS_raw": 60.15,
+            "MOS_sigmoid_to_lin": 0.4884327009394424,
+            "MOS_sigmoid_to_std": -0.9476381637015084
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.4672160094173043,
+            "MOS_raw": 51.37,
+            "MOS_sigmoid_to_lin": 0.3513868009298661,
+            "MOS_sigmoid_to_std": -1.8156294849715957
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.7702177751618601,
+            "MOS_raw": 77.11,
+            "MOS_sigmoid_to_lin": 0.7404561595013881,
+            "MOS_sigmoid_to_std": 0.6485728486159301
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.6343731606827546,
+            "MOS_raw": 65.57,
+            "MOS_sigmoid_to_lin": 0.5753066173858105,
+            "MOS_sigmoid_to_std": -0.3974151689609062
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5336080047086522,
+            "MOS_raw": 57.01,
+            "MOS_sigmoid_to_lin": 0.4380852236965568,
+            "MOS_sigmoid_to_std": -1.2665179936826625
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.8682754561506769,
+            "MOS_raw": 85.44,
+            "MOS_sigmoid_to_lin": 0.8300481779195514,
+            "MOS_sigmoid_to_std": 1.2160111626158503
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5292525014714539,
+            "MOS_raw": 56.64,
+            "MOS_sigmoid_to_lin": 0.4322156661610675,
+            "MOS_sigmoid_to_std": -1.3036933123178356
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.5815185403178341,
+            "MOS_raw": 61.08,
+            "MOS_sigmoid_to_lin": 0.5034364046565625,
+            "MOS_sigmoid_to_std": -0.8526109895032437
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FCB36.mp4",
+        "scores": {
+            "MOS_minmax": 0.7358446144791054,
+            "MOS_raw": 74.19,
+            "MOS_sigmoid_to_lin": 0.7026357034330731,
+            "MOS_sigmoid_to_std": 0.4090339231064472
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.0960565038257798,
+            "MOS_raw": 19.84,
+            "MOS_sigmoid_to_lin": 0.0661165818718541,
+            "MOS_sigmoid_to_std": -3.622411550993773
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.5062978222483815,
+            "MOS_raw": 54.69,
+            "MOS_sigmoid_to_lin": 0.4016313892521604,
+            "MOS_sigmoid_to_std": -1.4974013103126498
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.4746321365509123,
+            "MOS_raw": 52.0,
+            "MOS_sigmoid_to_lin": 0.3607090502677646,
+            "MOS_sigmoid_to_std": -1.7565862628143014
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.6487345497351384,
+            "MOS_raw": 66.79,
+            "MOS_sigmoid_to_lin": 0.5944219092851736,
+            "MOS_sigmoid_to_std": -0.2763469175864967
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.7655091230135375,
+            "MOS_raw": 76.71,
+            "MOS_sigmoid_to_lin": 0.7354640164746146,
+            "MOS_sigmoid_to_std": 0.6169547059244991
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.8283696291936434,
+            "MOS_raw": 82.05,
+            "MOS_sigmoid_to_lin": 0.7969232160873503,
+            "MOS_sigmoid_to_std": 1.006211530625806
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.722071806945262,
+            "MOS_raw": 73.02,
+            "MOS_sigmoid_to_lin": 0.6866206266633889,
+            "MOS_sigmoid_to_std": 0.3076011356637815
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.6351971748087111,
+            "MOS_raw": 65.64,
+            "MOS_sigmoid_to_lin": 0.5764100892618456,
+            "MOS_sigmoid_to_std": -0.3904262403494183
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.7022954679223073,
+            "MOS_raw": 71.34,
+            "MOS_sigmoid_to_lin": 0.6628315534775243,
+            "MOS_sigmoid_to_std": 0.1569311114970863
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/FrozenBanff02.mp4",
+        "scores": {
+            "MOS_minmax": 0.6355503237198353,
+            "MOS_raw": 65.67,
+            "MOS_sigmoid_to_lin": 0.5768827732479267,
+            "MOS_sigmoid_to_std": -0.3874324579918786
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.2900529723366686,
+            "MOS_raw": 36.32,
+            "MOS_sigmoid_to_lin": 0.1701882704789396,
+            "MOS_sigmoid_to_std": -2.9632650716422484
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.2734549735138317,
+            "MOS_raw": 34.91,
+            "MOS_sigmoid_to_lin": 0.157719282067081,
+            "MOS_sigmoid_to_std": -3.042238420905191
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.0,
+            "MOS_raw": 11.68,
+            "MOS_sigmoid_to_lin": 0.0401333008248107,
+            "MOS_sigmoid_to_std": -3.786978768585683
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.3316068275456151,
+            "MOS_raw": 39.85,
+            "MOS_sigmoid_to_lin": 0.2048157240266921,
+            "MOS_sigmoid_to_std": -2.743949286529144
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.3338434373160683,
+            "MOS_raw": 40.04,
+            "MOS_sigmoid_to_lin": 0.2068201543434041,
+            "MOS_sigmoid_to_std": -2.731254064571573
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.5579752795762214,
+            "MOS_raw": 59.08,
+            "MOS_sigmoid_to_lin": 0.4711977949263539,
+            "MOS_sigmoid_to_std": -1.056796838577744
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.3843437316068275,
+            "MOS_raw": 44.33,
+            "MOS_sigmoid_to_lin": 0.255913314269315,
+            "MOS_sigmoid_to_std": -2.4203185550347133
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.3378457916421425,
+            "MOS_raw": 40.38,
+            "MOS_sigmoid_to_lin": 0.2104431333642419,
+            "MOS_sigmoid_to_std": -2.708307633142314
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.3350206003531489,
+            "MOS_raw": 40.14,
+            "MOS_sigmoid_to_lin": 0.2078809272356052,
+            "MOS_sigmoid_to_std": -2.724535573436816
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Mtv04.mp4",
+        "scores": {
+            "MOS_minmax": 0.6681577398469689,
+            "MOS_raw": 68.44,
+            "MOS_sigmoid_to_lin": 0.619816361923611,
+            "MOS_sigmoid_to_std": -0.1155090924707678
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.6041200706297823,
+            "MOS_raw": 63.0,
+            "MOS_sigmoid_to_lin": 0.534361969802716,
+            "MOS_sigmoid_to_std": -0.6567414147815027
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.5849323131253679,
+            "MOS_raw": 61.37,
+            "MOS_sigmoid_to_lin": 0.5081149809836073,
+            "MOS_sigmoid_to_std": -0.8229788469328287
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.3257210123602119,
+            "MOS_raw": 39.35,
+            "MOS_sigmoid_to_lin": 0.1996099755633361,
+            "MOS_sigmoid_to_std": -2.7769203165752256
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.794231901118305,
+            "MOS_raw": 79.15,
+            "MOS_sigmoid_to_lin": 0.7649486641631128,
+            "MOS_sigmoid_to_std": 0.8036981130788492
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.8255444379046498,
+            "MOS_raw": 81.81,
+            "MOS_sigmoid_to_lin": 0.7944048540061311,
+            "MOS_sigmoid_to_std": 0.9902612801611
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.78116539140671,
+            "MOS_raw": 78.04,
+            "MOS_sigmoid_to_lin": 0.7518240007309318,
+            "MOS_sigmoid_to_std": 0.7205719929035794
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.6815773984696881,
+            "MOS_raw": 69.58,
+            "MOS_sigmoid_to_lin": 0.6369951354988085,
+            "MOS_sigmoid_to_std": -0.006705936941902
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.7632725132430843,
+            "MOS_raw": 76.52,
+            "MOS_sigmoid_to_lin": 0.7330713234498191,
+            "MOS_sigmoid_to_std": 0.601800390619621
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.6929958799293703,
+            "MOS_raw": 70.55,
+            "MOS_sigmoid_to_lin": 0.6513436733452155,
+            "MOS_sigmoid_to_std": 0.084171691084375
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/PuppiesBath08.mp4",
+        "scores": {
+            "MOS_minmax": 0.6158917010005887,
+            "MOS_raw": 64.0,
+            "MOS_sigmoid_to_lin": 0.5503799716965988,
+            "MOS_sigmoid_to_std": -0.5552901008275168
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6448499117127723,
+            "MOS_raw": 66.46,
+            "MOS_sigmoid_to_lin": 0.5892769980019082,
+            "MOS_sigmoid_to_std": -0.3089326304189623
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6703943496174221,
+            "MOS_raw": 68.63,
+            "MOS_sigmoid_to_lin": 0.6227017473091635,
+            "MOS_sigmoid_to_std": -0.0972342701447868
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 0.5688051795173632,
+            "MOS_raw": 60.0,
+            "MOS_sigmoid_to_lin": 0.4860139921621963,
+            "MOS_sigmoid_to_std": -0.9629572518842462
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 0.7378457916421425,
+            "MOS_raw": 74.36,
+            "MOS_sigmoid_to_lin": 0.7049230709285956,
+            "MOS_sigmoid_to_std": 0.4235211506304379
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 0.8430841671571514,
+            "MOS_raw": 83.3,
+            "MOS_sigmoid_to_lin": 0.8096674253792668,
+            "MOS_sigmoid_to_std": 1.086928013651276
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 0.838846380223661,
+            "MOS_raw": 82.94,
+            "MOS_sigmoid_to_lin": 0.8060610118638526,
+            "MOS_sigmoid_to_std": 1.0640865011939749
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 0.9531489111241908,
+            "MOS_raw": 92.65,
+            "MOS_sigmoid_to_lin": 0.8860799792182621,
+            "MOS_sigmoid_to_std": 1.5708931199674554
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6885226603884639,
+            "MOS_raw": 70.17,
+            "MOS_sigmoid_to_lin": 0.6457535505567891,
+            "MOS_sigmoid_to_std": 0.0487661950801223
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 1.0,
+            "MOS_raw": 96.63,
+            "MOS_sigmoid_to_lin": 0.909552606653041,
+            "MOS_sigmoid_to_std": 1.7195589093078931
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RoastDuck10.mp4",
+        "scores": {
+            "MOS_minmax": 0.7478516774573278,
+            "MOS_raw": 75.21,
+            "MOS_sigmoid_to_lin": 0.7162046506731553,
+            "MOS_sigmoid_to_std": 0.4949739508076778
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.0280164802825191,
+            "MOS_raw": 14.06,
+            "MOS_sigmoid_to_lin": 0.0464870157536236,
+            "MOS_sigmoid_to_std": -3.746736999837778
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.3338434373160683,
+            "MOS_raw": 40.04,
+            "MOS_sigmoid_to_lin": 0.2068201543434041,
+            "MOS_sigmoid_to_std": -2.731254064571573
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4194231901118306,
+            "MOS_raw": 47.31,
+            "MOS_sigmoid_to_lin": 0.2942178622464365,
+            "MOS_sigmoid_to_std": -2.1777135941639987
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.7070041200706298,
+            "MOS_raw": 71.74,
+            "MOS_sigmoid_to_lin": 0.6685766995601468,
+            "MOS_sigmoid_to_std": 0.1933184601065427
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.5895232489699824,
+            "MOS_raw": 61.76,
+            "MOS_sigmoid_to_lin": 0.5144044707358832,
+            "MOS_sigmoid_to_std": -0.7831438535487787
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4853443201883461,
+            "MOS_raw": 52.91,
+            "MOS_sigmoid_to_lin": 0.3743603974455406,
+            "MOS_sigmoid_to_std": -1.670124348425571
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.5403178340200119,
+            "MOS_raw": 57.58,
+            "MOS_sigmoid_to_lin": 0.4471609628226058,
+            "MOS_sigmoid_to_std": -1.2090360639425426
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4648616833431431,
+            "MOS_raw": 51.17,
+            "MOS_sigmoid_to_lin": 0.3484505057198,
+            "MOS_sigmoid_to_std": -1.834226748799599
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.966921718658034,
+            "MOS_raw": 93.82,
+            "MOS_sigmoid_to_lin": 0.893483099414265,
+            "MOS_sigmoid_to_std": 1.6177813820752664
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/RushHour10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6153031194820484,
+            "MOS_raw": 63.95,
+            "MOS_sigmoid_to_lin": 0.549581268637877,
+            "MOS_sigmoid_to_std": -0.5603487514197192
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.211065332548558,
+            "MOS_raw": 29.61,
+            "MOS_sigmoid_to_lin": 0.1173917512998552,
+            "MOS_sigmoid_to_std": -3.297656107328195
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.4606238964096528,
+            "MOS_raw": 50.81,
+            "MOS_sigmoid_to_lin": 0.3431941854694443,
+            "MOS_sigmoid_to_std": -1.8675180793596968
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5031194820482637,
+            "MOS_raw": 54.42,
+            "MOS_sigmoid_to_lin": 0.3974507541957194,
+            "MOS_sigmoid_to_std": -1.5238797014657943
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.4780459093584462,
+            "MOS_raw": 52.29,
+            "MOS_sigmoid_to_lin": 0.3650362948866855,
+            "MOS_sigmoid_to_std": -1.7291793081080784
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.4065921130076516,
+            "MOS_raw": 46.22,
+            "MOS_sigmoid_to_lin": 0.2798237651293538,
+            "MOS_sigmoid_to_std": -2.2688797755256704
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.4527369040612125,
+            "MOS_raw": 50.14,
+            "MOS_sigmoid_to_lin": 0.333513937961601,
+            "MOS_sigmoid_to_std": -1.9288287119577332
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.3874043555032373,
+            "MOS_raw": 44.59,
+            "MOS_sigmoid_to_lin": 0.2591217908011055,
+            "MOS_sigmoid_to_std": -2.3999974087333777
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5107710417892879,
+            "MOS_raw": 55.07,
+            "MOS_sigmoid_to_lin": 0.4075394382426736,
+            "MOS_sigmoid_to_std": -1.459982202925668
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.435079458505003,
+            "MOS_raw": 48.64,
+            "MOS_sigmoid_to_lin": 0.3123519992827226,
+            "MOS_sigmoid_to_std": -2.062859566680368
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5123013537374927,
+            "MOS_raw": 55.2,
+            "MOS_sigmoid_to_lin": 0.4095668584669739,
+            "MOS_sigmoid_to_std": -1.4471413725240492
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.568334314302531,
+            "MOS_raw": 59.96,
+            "MOS_sigmoid_to_lin": 0.4853691090923748,
+            "MOS_sigmoid_to_std": -0.9670416711029168
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.3232489699823426,
+            "MOS_raw": 39.14,
+            "MOS_sigmoid_to_lin": 0.1974533793860858,
+            "MOS_sigmoid_to_std": -2.790579293350209
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5254855797527959,
+            "MOS_raw": 56.32,
+            "MOS_sigmoid_to_lin": 0.4271545332886372,
+            "MOS_sigmoid_to_std": -1.3357484077913764
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.4441436138905238,
+            "MOS_raw": 49.41,
+            "MOS_sigmoid_to_lin": 0.323124507518823,
+            "MOS_sigmoid_to_std": -1.9946310121844488
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.2493231312536786,
+            "MOS_raw": 32.86,
+            "MOS_sigmoid_to_lin": 0.140927711850302,
+            "MOS_sigmoid_to_std": -3.148589192563759
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5562095350206004,
+            "MOS_raw": 58.93,
+            "MOS_sigmoid_to_lin": 0.4687862234941297,
+            "MOS_sigmoid_to_std": -1.0720707218069925
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6785167745732784,
+            "MOS_raw": 69.32,
+            "MOS_sigmoid_to_lin": 0.6331060448203926,
+            "MOS_sigmoid_to_std": -0.0313378081344115
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5971748087110065,
+            "MOS_raw": 62.41,
+            "MOS_sigmoid_to_lin": 0.524875842927114,
+            "MOS_sigmoid_to_std": -0.7168225686132783
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.588816951147734,
+            "MOS_raw": 61.7,
+            "MOS_sigmoid_to_lin": 0.5134371039214263,
+            "MOS_sigmoid_to_std": -0.7892707497154983
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6321365509123014,
+            "MOS_raw": 65.38,
+            "MOS_sigmoid_to_lin": 0.5723077235037056,
+            "MOS_sigmoid_to_std": -0.4164089065546257
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.686639199529135,
+            "MOS_raw": 70.01,
+            "MOS_sigmoid_to_lin": 0.6433877429250753,
+            "MOS_sigmoid_to_std": 0.0337821605925636
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.4243672748675692,
+            "MOS_raw": 47.73,
+            "MOS_sigmoid_to_lin": 0.2998780188387061,
+            "MOS_sigmoid_to_std": -2.1418645333838047
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.692642731018246,
+            "MOS_raw": 70.52,
+            "MOS_sigmoid_to_lin": 0.6509038351014421,
+            "MOS_sigmoid_to_std": 0.0813859398993255
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7317245438493233,
+            "MOS_raw": 73.84,
+            "MOS_sigmoid_to_lin": 0.6978943985922857,
+            "MOS_sigmoid_to_std": 0.3790044844073561
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.4094173042966451,
+            "MOS_raw": 46.46,
+            "MOS_sigmoid_to_lin": 0.2829559431805694,
+            "MOS_sigmoid_to_std": -2.2490418718383816
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7117127722189525,
+            "MOS_raw": 72.14,
+            "MOS_sigmoid_to_lin": 0.6742720586999836,
+            "MOS_sigmoid_to_std": 0.2293904790764589
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.555503237198352,
+            "MOS_raw": 58.87,
+            "MOS_sigmoid_to_lin": 0.4678219966397123,
+            "MOS_sigmoid_to_std": -1.0781777307821705
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6360211889346674,
+            "MOS_raw": 65.71,
+            "MOS_sigmoid_to_lin": 0.5775127995391481,
+            "MOS_sigmoid_to_std": -0.383442135385263
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5354914655679812,
+            "MOS_raw": 57.17,
+            "MOS_sigmoid_to_lin": 0.4406288879011417,
+            "MOS_sigmoid_to_std": -1.2504074901677755
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7489111241907005,
+            "MOS_raw": 75.3,
+            "MOS_sigmoid_to_lin": 0.7173838180709987,
+            "MOS_sigmoid_to_std": 0.502442303144969
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6801648028251913,
+            "MOS_raw": 69.46,
+            "MOS_sigmoid_to_lin": 0.6352023616436687,
+            "MOS_sigmoid_to_std": -0.0180606155360987
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7679811653914069,
+            "MOS_raw": 76.92,
+            "MOS_sigmoid_to_lin": 0.738092540134269,
+            "MOS_sigmoid_to_std": 0.6336026736796354
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6196586227192467,
+            "MOS_raw": 64.32,
+            "MOS_sigmoid_to_lin": 0.5554853509980892,
+            "MOS_sigmoid_to_std": -0.5229547670074175
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7048852266038848,
+            "MOS_raw": 71.56,
+            "MOS_sigmoid_to_lin": 0.6659974694507497,
+            "MOS_sigmoid_to_std": 0.1769826970493575
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6633313713949383,
+            "MOS_raw": 68.03,
+            "MOS_sigmoid_to_lin": 0.6135613105962701,
+            "MOS_sigmoid_to_std": -0.1551259672977525
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6791053560918189,
+            "MOS_raw": 69.37,
+            "MOS_sigmoid_to_lin": 0.6338553124566084,
+            "MOS_sigmoid_to_std": -0.0265922607995516
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7237198351971749,
+            "MOS_raw": 73.16,
+            "MOS_sigmoid_to_lin": 0.6885615905719864,
+            "MOS_sigmoid_to_std": 0.3198943879788336
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7115950559152443,
+            "MOS_raw": 72.13,
+            "MOS_sigmoid_to_lin": 0.6741302914709867,
+            "MOS_sigmoid_to_std": 0.2284925848351768
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7856386109476164,
+            "MOS_raw": 78.42,
+            "MOS_sigmoid_to_lin": 0.7563717943369719,
+            "MOS_sigmoid_to_std": 0.749375812504856
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7550323719835197,
+            "MOS_raw": 75.82,
+            "MOS_sigmoid_to_lin": 0.7241382889237784,
+            "MOS_sigmoid_to_std": 0.5452222920360983
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7283107710417893,
+            "MOS_raw": 73.55,
+            "MOS_sigmoid_to_lin": 0.6939336050677286,
+            "MOS_sigmoid_to_std": 0.3539184774241626
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6300176574455564,
+            "MOS_raw": 65.2,
+            "MOS_sigmoid_to_lin": 0.5694617526949554,
+            "MOS_sigmoid_to_std": -0.4344340934621553
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.8002354326074161,
+            "MOS_raw": 79.66,
+            "MOS_sigmoid_to_lin": 0.7708153397514872,
+            "MOS_sigmoid_to_std": 0.8408551786682628
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6878163625662155,
+            "MOS_raw": 70.11,
+            "MOS_sigmoid_to_lin": 0.644867200963622,
+            "MOS_sigmoid_to_std": 0.0431524280544293
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.8361389052383756,
+            "MOS_raw": 82.71,
+            "MOS_sigmoid_to_lin": 0.8037298773503125,
+            "MOS_sigmoid_to_std": 1.0493220717121403
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.809417304296645,
+            "MOS_raw": 80.44,
+            "MOS_sigmoid_to_lin": 0.7795872855951009,
+            "MOS_sigmoid_to_std": 0.8964130090183557
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7020600353148911,
+            "MOS_raw": 71.32,
+            "MOS_sigmoid_to_lin": 0.6625430120577704,
+            "MOS_sigmoid_to_std": 0.1551036110161829
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6196586227192467,
+            "MOS_raw": 64.32,
+            "MOS_sigmoid_to_lin": 0.5554853509980892,
+            "MOS_sigmoid_to_std": -0.5229547670074175
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6427310182460272,
+            "MOS_raw": 66.28,
+            "MOS_sigmoid_to_lin": 0.5864623529343475,
+            "MOS_sigmoid_to_std": -0.3267594132043485
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7934078869923487,
+            "MOS_raw": 79.08,
+            "MOS_sigmoid_to_lin": 0.7641353668891859,
+            "MOS_sigmoid_to_std": 0.7985470288411456
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5741024131842262,
+            "MOS_raw": 60.45,
+            "MOS_sigmoid_to_lin": 0.4932716305946956,
+            "MOS_sigmoid_to_std": -0.9169904103232404
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6024720423778694,
+            "MOS_raw": 62.86,
+            "MOS_sigmoid_to_lin": 0.5321130148002005,
+            "MOS_sigmoid_to_std": -0.6709853536660226
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5499705709240731,
+            "MOS_raw": 58.4,
+            "MOS_sigmoid_to_lin": 0.4602777604331849,
+            "MOS_sigmoid_to_std": -1.1259597625862572
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.5670394349617423,
+            "MOS_raw": 59.85,
+            "MOS_sigmoid_to_lin": 0.483595938282323,
+            "MOS_sigmoid_to_std": -0.9782721922213656
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.8706297822248383,
+            "MOS_raw": 85.64,
+            "MOS_sigmoid_to_lin": 0.831861369284689,
+            "MOS_sigmoid_to_std": 1.2274951571653503
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.4959387875220719,
+            "MOS_raw": 53.81,
+            "MOS_sigmoid_to_lin": 0.3880613767232789,
+            "MOS_sigmoid_to_std": -1.5833480851068789
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7723366686286053,
+            "MOS_raw": 77.29,
+            "MOS_sigmoid_to_lin": 0.7426825587535285,
+            "MOS_sigmoid_to_std": 0.6626739288263206
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.6307239552678048,
+            "MOS_raw": 65.26,
+            "MOS_sigmoid_to_lin": 0.5704109293305389,
+            "MOS_sigmoid_to_std": -0.4284224062684387
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.422130665097116,
+            "MOS_raw": 47.54,
+            "MOS_sigmoid_to_lin": 0.2973097595003099,
+            "MOS_sigmoid_to_std": -2.1581308121731952
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.4346085932901707,
+            "MOS_raw": 48.6,
+            "MOS_sigmoid_to_lin": 0.3117977607413613,
+            "MOS_sigmoid_to_std": -2.066369881427335
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Ski51.mp4",
+        "scores": {
+            "MOS_minmax": 0.7276044732195409,
+            "MOS_raw": 73.49,
+            "MOS_sigmoid_to_lin": 0.6931105149439598,
+            "MOS_sigmoid_to_std": 0.3487053693778472
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.0909947027663331,
+            "MOS_raw": 19.41,
+            "MOS_sigmoid_to_lin": 0.0644234822487917,
+            "MOS_sigmoid_to_std": -3.633134934756155
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4972336668628606,
+            "MOS_raw": 53.92,
+            "MOS_sigmoid_to_lin": 0.3897486337981836,
+            "MOS_sigmoid_to_std": -1.5726617055970469
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4379046497939965,
+            "MOS_raw": 48.88,
+            "MOS_sigmoid_to_lin": 0.3156886751699792,
+            "MOS_sigmoid_to_std": -2.0417264593650266
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4832254267216009,
+            "MOS_raw": 52.73,
+            "MOS_sigmoid_to_lin": 0.3716434254694878,
+            "MOS_sigmoid_to_std": -1.6873325107652186
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6795762213066511,
+            "MOS_raw": 69.41,
+            "MOS_sigmoid_to_lin": 0.6344542608539457,
+            "MOS_sigmoid_to_std": -0.0227987725540721
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.5205414949970572,
+            "MOS_raw": 55.9,
+            "MOS_sigmoid_to_lin": 0.4205350306924281,
+            "MOS_sigmoid_to_std": -1.3776735642844409
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.7724543849323133,
+            "MOS_raw": 77.3,
+            "MOS_sigmoid_to_lin": 0.7428058809504606,
+            "MOS_sigmoid_to_std": 0.6634549999612434
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.7995291347851677,
+            "MOS_raw": 79.6,
+            "MOS_sigmoid_to_lin": 0.7701305154970811,
+            "MOS_sigmoid_to_std": 0.836517788718047
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6758092995879931,
+            "MOS_raw": 69.09,
+            "MOS_sigmoid_to_lin": 0.6296511672224926,
+            "MOS_sigmoid_to_std": -0.0532195555695267
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/SlideEditing10.mp4",
+        "scores": {
+            "MOS_minmax": 0.7450264861683344,
+            "MOS_raw": 74.97,
+            "MOS_sigmoid_to_lin": 0.7130457304114864,
+            "MOS_sigmoid_to_std": 0.474966673161858
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.1922307239552678,
+            "MOS_raw": 28.01,
+            "MOS_sigmoid_to_lin": 0.1071077407977103,
+            "MOS_sigmoid_to_std": -3.3627907218120177
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.401765744555621,
+            "MOS_raw": 45.81,
+            "MOS_sigmoid_to_lin": 0.2745223000634421,
+            "MOS_sigmoid_to_std": -2.3024570344360527
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.3173631547969394,
+            "MOS_raw": 38.64,
+            "MOS_sigmoid_to_lin": 0.1923894836650206,
+            "MOS_sigmoid_to_std": -2.822651887549628
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.3442024720423779,
+            "MOS_raw": 40.92,
+            "MOS_sigmoid_to_lin": 0.2162925075125291,
+            "MOS_sigmoid_to_std": -2.6712601476267306
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.2390818128310771,
+            "MOS_raw": 31.99,
+            "MOS_sigmoid_to_lin": 0.1342657653748577,
+            "MOS_sigmoid_to_std": -3.190783170807891
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.7646851088875811,
+            "MOS_raw": 76.64,
+            "MOS_sigmoid_to_lin": 0.7345840977290472,
+            "MOS_sigmoid_to_std": 0.6113816691935794
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.8041200706297824,
+            "MOS_raw": 79.99,
+            "MOS_sigmoid_to_lin": 0.7745562091151524,
+            "MOS_sigmoid_to_std": 0.8645482781439835
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.7943496174220129,
+            "MOS_raw": 79.16,
+            "MOS_sigmoid_to_lin": 0.7650646907662723,
+            "MOS_sigmoid_to_std": 0.804432976978986
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.5708063566804004,
+            "MOS_raw": 60.17,
+            "MOS_sigmoid_to_lin": 0.4887552388475945,
+            "MOS_sigmoid_to_std": -0.9455953437044338
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TallBuildings02.mp4",
+        "scores": {
+            "MOS_minmax": 0.9492642731018246,
+            "MOS_raw": 92.32,
+            "MOS_sigmoid_to_lin": 0.8839123092922432,
+            "MOS_sigmoid_to_std": 1.5571640067066346
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.0807533843437316,
+            "MOS_raw": 18.54,
+            "MOS_sigmoid_to_lin": 0.0611207445317862,
+            "MOS_sigmoid_to_std": -3.654053091918039
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.3562095350206004,
+            "MOS_raw": 41.94,
+            "MOS_sigmoid_to_lin": 0.2276598966397346,
+            "MOS_sigmoid_to_std": -2.599263866765903
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5298410829899942,
+            "MOS_raw": 56.69,
+            "MOS_sigmoid_to_lin": 0.4330077759565126,
+            "MOS_sigmoid_to_std": -1.2986764206932682
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.4210712183637434,
+            "MOS_raw": 47.45,
+            "MOS_sigmoid_to_lin": 0.2960976546457388,
+            "MOS_sigmoid_to_std": -2.1658077765636925
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5451442024720424,
+            "MOS_raw": 57.99,
+            "MOS_sigmoid_to_lin": 0.4537113288106182,
+            "MOS_sigmoid_to_std": -1.1675487897640355
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5039434961742202,
+            "MOS_raw": 54.49,
+            "MOS_sigmoid_to_lin": 0.3985332127286345,
+            "MOS_sigmoid_to_std": -1.5170238625670058
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5014714537963508,
+            "MOS_raw": 54.28,
+            "MOS_sigmoid_to_lin": 0.3952888544138659,
+            "MOS_sigmoid_to_std": -1.5375722690506208
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.4796939376103591,
+            "MOS_raw": 52.43,
+            "MOS_sigmoid_to_lin": 0.3671331904892634,
+            "MOS_sigmoid_to_std": -1.715898449764123
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.4330782813419659,
+            "MOS_raw": 48.47,
+            "MOS_sigmoid_to_lin": 0.3100002086995032,
+            "MOS_sigmoid_to_std": -2.077754823054594
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.3691583284284874,
+            "MOS_raw": 43.04,
+            "MOS_sigmoid_to_lin": 0.2403837293350876,
+            "MOS_sigmoid_to_std": -2.5186764405671824
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5352560329605651,
+            "MOS_raw": 57.15,
+            "MOS_sigmoid_to_lin": 0.4403107565346591,
+            "MOS_sigmoid_to_std": -1.2524224009758431
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.2354326074161271,
+            "MOS_raw": 31.68,
+            "MOS_sigmoid_to_lin": 0.1319570646301412,
+            "MOS_sigmoid_to_std": -3.205405514195644
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5304296645085346,
+            "MOS_raw": 56.74,
+            "MOS_sigmoid_to_lin": 0.4338002283147102,
+            "MOS_sigmoid_to_std": -1.2936573594197278
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.4181283107710419,
+            "MOS_raw": 47.2,
+            "MOS_sigmoid_to_lin": 0.2927457755868055,
+            "MOS_sigmoid_to_std": -2.187037174399729
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.3206592113007652,
+            "MOS_raw": 38.92,
+            "MOS_sigmoid_to_lin": 0.1952129801585278,
+            "MOS_sigmoid_to_std": -2.804769043540216
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.1347851677457328,
+            "MOS_raw": 23.13,
+            "MOS_sigmoid_to_lin": 0.080498614048117,
+            "MOS_sigmoid_to_std": -3.5313217839131736
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.4262507357268982,
+            "MOS_raw": 47.89,
+            "MOS_sigmoid_to_lin": 0.3020505685879891,
+            "MOS_sigmoid_to_std": -2.128104513366618
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6238964096527371,
+            "MOS_raw": 64.68,
+            "MOS_sigmoid_to_lin": 0.5612148808331182,
+            "MOS_sigmoid_to_std": -0.4866663251684735
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5334902884049442,
+            "MOS_raw": 57.0,
+            "MOS_sigmoid_to_lin": 0.4379263512712879,
+            "MOS_sigmoid_to_std": -1.267524225071656
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6722778104767512,
+            "MOS_raw": 68.79,
+            "MOS_sigmoid_to_lin": 0.6251248281384643,
+            "MOS_sigmoid_to_std": -0.0818874912158147
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5936433195997647,
+            "MOS_raw": 62.11,
+            "MOS_sigmoid_to_lin": 0.5200450608636015,
+            "MOS_sigmoid_to_std": -0.7474187185585377
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.705356091818717,
+            "MOS_raw": 71.6,
+            "MOS_sigmoid_to_lin": 0.6665714971479699,
+            "MOS_sigmoid_to_std": 0.1806183480197329
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5943496174220131,
+            "MOS_raw": 62.17,
+            "MOS_sigmoid_to_lin": 0.5210115462145044,
+            "MOS_sigmoid_to_std": -0.7412974052127188
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5679811653914068,
+            "MOS_raw": 59.93,
+            "MOS_sigmoid_to_lin": 0.4848854786419575,
+            "MOS_sigmoid_to_std": -0.9701047837800184
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6072984108299001,
+            "MOS_raw": 63.27,
+            "MOS_sigmoid_to_lin": 0.5386952186234742,
+            "MOS_sigmoid_to_std": -0.6292964319760399
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6505002942907593,
+            "MOS_raw": 66.94,
+            "MOS_sigmoid_to_lin": 0.5967537409110543,
+            "MOS_sigmoid_to_std": -0.2615780728871213
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7854031783402002,
+            "MOS_raw": 78.4,
+            "MOS_sigmoid_to_lin": 0.7561338510758262,
+            "MOS_sigmoid_to_std": 0.7478687795646897
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5620953502060037,
+            "MOS_raw": 59.43,
+            "MOS_sigmoid_to_lin": 0.4768298327641915,
+            "MOS_sigmoid_to_std": -1.0211258702089987
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6537963507945851,
+            "MOS_raw": 67.22,
+            "MOS_sigmoid_to_lin": 0.6010947417695074,
+            "MOS_sigmoid_to_std": -0.2340839919222768
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7154796939376104,
+            "MOS_raw": 72.46,
+            "MOS_sigmoid_to_lin": 0.6787916719589633,
+            "MOS_sigmoid_to_std": 0.2580158161643791
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.644143613890524,
+            "MOS_raw": 66.4,
+            "MOS_sigmoid_to_lin": 0.5883394225441776,
+            "MOS_sigmoid_to_std": -0.3148708406119649
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7179517363154798,
+            "MOS_raw": 72.67,
+            "MOS_sigmoid_to_lin": 0.6817396324459861,
+            "MOS_sigmoid_to_std": 0.2766869629699693
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7112419070041202,
+            "MOS_raw": 72.1,
+            "MOS_sigmoid_to_lin": 0.6737047986463607,
+            "MOS_sigmoid_to_std": 0.2257976915256199
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5814008240141261,
+            "MOS_raw": 61.07,
+            "MOS_sigmoid_to_lin": 0.5032750589997561,
+            "MOS_sigmoid_to_std": -0.8536328853047435
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7212477928193056,
+            "MOS_raw": 72.95,
+            "MOS_sigmoid_to_lin": 0.6856476829582946,
+            "MOS_sigmoid_to_std": 0.3014389178079595
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6050618010594468,
+            "MOS_raw": 63.08,
+            "MOS_sigmoid_to_lin": 0.5356464659287185,
+            "MOS_sigmoid_to_std": -0.6486059544029197
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6912301353737494,
+            "MOS_raw": 70.4,
+            "MOS_sigmoid_to_lin": 0.6491419171006702,
+            "MOS_sigmoid_to_std": 0.0702266893609815
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.8413184226015304,
+            "MOS_raw": 83.15,
+            "MOS_sigmoid_to_lin": 0.808171022863298,
+            "MOS_sigmoid_to_std": 1.0774504269675669
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7826957033549149,
+            "MOS_raw": 78.17,
+            "MOS_sigmoid_to_lin": 0.753386201915001,
+            "MOS_sigmoid_to_std": 0.7304663207875599
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7898763978811065,
+            "MOS_raw": 78.78,
+            "MOS_sigmoid_to_lin": 0.7606278127449767,
+            "MOS_sigmoid_to_std": 0.7763316502282445
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6381400824014127,
+            "MOS_raw": 65.89,
+            "MOS_sigmoid_to_lin": 0.5803447700518525,
+            "MOS_sigmoid_to_std": -0.3655056204880762
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5779870512065922,
+            "MOS_raw": 60.78,
+            "MOS_sigmoid_to_lin": 0.4985958746715869,
+            "MOS_sigmoid_to_std": -0.8832688786995844
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6147145379635081,
+            "MOS_raw": 63.9,
+            "MOS_sigmoid_to_lin": 0.5487823099508524,
+            "MOS_sigmoid_to_std": -0.5654090210545077
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5778693349028842,
+            "MOS_raw": 60.77,
+            "MOS_sigmoid_to_lin": 0.4984345231697372,
+            "MOS_sigmoid_to_std": -0.8842908115211405
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.8781636256621542,
+            "MOS_raw": 86.28,
+            "MOS_sigmoid_to_lin": 0.8375598817034797,
+            "MOS_sigmoid_to_std": 1.2635871476832312
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.8058858151854034,
+            "MOS_raw": 80.14,
+            "MOS_sigmoid_to_lin": 0.7762422305690125,
+            "MOS_sigmoid_to_std": 0.8752268317477281
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6138905238375516,
+            "MOS_raw": 63.83,
+            "MOS_sigmoid_to_lin": 0.5476633460254315,
+            "MOS_sigmoid_to_std": -0.5724960698170882
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.6136550912301355,
+            "MOS_raw": 63.81,
+            "MOS_sigmoid_to_lin": 0.5473435530278814,
+            "MOS_sigmoid_to_std": -0.5745215047002703
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5469099470276634,
+            "MOS_raw": 58.14,
+            "MOS_sigmoid_to_lin": 0.4561119364498976,
+            "MOS_sigmoid_to_std": -1.152344346606498
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7620953502060037,
+            "MOS_raw": 76.42,
+            "MOS_sigmoid_to_lin": 0.731806498047401,
+            "MOS_sigmoid_to_std": 0.5937895163640317
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5146556798116539,
+            "MOS_raw": 55.4,
+            "MOS_sigmoid_to_lin": 0.4126919561098883,
+            "MOS_sigmoid_to_std": -1.427348313176913
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.4902884049440848,
+            "MOS_raw": 53.33,
+            "MOS_sigmoid_to_lin": 0.380730628692344,
+            "MOS_sigmoid_to_std": -1.6297779722383043
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.4275456150676869,
+            "MOS_raw": 48.0,
+            "MOS_sigmoid_to_lin": 0.3035493630334727,
+            "MOS_sigmoid_to_std": -2.118611777203357
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.553502060035315,
+            "MOS_raw": 58.7,
+            "MOS_sigmoid_to_lin": 0.4650913490334736,
+            "MOS_sigmoid_to_std": -1.0954725088346078
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7533843437316069,
+            "MOS_raw": 75.68,
+            "MOS_sigmoid_to_lin": 0.7223296357262662,
+            "MOS_sigmoid_to_std": 0.5337670403392707
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5110064743967041,
+            "MOS_raw": 55.09,
+            "MOS_sigmoid_to_lin": 0.4078511460622362,
+            "MOS_sigmoid_to_std": -1.4580079761729268
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.5233666862860507,
+            "MOS_raw": 56.14,
+            "MOS_sigmoid_to_lin": 0.4243142635623133,
+            "MOS_sigmoid_to_std": -1.353737486431037
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.3252501471453797,
+            "MOS_raw": 39.31,
+            "MOS_sigmoid_to_lin": 0.1991978364515041,
+            "MOS_sigmoid_to_std": -2.7795306330619
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.503472630959388,
+            "MOS_raw": 54.45,
+            "MOS_sigmoid_to_lin": 0.3979145427969663,
+            "MOS_sigmoid_to_std": -1.520942258749462
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel143.mp4",
+        "scores": {
+            "MOS_minmax": 0.7175985874043556,
+            "MOS_raw": 72.64,
+            "MOS_sigmoid_to_lin": 0.6813193783941941,
+            "MOS_sigmoid_to_std": 0.2740252498529871
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.0986462625073572,
+            "MOS_raw": 20.06,
+            "MOS_sigmoid_to_lin": 0.0669987250555922,
+            "MOS_sigmoid_to_std": -3.61682442560331
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.4280164802825192,
+            "MOS_raw": 48.04,
+            "MOS_sigmoid_to_lin": 0.304095418259959,
+            "MOS_sigmoid_to_std": -2.1151532921447656
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.4375515008828723,
+            "MOS_raw": 48.85,
+            "MOS_sigmoid_to_lin": 0.3152705409351266,
+            "MOS_sigmoid_to_std": -2.044374746449519
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.8267216009417304,
+            "MOS_raw": 81.91,
+            "MOS_sigmoid_to_lin": 0.7954569749076077,
+            "MOS_sigmoid_to_std": 0.9969249732109802
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.8391995291347852,
+            "MOS_raw": 82.97,
+            "MOS_sigmoid_to_lin": 0.8063635176651012,
+            "MOS_sigmoid_to_std": 1.0660024462174986
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.5646851088875809,
+            "MOS_raw": 59.65,
+            "MOS_sigmoid_to_lin": 0.4803730804598479,
+            "MOS_sigmoid_to_std": -0.9986844235934852
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.6801648028251913,
+            "MOS_raw": 69.46,
+            "MOS_sigmoid_to_lin": 0.6352023616436687,
+            "MOS_sigmoid_to_std": -0.0180606155360987
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.677457327839906,
+            "MOS_raw": 69.23,
+            "MOS_sigmoid_to_lin": 0.6317557423689323,
+            "MOS_sigmoid_to_std": -0.0398900582117605
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.6907592701589171,
+            "MOS_raw": 70.36,
+            "MOS_sigmoid_to_lin": 0.6485537036161101,
+            "MOS_sigmoid_to_std": 0.0665011915561111
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TearsOfSteel209.mp4",
+        "scores": {
+            "MOS_minmax": 0.6845203060623897,
+            "MOS_raw": 69.83,
+            "MOS_sigmoid_to_lin": 0.6407178272369725,
+            "MOS_sigmoid_to_std": 0.0168720330686156
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.1058269570335491,
+            "MOS_raw": 20.67,
+            "MOS_sigmoid_to_lin": 0.0695020992310176,
+            "MOS_sigmoid_to_std": -3.600969102255373
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.2430841671571512,
+            "MOS_raw": 32.33,
+            "MOS_sigmoid_to_lin": 0.1368370351005714,
+            "MOS_sigmoid_to_std": -3.1744978254863008
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.4022366097704533,
+            "MOS_raw": 45.85,
+            "MOS_sigmoid_to_lin": 0.2750367595281586,
+            "MOS_sigmoid_to_std": -2.299198663696848
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.3896409652736904,
+            "MOS_raw": 44.78,
+            "MOS_sigmoid_to_lin": 0.2614829239324994,
+            "MOS_sigmoid_to_std": -2.3850429805726665
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.3476162448499117,
+            "MOS_raw": 41.21,
+            "MOS_sigmoid_to_lin": 0.2194820608623801,
+            "MOS_sigmoid_to_std": -2.6510588528327586
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.7848145968216598,
+            "MOS_raw": 78.35,
+            "MOS_sigmoid_to_lin": 0.755538304428671,
+            "MOS_sigmoid_to_std": 0.7440968365798497
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.6280164802825192,
+            "MOS_raw": 65.03,
+            "MOS_sigmoid_to_lin": 0.5667696674099448,
+            "MOS_sigmoid_to_std": -0.4514846339259324
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.7047675103001766,
+            "MOS_raw": 71.55,
+            "MOS_sigmoid_to_lin": 0.6658538855691805,
+            "MOS_sigmoid_to_std": 0.1760732968916896
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.6429664508534433,
+            "MOS_raw": 66.3,
+            "MOS_sigmoid_to_lin": 0.5867753739494198,
+            "MOS_sigmoid_to_std": -0.3247768692213544
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/TrafficAndBuilding03.mp4",
+        "scores": {
+            "MOS_minmax": 0.9650382577987052,
+            "MOS_raw": 93.66,
+            "MOS_sigmoid_to_lin": 0.8924963063514622,
+            "MOS_sigmoid_to_std": 1.611531448189302
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.2380223660977045,
+            "MOS_raw": 31.9,
+            "MOS_sigmoid_to_lin": 0.1335920036179918,
+            "MOS_sigmoid_to_std": -3.1950504955328363
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6489699823425545,
+            "MOS_raw": 66.81,
+            "MOS_sigmoid_to_lin": 0.5947330688373388,
+            "MOS_sigmoid_to_std": -0.2743761633297783
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.5319599764567393,
+            "MOS_raw": 56.87,
+            "MOS_sigmoid_to_lin": 0.4358621795858774,
+            "MOS_sigmoid_to_std": -1.2805978238325275
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6667451442024721,
+            "MOS_raw": 68.32,
+            "MOS_sigmoid_to_lin": 0.6179896268445715,
+            "MOS_sigmoid_to_std": -0.1270788672305753
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.5884638022366099,
+            "MOS_raw": 61.67,
+            "MOS_sigmoid_to_lin": 0.5129533823073397,
+            "MOS_sigmoid_to_std": -0.7923344397850927
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.8805179517363158,
+            "MOS_raw": 86.48,
+            "MOS_sigmoid_to_lin": 0.8393084465835374,
+            "MOS_sigmoid_to_std": 1.2746618251486774
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4115361977633903,
+            "MOS_raw": 46.64,
+            "MOS_sigmoid_to_lin": 0.2853189531736523,
+            "MOS_sigmoid_to_std": -2.234075556421962
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.912536786344909,
+            "MOS_raw": 89.2,
+            "MOS_sigmoid_to_lin": 0.8616000555326165,
+            "MOS_sigmoid_to_std": 1.4158475381367728
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.9010005885815184,
+            "MOS_raw": 88.22,
+            "MOS_sigmoid_to_lin": 0.8538838346748719,
+            "MOS_sigmoid_to_std": 1.3669762275973287
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Transformer10.mp4",
+        "scores": {
+            "MOS_minmax": 0.499941141848146,
+            "MOS_raw": 54.15,
+            "MOS_sigmoid_to_lin": 0.3932850339912852,
+            "MOS_sigmoid_to_std": -1.5502636281942528
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.1392583872866392,
+            "MOS_raw": 23.51,
+            "MOS_sigmoid_to_lin": 0.0823327462340179,
+            "MOS_sigmoid_to_std": -3.519705158977201
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4189523248969983,
+            "MOS_raw": 47.27,
+            "MOS_sigmoid_to_lin": 0.2936820586489923,
+            "MOS_sigmoid_to_std": -2.1811071496987093
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6359034726309595,
+            "MOS_raw": 65.7,
+            "MOS_sigmoid_to_lin": 0.5773553165245674,
+            "MOS_sigmoid_to_std": -0.3844395668289908
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.7030017657445558,
+            "MOS_raw": 71.4,
+            "MOS_sigmoid_to_lin": 0.6636964494642593,
+            "MOS_sigmoid_to_std": 0.16240900036669
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.5678634490876987,
+            "MOS_raw": 59.92,
+            "MOS_sigmoid_to_lin": 0.4847242747374659,
+            "MOS_sigmoid_to_std": -0.9711257817817374
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.5022954679223073,
+            "MOS_raw": 54.35,
+            "MOS_sigmoid_to_lin": 0.3963692982143456,
+            "MOS_sigmoid_to_std": -1.530729190623095
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.6261330194231902,
+            "MOS_raw": 64.87,
+            "MOS_sigmoid_to_lin": 0.5642323315119586,
+            "MOS_sigmoid_to_std": -0.4675550565977904
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.5265450264861684,
+            "MOS_raw": 56.41,
+            "MOS_sigmoid_to_lin": 0.4285764836325174,
+            "MOS_sigmoid_to_std": -1.3267423699771932
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4815773984696881,
+            "MOS_raw": 52.59,
+            "MOS_sigmoid_to_lin": 0.369535811169888,
+            "MOS_sigmoid_to_std": -1.7006812568459808
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/Valentines10.mp4",
+        "scores": {
+            "MOS_minmax": 0.4200117716303708,
+            "MOS_raw": 47.36,
+            "MOS_sigmoid_to_lin": 0.2948884176413283,
+            "MOS_sigmoid_to_std": -2.1734665771926323
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.5221895232489701,
+            "MOS_raw": 56.04,
+            "MOS_sigmoid_to_lin": 0.4227384808332741,
+            "MOS_sigmoid_to_std": -1.3637178341314624
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.6437904649793997,
+            "MOS_raw": 66.37,
+            "MOS_sigmoid_to_lin": 0.5878703937821425,
+            "MOS_sigmoid_to_std": -0.317841472311593
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.5518540317834021,
+            "MOS_raw": 58.56,
+            "MOS_sigmoid_to_lin": 0.4628441432922349,
+            "MOS_sigmoid_to_std": -1.1097053686309764
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.4775750441436139,
+            "MOS_raw": 52.25,
+            "MOS_sigmoid_to_lin": 0.364438117154082,
+            "MOS_sigmoid_to_std": -1.7329679152859696
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.1903472630959388,
+            "MOS_raw": 27.85,
+            "MOS_sigmoid_to_lin": 0.1061241500781218,
+            "MOS_sigmoid_to_std": -3.369020373397545
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.5038257798705121,
+            "MOS_raw": 54.48,
+            "MOS_sigmoid_to_lin": 0.3983785147806552,
+            "MOS_sigmoid_to_std": -1.5180036545655624
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.762448499117128,
+            "MOS_raw": 76.45,
+            "MOS_sigmoid_to_lin": 0.7321863440735906,
+            "MOS_sigmoid_to_std": 0.5961953019740234
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.718069452619188,
+            "MOS_raw": 72.68,
+            "MOS_sigmoid_to_lin": 0.6818796514505365,
+            "MOS_sigmoid_to_std": 0.277573784689948
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.5665685697469101,
+            "MOS_raw": 59.81,
+            "MOS_sigmoid_to_lin": 0.4829512489417778,
+            "MOS_sigmoid_to_std": -0.9823553844399542
+        }
+    },
+    {
+        "path": "Waterloo-III/mp4/ZapHighlight08.mp4",
+        "scores": {
+            "MOS_minmax": 0.8974690994702769,
+            "MOS_raw": 87.92,
+            "MOS_sigmoid_to_lin": 0.8514514765056622,
+            "MOS_sigmoid_to_std": 1.35157068988371
+        }
+    }
+]

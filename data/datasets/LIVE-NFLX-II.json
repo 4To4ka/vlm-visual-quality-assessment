@@ -1,0 +1,3782 @@
+[
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.0678655404036269,
+            "MOS_raw": -1.7144909991563275,
+            "MOS_sigmoid_to_lin": 0.1119453341470661,
+            "MOS_sigmoid_to_std": -2.1080944992200585
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7526874285203357,
+            "MOS_raw": 0.8684825080539755,
+            "MOS_sigmoid_to_lin": 0.7415493116065371,
+            "MOS_sigmoid_to_std": 1.5035236907482266
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4150809426696461,
+            "MOS_raw": -0.4048830545053923,
+            "MOS_sigmoid_to_lin": 0.3807022315581604,
+            "MOS_sigmoid_to_std": -0.5664153896216266
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3473681842788598,
+            "MOS_raw": -0.6602783099118993,
+            "MOS_sigmoid_to_lin": 0.3109753361374439,
+            "MOS_sigmoid_to_std": -0.9663920937835482
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6907717084213968,
+            "MOS_raw": 0.6349522026263655,
+            "MOS_sigmoid_to_lin": 0.6838443519721616,
+            "MOS_sigmoid_to_std": 1.1725088157980252
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.4216596997108011,
+            "MOS_raw": -0.3800696607711363,
+            "MOS_sigmoid_to_lin": 0.3878051181827038,
+            "MOS_sigmoid_to_std": -0.5256708653605253
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.2883024504897948,
+            "MOS_raw": -0.8830591938299829,
+            "MOS_sigmoid_to_lin": 0.2563362104883094,
+            "MOS_sigmoid_to_std": -1.2798203235012993
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1318945580061156,
+            "MOS_raw": -1.472989874513908,
+            "MOS_sigmoid_to_lin": 0.1444466853679201,
+            "MOS_sigmoid_to_std": -1.9216559196204877
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8199667777702461,
+            "MOS_raw": 1.1222430547163682,
+            "MOS_sigmoid_to_lin": 0.7959309058156042,
+            "MOS_sigmoid_to_std": 1.815474634319868
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.7803307311087088,
+            "MOS_raw": 0.9727459953585712,
+            "MOS_sigmoid_to_lin": 0.7649805083169341,
+            "MOS_sigmoid_to_std": 1.6379328420268844
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7044909709082554,
+            "MOS_raw": 0.6866977618103333,
+            "MOS_sigmoid_to_lin": 0.6972213723187802,
+            "MOS_sigmoid_to_std": 1.2492438615427668
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7545476403585144,
+            "MOS_raw": 0.8754987526851571,
+            "MOS_sigmoid_to_lin": 0.7431728725139554,
+            "MOS_sigmoid_to_std": 1.5128369770610193
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7652995475109666,
+            "MOS_raw": 0.9160522043324796,
+            "MOS_sigmoid_to_lin": 0.7524253886913803,
+            "MOS_sigmoid_to_std": 1.5659124926640238
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.0806305172435822,
+            "MOS_raw": -1.666344762054545,
+            "MOS_sigmoid_to_lin": 0.1178684521934088,
+            "MOS_sigmoid_to_std": -2.074117520605946
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.1739070867050707,
+            "MOS_raw": -1.3145293310012862,
+            "MOS_sigmoid_to_lin": 0.1697892751798307,
+            "MOS_sigmoid_to_std": -1.7762823806620345
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6274361653057209,
+            "MOS_raw": 0.3960666868867067,
+            "MOS_sigmoid_to_lin": 0.6183322631399747,
+            "MOS_sigmoid_to_std": 0.7967096465426575
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5653013938612218,
+            "MOS_raw": 0.1617101756497919,
+            "MOS_sigmoid_to_lin": 0.5495703444374501,
+            "MOS_sigmoid_to_std": 0.4022683703530636
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2866907161631076,
+            "MOS_raw": -0.8891382446587218,
+            "MOS_sigmoid_to_lin": 0.2549366839745378,
+            "MOS_sigmoid_to_std": -1.287848473887001
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3873557170235049,
+            "MOS_raw": -0.5094555346904966,
+            "MOS_sigmoid_to_lin": 0.3513551799267893,
+            "MOS_sigmoid_to_std": -0.7347598558073112
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.2715030839872464,
+            "MOS_raw": -0.9464221198213376,
+            "MOS_sigmoid_to_lin": 0.2419973754817275,
+            "MOS_sigmoid_to_std": -1.3620726585988152
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4104952717709293,
+            "MOS_raw": -0.4221790356206338,
+            "MOS_sigmoid_to_lin": 0.3757810450023825,
+            "MOS_sigmoid_to_std": -0.5946449553762663
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.0701303192990375,
+            "MOS_raw": -1.7059488307647448,
+            "MOS_sigmoid_to_lin": 0.1129768918129208,
+            "MOS_sigmoid_to_std": -2.1021771407480947
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5150073330885722,
+            "MOS_raw": -0.0279861947495718,
+            "MOS_sigmoid_to_lin": 0.49235737519174,
+            "MOS_sigmoid_to_std": 0.0740757161965799
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6760060232784278,
+            "MOS_raw": 0.5792598040598089,
+            "MOS_sigmoid_to_lin": 0.6690995291670141,
+            "MOS_sigmoid_to_std": 1.087927599418467
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8815134544589669,
+            "MOS_raw": 1.3543814225202766,
+            "MOS_sigmoid_to_lin": 0.8377947651150851,
+            "MOS_sigmoid_to_std": 2.055619679715505
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2446937209824291,
+            "MOS_raw": -1.0475401997020226,
+            "MOS_sigmoid_to_lin": 0.2202689779939159,
+            "MOS_sigmoid_to_std": -1.4867139861877805
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.9492147511367748,
+            "MOS_raw": 1.6097334472685871,
+            "MOS_sigmoid_to_lin": 0.8755396474865488,
+            "MOS_sigmoid_to_std": 2.272136901066393
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.3232365004263774,
+            "MOS_raw": -0.7512968669366332,
+            "MOS_sigmoid_to_lin": 0.2878838383362269,
+            "MOS_sigmoid_to_std": -1.098852618936213
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.7828117345372925,
+            "MOS_raw": 0.9821037075440752,
+            "MOS_sigmoid_to_lin": 0.7670098571131435,
+            "MOS_sigmoid_to_std": 1.649573862872646
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.8476702684799667,
+            "MOS_raw": 1.2267335562645023,
+            "MOS_sigmoid_to_lin": 0.8156987645799514,
+            "MOS_sigmoid_to_std": 1.9288696585668936
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6280102785456951,
+            "MOS_raw": 0.3982320956079002,
+            "MOS_sigmoid_to_lin": 0.6189503516875436,
+            "MOS_sigmoid_to_std": 0.8002552083899932
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7554302754568749,
+            "MOS_raw": 0.878827827171764,
+            "MOS_sigmoid_to_lin": 0.7439408824437279,
+            "MOS_sigmoid_to_std": 1.517242537908388
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8211352555627767,
+            "MOS_raw": 1.1266502549449855,
+            "MOS_sigmoid_to_lin": 0.7967956107366942,
+            "MOS_sigmoid_to_std": 1.820434869854856
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.5343989612236211,
+            "MOS_raw": 0.0451540809975276,
+            "MOS_sigmoid_to_lin": 0.5144752705222903,
+            "MOS_sigmoid_to_std": 0.2009513331867407
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.2736705984482177,
+            "MOS_raw": -0.938246808070452,
+            "MOS_sigmoid_to_lin": 0.2438163648537439,
+            "MOS_sigmoid_to_std": -1.35163832949905
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7244237556970041,
+            "MOS_raw": 0.7618791424403407,
+            "MOS_sigmoid_to_lin": 0.716072124326167,
+            "MOS_sigmoid_to_std": 1.3573780558646908
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.4729038586946175,
+            "MOS_raw": -0.1867897622292349,
+            "MOS_sigmoid_to_lin": 0.4445528839335941,
+            "MOS_sigmoid_to_std": -0.2001467734496418
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.0794438950012129,
+            "MOS_raw": -1.670820398520452,
+            "MOS_sigmoid_to_lin": 0.1173065958595826,
+            "MOS_sigmoid_to_std": -2.0773405157394644
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6911790373090044,
+            "MOS_raw": 0.6364885433065753,
+            "MOS_sigmoid_to_lin": 0.684246083164107,
+            "MOS_sigmoid_to_std": 1.1748132797662518
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2758346626902139,
+            "MOS_raw": -0.930084509665608,
+            "MOS_sigmoid_to_lin": 0.2456416784533109,
+            "MOS_sigmoid_to_std": -1.3411677225229095
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2310610534824952,
+            "MOS_raw": -1.0989591446802172,
+            "MOS_sigmoid_to_lin": 0.2097704270688482,
+            "MOS_sigmoid_to_std": -1.5469371722646563
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8414228654773004,
+            "MOS_raw": 1.20316994545596,
+            "MOS_sigmoid_to_lin": 0.8113742737993149,
+            "MOS_sigmoid_to_std": 1.904062938589172
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5153753903689166,
+            "MOS_raw": -0.0265979765562547,
+            "MOS_sigmoid_to_lin": 0.4927771728927618,
+            "MOS_sigmoid_to_std": 0.0764838156803775
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.2079218311632392,
+            "MOS_raw": -1.18623438991581,
+            "MOS_sigmoid_to_lin": 0.1928025999389054,
+            "MOS_sigmoid_to_std": -1.644270282125265
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6608003068931528,
+            "MOS_raw": 0.5219077198714228,
+            "MOS_sigmoid_to_lin": 0.6535604485518335,
+            "MOS_sigmoid_to_std": 0.9987902556049386
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.5016708616842362,
+            "MOS_raw": -0.0782879635960673,
+            "MOS_sigmoid_to_lin": 0.4771580535814247,
+            "MOS_sigmoid_to_std": -0.0131126567620811
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.729334869320408,
+            "MOS_raw": 0.7804026105132388,
+            "MOS_sigmoid_to_lin": 0.7206064153366969,
+            "MOS_sigmoid_to_std": 1.3833882598635907
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.1869839238766074,
+            "MOS_raw": -1.2652068362646316,
+            "MOS_sigmoid_to_lin": 0.1783674261953058,
+            "MOS_sigmoid_to_std": -1.727075248317037
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4803478930222717,
+            "MOS_raw": -0.1587127632478325,
+            "MOS_sigmoid_to_lin": 0.452955839916249,
+            "MOS_sigmoid_to_std": -0.1519446181854418
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1357094217448809,
+            "MOS_raw": -1.458601181421831,
+            "MOS_sigmoid_to_lin": 0.1466113955942781,
+            "MOS_sigmoid_to_std": -1.9092384205108537
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.822461134749128,
+            "MOS_raw": 1.1316511330879502,
+            "MOS_sigmoid_to_lin": 0.7977734874674768,
+            "MOS_sigmoid_to_std": 1.8260442965975077
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.9131030974578715,
+            "MOS_raw": 1.4735294993914654,
+            "MOS_sigmoid_to_lin": 0.8564440701142831,
+            "MOS_sigmoid_to_std": 2.162598306879127
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3575861090211708,
+            "MOS_raw": -0.6217389037304774,
+            "MOS_sigmoid_to_lin": 0.3210532216891457,
+            "MOS_sigmoid_to_std": -0.9085819844481328
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.080631268918388,
+            "MOS_raw": -1.6663419269288822,
+            "MOS_sigmoid_to_lin": 0.117868808843336,
+            "MOS_sigmoid_to_std": -2.0741154747431327
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4617091435568946,
+            "MOS_raw": -0.2290133726646781,
+            "MOS_sigmoid_to_lin": 0.4319770364262524,
+            "MOS_sigmoid_to_std": -0.2722860248486789
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.0852128091834396,
+            "MOS_raw": -1.6490615255103622,
+            "MOS_sigmoid_to_lin": 0.1200600586302942,
+            "MOS_sigmoid_to_std": -2.061545735871285
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6827382447945409,
+            "MOS_raw": 0.6046520266545222,
+            "MOS_sigmoid_to_lin": 0.6758656986419114,
+            "MOS_sigmoid_to_std": 1.126740601919742
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.4862221384889629,
+            "MOS_raw": -0.1365566074960938,
+            "MOS_sigmoid_to_lin": 0.4596060132421688,
+            "MOS_sigmoid_to_std": -0.1137970082429999
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4271945400649986,
+            "MOS_raw": -0.3591936545429382,
+            "MOS_sigmoid_to_lin": 0.3938182156088698,
+            "MOS_sigmoid_to_std": -0.4911777350438724
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.2592594844378018,
+            "MOS_raw": -0.9926018547536968,
+            "MOS_sigmoid_to_lin": 0.2318968464178213,
+            "MOS_sigmoid_to_std": -1.420012658664738
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7579472958417073,
+            "MOS_raw": 0.8883213861305893,
+            "MOS_sigmoid_to_lin": 0.7461227387091531,
+            "MOS_sigmoid_to_std": 1.529758392410932
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1060424684687783,
+            "MOS_raw": -1.570497363015197,
+            "MOS_sigmoid_to_lin": 0.1304700350452572,
+            "MOS_sigmoid_to_std": -2.0018306426961603
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5345089144916414,
+            "MOS_raw": 0.0455687966823734,
+            "MOS_sigmoid_to_lin": 0.5146006023807286,
+            "MOS_sigmoid_to_std": 0.2016702784855697
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.3180092771242882,
+            "MOS_raw": -0.7710126200979398,
+            "MOS_sigmoid_to_lin": 0.2830185624634857,
+            "MOS_sigmoid_to_std": -1.1267614623842948
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6203911358475681,
+            "MOS_raw": 0.3694946325121486,
+            "MOS_sigmoid_to_lin": 0.6107169358513365,
+            "MOS_sigmoid_to_std": 0.7530255918942288
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8037504489388232,
+            "MOS_raw": 1.0610791981244518,
+            "MOS_sigmoid_to_lin": 0.7836480454909462,
+            "MOS_sigmoid_to_std": 1.745016055019946
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8107059880228911,
+            "MOS_raw": 1.087313717631298,
+            "MOS_sigmoid_to_lin": 0.7889809608198357,
+            "MOS_sigmoid_to_std": 1.7756074341994368
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5740907529853633,
+            "MOS_raw": 0.1948613966562466,
+            "MOS_sigmoid_to_lin": 0.5594779203958132,
+            "MOS_sigmoid_to_std": 0.4591015271163083
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6593592921912257,
+            "MOS_raw": 0.5164725799274957,
+            "MOS_sigmoid_to_lin": 0.6520700600825697,
+            "MOS_sigmoid_to_std": 0.9902408907685984
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3377343476075819,
+            "MOS_raw": -0.6966146848533221,
+            "MOS_sigmoid_to_lin": 0.301634683530927,
+            "MOS_sigmoid_to_std": -1.0199731893096524
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.7527012845920739,
+            "MOS_raw": 0.868534769622764,
+            "MOS_sigmoid_to_lin": 0.7415614296320133,
+            "MOS_sigmoid_to_std": 1.5035932037799156
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5584783178942464,
+            "MOS_raw": 0.1359752732376526,
+            "MOS_sigmoid_to_lin": 0.5418515977055987,
+            "MOS_sigmoid_to_std": 0.357991067320448
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5915421403092023,
+            "MOS_raw": 0.2606835788962222,
+            "MOS_sigmoid_to_lin": 0.5790024534001778,
+            "MOS_sigmoid_to_std": 0.5711007537313249
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.922347601278142,
+            "MOS_raw": 1.5083974101130828,
+            "MOS_sigmoid_to_lin": 0.8615531083654171,
+            "MOS_sigmoid_to_std": 2.191905452547893
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.8627663837863231,
+            "MOS_raw": 1.2836722531355131,
+            "MOS_sigmoid_to_lin": 0.8258306919005235,
+            "MOS_sigmoid_to_std": 1.9869897694945131
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6651407307367261,
+            "MOS_raw": 0.5382786916416813,
+            "MOS_sigmoid_to_lin": 0.6580313278203506,
+            "MOS_sigmoid_to_std": 1.0244367087237451
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5185942295566741,
+            "MOS_raw": -0.0144573360623995,
+            "MOS_sigmoid_to_lin": 0.4964488760479414,
+            "MOS_sigmoid_to_std": 0.0975459283387496
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.5158786052505411,
+            "MOS_raw": -0.0246999783610675,
+            "MOS_sigmoid_to_lin": 0.4933511446224216,
+            "MOS_sigmoid_to_std": 0.0797763087610783
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.827840793105696,
+            "MOS_raw": 1.1519418323982062,
+            "MOS_sigmoid_to_lin": 0.8017050772990875,
+            "MOS_sigmoid_to_std": 1.8485972058225024
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6655247714813344,
+            "MOS_raw": 0.5397271953858306,
+            "MOS_sigmoid_to_lin": 0.6584255766972492,
+            "MOS_sigmoid_to_std": 1.0266982516398606
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7941338882525795,
+            "MOS_raw": 1.024807983792566,
+            "MOS_sigmoid_to_lin": 0.7761153308892383,
+            "MOS_sigmoid_to_std": 1.7018058942691447
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6480664095260048,
+            "MOS_raw": 0.4738787066146606,
+            "MOS_sigmoid_to_lin": 0.6402888073157428,
+            "MOS_sigmoid_to_std": 0.9226596995490346
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3057683982288939,
+            "MOS_raw": -0.8171820934170881,
+            "MOS_sigmoid_to_lin": 0.2718223183615899,
+            "MOS_sigmoid_to_std": -1.1909868489850888
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7623148815349803,
+            "MOS_raw": 0.9047948054706444,
+            "MOS_sigmoid_to_lin": 0.7498795265887692,
+            "MOS_sigmoid_to_std": 1.5513085793977148
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.0637237819510197,
+            "MOS_raw": -1.7301126557388429,
+            "MOS_sigmoid_to_lin": 0.110080137383283,
+            "MOS_sigmoid_to_std": -2.118793889314656
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8285963695930065,
+            "MOS_raw": 1.154791674208551,
+            "MOS_sigmoid_to_lin": 0.8022526393366622,
+            "MOS_sigmoid_to_std": 1.8517382041100627
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.336231954873212,
+            "MOS_raw": -0.7022813270819672,
+            "MOS_sigmoid_to_lin": 0.3001924481989943,
+            "MOS_sigmoid_to_std": -1.0282463317063084
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7848663274365213,
+            "MOS_raw": 0.9898531079632186,
+            "MOS_sigmoid_to_lin": 0.7686811627628974,
+            "MOS_sigmoid_to_std": 1.6591610289353589
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.3629341142673474,
+            "MOS_raw": -0.6015675918799114,
+            "MOS_sigmoid_to_lin": 0.3263959655843912,
+            "MOS_sigmoid_to_std": -0.8779342253372824
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5959087552323176,
+            "MOS_raw": 0.2771533367388242,
+            "MOS_sigmoid_to_lin": 0.5838518535302617,
+            "MOS_sigmoid_to_std": 0.5989185286299485
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6416366410089336,
+            "MOS_raw": 0.4496272595956954,
+            "MOS_sigmoid_to_lin": 0.6335035565970256,
+            "MOS_sigmoid_to_std": 0.8837372406756043
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.7355059994992847,
+            "MOS_raw": 0.8036785396828217,
+            "MOS_sigmoid_to_lin": 0.7262407376997416,
+            "MOS_sigmoid_to_std": 1.415708610215614
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.63261424183274,
+            "MOS_raw": 0.4155970709466832,
+            "MOS_sigmoid_to_lin": 0.6238928890450367,
+            "MOS_sigmoid_to_std": 0.8286072494570602
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3968674544416278,
+            "MOS_raw": -0.4735796869921749,
+            "MOS_sigmoid_to_lin": 0.3613100663578388,
+            "MOS_sigmoid_to_std": -0.6776553104095471
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6617224657960311,
+            "MOS_raw": 0.5253858680686464,
+            "MOS_sigmoid_to_lin": 0.6545126272138498,
+            "MOS_sigmoid_to_std": 1.0042522696629097
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.412882300652882,
+            "MOS_raw": -0.4131757714580568,
+            "MOS_sigmoid_to_lin": 0.3783395948019052,
+            "MOS_sigmoid_to_std": -0.579968261253109
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.2295772574839001,
+            "MOS_raw": -1.1045556447643712,
+            "MOS_sigmoid_to_lin": 0.2086502205279256,
+            "MOS_sigmoid_to_std": -1.5533630502205784
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.8522267227158901,
+            "MOS_raw": 1.2439193395790102,
+            "MOS_sigmoid_to_lin": 0.8188041012341133,
+            "MOS_sigmoid_to_std": 1.946682904270012
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6457534581659505,
+            "MOS_raw": 0.4651548439721917,
+            "MOS_sigmoid_to_lin": 0.637854269602868,
+            "MOS_sigmoid_to_std": 0.9086943800739866
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.5394016007029552,
+            "MOS_raw": 0.0640227612565352,
+            "MOS_sigmoid_to_lin": 0.52017551344118,
+            "MOS_sigmoid_to_std": 0.2336498258109003
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5427008314218114,
+            "MOS_raw": 0.0764666181028978,
+            "MOS_sigmoid_to_lin": 0.52393203203395,
+            "MOS_sigmoid_to_std": 0.2551984680786114
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4847734891517736,
+            "MOS_raw": -0.1420205433371166,
+            "MOS_sigmoid_to_lin": 0.4579645824047005,
+            "MOS_sigmoid_to_std": -0.1232128024285708
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.8940645831598786,
+            "MOS_raw": 1.4017210789807268,
+            "MOS_sigmoid_to_lin": 0.84542832973611,
+            "MOS_sigmoid_to_std": 2.0994083497789293
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3164865879474202,
+            "MOS_raw": -0.7767558153313484,
+            "MOS_sigmoid_to_lin": 0.2816107049639768,
+            "MOS_sigmoid_to_std": -1.1348374020799534
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6878805347524631,
+            "MOS_raw": 0.6240474329027564,
+            "MOS_sigmoid_to_lin": 0.6809850410309126,
+            "MOS_sigmoid_to_std": 1.15610685555651
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3670473583307693,
+            "MOS_raw": -0.5860534843011854,
+            "MOS_sigmoid_to_lin": 0.3305361460666987,
+            "MOS_sigmoid_to_std": -0.8541847706403958
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.3498225426681295,
+            "MOS_raw": -0.6510210960192225,
+            "MOS_sigmoid_to_lin": 0.313380226023938,
+            "MOS_sigmoid_to_std": -0.952596844118862
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6754285959165471,
+            "MOS_raw": 0.5770818953160071,
+            "MOS_sigmoid_to_lin": 0.6685158698630242,
+            "MOS_sigmoid_to_std": 1.0845795351836447
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8213473159609503,
+            "MOS_raw": 1.1274500926836966,
+            "MOS_sigmoid_to_lin": 0.7969522481428389,
+            "MOS_sigmoid_to_std": 1.8213333942059005
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.3013477276597577,
+            "MOS_raw": -0.8338557353703039,
+            "MOS_sigmoid_to_lin": 0.2678478217159435,
+            "MOS_sigmoid_to_std": -1.2137858859913446
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.5514064034509464,
+            "MOS_raw": 0.1093018155557791,
+            "MOS_sigmoid_to_lin": 0.5338301382418437,
+            "MOS_sigmoid_to_std": 0.3119773031979753
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7212735419103753,
+            "MOS_raw": 0.749997339457542,
+            "MOS_sigmoid_to_lin": 0.713140360095439,
+            "MOS_sigmoid_to_std": 1.3405604794142998
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.3318135297455339,
+            "MOS_raw": -0.7189464998026733,
+            "MOS_sigmoid_to_lin": 0.2959738732620671,
+            "MOS_sigmoid_to_std": -1.0524454831148324
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3803264616679688,
+            "MOS_raw": -0.535968093172961,
+            "MOS_sigmoid_to_lin": 0.3440800558166867,
+            "MOS_sigmoid_to_std": -0.7764923916727071
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.614357341585542,
+            "MOS_raw": 0.3467366993952165,
+            "MOS_sigmoid_to_lin": 0.6041513262017874,
+            "MOS_sigmoid_to_std": 0.7153630673748861
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.8461536367393323,
+            "MOS_raw": 1.2210132081356977,
+            "MOS_sigmoid_to_lin": 0.8146560461997377,
+            "MOS_sigmoid_to_std": 1.9228882785187724
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8896005759267305,
+            "MOS_raw": 1.3848839821833017,
+            "MOS_sigmoid_to_lin": 0.8427475331165891,
+            "MOS_sigmoid_to_std": 2.084030407165327
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6041584473441368,
+            "MOS_raw": 0.308269071409734,
+            "MOS_sigmoid_to_lin": 0.5929687938928901,
+            "MOS_sigmoid_to_std": 0.6512163361873102
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3864952592381133,
+            "MOS_raw": -0.5127009620086155,
+            "MOS_sigmoid_to_lin": 0.3504608257058746,
+            "MOS_sigmoid_to_std": -0.7398901696048252
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5713611457567422,
+            "MOS_raw": 0.1845660143401134,
+            "MOS_sigmoid_to_lin": 0.5564057331225932,
+            "MOS_sigmoid_to_std": 0.4414784373071838
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.803306757731968,
+            "MOS_raw": 1.059405708049768,
+            "MOS_sigmoid_to_lin": 0.7833045724293366,
+            "MOS_sigmoid_to_std": 1.743045779098122
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.3230373623598838,
+            "MOS_raw": -0.7520479649359171,
+            "MOS_sigmoid_to_lin": 0.2876975784558022,
+            "MOS_sigmoid_to_std": -1.0999210676695226
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3164386091109724,
+            "MOS_raw": -0.7769367792660616,
+            "MOS_sigmoid_to_lin": 0.2815664136465593,
+            "MOS_sigmoid_to_std": -1.1350914718339091
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7993290925078087,
+            "MOS_raw": 1.0444029692751506,
+            "MOS_sigmoid_to_lin": 0.7802077496389921,
+            "MOS_sigmoid_to_std": 1.72528137175456
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3160338137390727,
+            "MOS_raw": -0.7784635641711612,
+            "MOS_sigmoid_to_lin": 0.2811928984001115,
+            "MOS_sigmoid_to_std": -1.1372340797376026
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4280936573519638,
+            "MOS_raw": -0.3558024134444789,
+            "MOS_sigmoid_to_lin": 0.3947981213621255,
+            "MOS_sigmoid_to_std": -0.4855566691522726
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8924635603732912,
+            "MOS_raw": 1.395682429349408,
+            "MOS_sigmoid_to_lin": 0.8444711790281667,
+            "MOS_sigmoid_to_std": 2.093917814408905
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6367750225787969,
+            "MOS_raw": 0.4312904747687064,
+            "MOS_sigmoid_to_lin": 0.6283376010306176,
+            "MOS_sigmoid_to_std": 0.8541035983223715
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.660623962161603,
+            "MOS_raw": 0.5212425925184082,
+            "MOS_sigmoid_to_lin": 0.6533782226921956,
+            "MOS_sigmoid_to_std": 0.997744947358942
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6640672959781181,
+            "MOS_raw": 0.5342299694975509,
+            "MOS_sigmoid_to_lin": 0.6569282030457506,
+            "MOS_sigmoid_to_std": 1.018108817470856
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7177651982209767,
+            "MOS_raw": 0.7367647618177912,
+            "MOS_sigmoid_to_lin": 0.7098540963759761,
+            "MOS_sigmoid_to_std": 1.3217093757822398
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.224481325115106,
+            "MOS_raw": -1.1237762020093047,
+            "MOS_sigmoid_to_lin": 0.2048365804364179,
+            "MOS_sigmoid_to_std": -1.5752393604371353
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4005093702322846,
+            "MOS_raw": -0.4598433094522759,
+            "MOS_sigmoid_to_lin": 0.3651539729351021,
+            "MOS_sigmoid_to_std": -0.6556053815463256
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3995263444613108,
+            "MOS_raw": -0.4635510319526668,
+            "MOS_sigmoid_to_lin": 0.3641147071531905,
+            "MOS_sigmoid_to_std": -0.6615669563402289
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5939223591584322,
+            "MOS_raw": 0.2696611573521774,
+            "MOS_sigmoid_to_lin": 0.5816477886940835,
+            "MOS_sigmoid_to_std": 0.5862752783659793
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.2637613522673775,
+            "MOS_raw": -0.9756219574423908,
+            "MOS_sigmoid_to_lin": 0.2355761957028404,
+            "MOS_sigmoid_to_std": -1.3989066852580223
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3874258066144658,
+            "MOS_raw": -0.5091911746288157,
+            "MOS_sigmoid_to_lin": 0.3514280766700913,
+            "MOS_sigmoid_to_std": -0.7343416957995532
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5150637996404144,
+            "MOS_raw": -0.0277732173170701,
+            "MOS_sigmoid_to_lin": 0.4924217789619103,
+            "MOS_sigmoid_to_std": 0.0744451576807145
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3165218506454025,
+            "MOS_raw": -0.7766228134278441,
+            "MOS_sigmoid_to_lin": 0.2816432601703334,
+            "MOS_sigmoid_to_std": -1.1346506545693515
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.574901320005561,
+            "MOS_raw": 0.1979186487320343,
+            "MOS_sigmoid_to_lin": 0.5603893521893412,
+            "MOS_sigmoid_to_std": 0.4643298035603416
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8299492044521215,
+            "MOS_raw": 1.1598942222744928,
+            "MOS_sigmoid_to_lin": 0.8032301832869614,
+            "MOS_sigmoid_to_std": 1.857345721912984
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.343873527561059,
+            "MOS_raw": -0.6734592637854643,
+            "MOS_sigmoid_to_lin": 0.3075686703872557,
+            "MOS_sigmoid_to_std": -0.9859338635801244
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3955931737390538,
+            "MOS_raw": -0.4783859488138426,
+            "MOS_sigmoid_to_lin": 0.3599692646582039,
+            "MOS_sigmoid_to_std": -0.6853465956950724
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6020778747428327,
+            "MOS_raw": 0.3004216821801418,
+            "MOS_sigmoid_to_lin": 0.5906752697987473,
+            "MOS_sigmoid_to_std": 0.638059917813079
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.5328289438905144,
+            "MOS_raw": 0.0392323760292067,
+            "MOS_sigmoid_to_lin": 0.5126854720533867,
+            "MOS_sigmoid_to_std": 0.1906844528332318
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6709895167264645,
+            "MOS_raw": 0.5603388207394564,
+            "MOS_sigmoid_to_lin": 0.6640116648935478,
+            "MOS_sigmoid_to_std": 1.0587419147404766
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1811094595099602,
+            "MOS_raw": -1.2873638176511768,
+            "MOS_sigmoid_to_lin": 0.1744726018056438,
+            "MOS_sigmoid_to_std": -1.7494172587172827
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3099161174382276,
+            "MOS_raw": -0.8015379543804128,
+            "MOS_sigmoid_to_lin": 0.2755848411396146,
+            "MOS_sigmoid_to_std": -1.1694037647102458
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2294233939367619,
+            "MOS_raw": -1.1051359788233135,
+            "MOS_sigmoid_to_lin": 0.2085343121399779,
+            "MOS_sigmoid_to_std": -1.554027939352904
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4687857476431104,
+            "MOS_raw": -0.2023222268457577,
+            "MOS_sigmoid_to_lin": 0.4399175632219103,
+            "MOS_sigmoid_to_std": -0.2267365174760471
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.343735073176418,
+            "MOS_raw": -0.6739814784133703,
+            "MOS_sigmoid_to_lin": 0.3074341297911721,
+            "MOS_sigmoid_to_std": -0.9867056332663092
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1100265137722245,
+            "MOS_raw": -1.555470560208664,
+            "MOS_sigmoid_to_lin": 0.132546457573683,
+            "MOS_sigmoid_to_std": -1.989919591238095
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6399692277131103,
+            "MOS_raw": 0.44333820189556,
+            "MOS_sigmoid_to_lin": 0.6317351504508251,
+            "MOS_sigmoid_to_std": 0.873593073812744
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4818863234545252,
+            "MOS_raw": -0.1529101960137089,
+            "MOS_sigmoid_to_lin": 0.4546959568195758,
+            "MOS_sigmoid_to_std": -0.1419627278452861
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6127458330874108,
+            "MOS_raw": 0.3406585003341966,
+            "MOS_sigmoid_to_lin": 0.6023913006666516,
+            "MOS_sigmoid_to_std": 0.7052669744893958
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8382439698369973,
+            "MOS_raw": 1.1911799618360297,
+            "MOS_sigmoid_to_lin": 0.8091441060809607,
+            "MOS_sigmoid_to_std": 1.8912699534959247
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.053079132541652,
+            "MOS_raw": -1.7702615585339192,
+            "MOS_sigmoid_to_lin": 0.1054109712915001,
+            "MOS_sigmoid_to_std": -2.145577781718118
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.30548699408245,
+            "MOS_raw": -0.8182434780890684,
+            "MOS_sigmoid_to_lin": 0.2715682173956016,
+            "MOS_sigmoid_to_std": -1.1924444567888937
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.9572272600287386,
+            "MOS_raw": 1.639954587324646,
+            "MOS_sigmoid_to_lin": 0.8794695838680965,
+            "MOS_sigmoid_to_std": 2.2946803255509205
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.1955117241163839,
+            "MOS_raw": -1.233042148662867,
+            "MOS_sigmoid_to_lin": 0.1841420732287978,
+            "MOS_sigmoid_to_std": -1.6939499489011065
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8120030690238791,
+            "MOS_raw": 1.092205976363669,
+            "MOS_sigmoid_to_lin": 0.7899647282107893,
+            "MOS_sigmoid_to_std": 1.7812506517315154
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.4473568321799546,
+            "MOS_raw": -0.2831466308112855,
+            "MOS_sigmoid_to_lin": 0.4159835186093671,
+            "MOS_sigmoid_to_std": -0.3640301718633205
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.431463754888133,
+            "MOS_raw": -0.3430912650368562,
+            "MOS_sigmoid_to_lin": 0.3984785049850132,
+            "MOS_sigmoid_to_std": -0.4644447624389163
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.3421162085721378,
+            "MOS_raw": -0.680087422830707,
+            "MOS_sigmoid_to_lin": 0.3058634596387313,
+            "MOS_sigmoid_to_std": -0.99571552058609
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5682682295229496,
+            "MOS_raw": 0.17290032311363,
+            "MOS_sigmoid_to_lin": 0.5529194312543395,
+            "MOS_sigmoid_to_std": 0.4214798482037403
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2893136783730688,
+            "MOS_raw": -0.8792451001545715,
+            "MOS_sigmoid_to_lin": 0.2572168620239585,
+            "MOS_sigmoid_to_std": -1.274768612872012
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.3121789513991796,
+            "MOS_raw": -0.7930031217855781,
+            "MOS_sigmoid_to_lin": 0.2776510769429338,
+            "MOS_sigmoid_to_std": -1.1575511477014662
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.1940950158936746,
+            "MOS_raw": -1.2383856107662303,
+            "MOS_sigmoid_to_lin": 0.1831728112129967,
+            "MOS_sigmoid_to_std": -1.6995099587683211
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.692666420085554,
+            "MOS_raw": 0.6420985718024133,
+            "MOS_sigmoid_to_lin": 0.6857106865134412,
+            "MOS_sigmoid_to_std": 1.1832147325634343
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7308901064686145,
+            "MOS_raw": 0.7862685683936069,
+            "MOS_sigmoid_to_lin": 0.7220330427810429,
+            "MOS_sigmoid_to_std": 1.3915718702167197
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.0898472532002163,
+            "MOS_raw": -1.6315815846327373,
+            "MOS_sigmoid_to_lin": 0.1223123120632092,
+            "MOS_sigmoid_to_std": -2.048626059760665
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6629825215973131,
+            "MOS_raw": 0.530138477190514,
+            "MOS_sigmoid_to_lin": 0.6558117008051348,
+            "MOS_sigmoid_to_std": 1.0117041886157154
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8958625453542343,
+            "MOS_raw": 1.4085025338313566,
+            "MOS_sigmoid_to_lin": 0.846497474122778,
+            "MOS_sigmoid_to_std": 2.1055413182048484
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.180811338652113,
+            "MOS_raw": -1.2884882534951945,
+            "MOS_sigmoid_to_lin": 0.1742767446786444,
+            "MOS_sigmoid_to_std": -1.7505407604546137
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.266007444738303,
+            "MOS_raw": -0.96715026947824,
+            "MOS_sigmoid_to_lin": 0.2374269497651114,
+            "MOS_sigmoid_to_std": -1.3882901433114052
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6596024442783992,
+            "MOS_raw": 0.5173896875875901,
+            "MOS_sigmoid_to_lin": 0.6523217532273357,
+            "MOS_sigmoid_to_std": 0.99168468650762
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.7174069588664955,
+            "MOS_raw": 0.7354135743368978,
+            "MOS_sigmoid_to_lin": 0.7095172837292969,
+            "MOS_sigmoid_to_std": 1.319777306219614
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.1970362822288086,
+            "MOS_raw": -1.227291904281186,
+            "MOS_sigmoid_to_lin": 0.1851895534234399,
+            "MOS_sigmoid_to_std": -1.6879412534988532
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6071277804402536,
+            "MOS_raw": 0.3194686385591493,
+            "MOS_sigmoid_to_lin": 0.5962350160527753,
+            "MOS_sigmoid_to_std": 0.6699524747560632
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.5962819071399723,
+            "MOS_raw": 0.278560770567039,
+            "MOS_sigmoid_to_lin": 0.5842655242911602,
+            "MOS_sigmoid_to_std": 0.6012914819437882
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.7277620681317055,
+            "MOS_raw": 0.774470405551596,
+            "MOS_sigmoid_to_lin": 0.7191591260893786,
+            "MOS_sigmoid_to_std": 1.3750861265243892
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.28390608198131,
+            "MOS_raw": -0.8996411746083405,
+            "MOS_sigmoid_to_lin": 0.252530559108026,
+            "MOS_sigmoid_to_std": -1.3016508078085467
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.267345984101067,
+            "MOS_raw": -0.9621016403786572,
+            "MOS_sigmoid_to_lin": 0.2385346417214854,
+            "MOS_sigmoid_to_std": -1.381936053182139
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6479359310104416,
+            "MOS_raw": 0.4733865749307755,
+            "MOS_sigmoid_to_lin": 0.6401516604851156,
+            "MOS_sigmoid_to_std": 0.9218729796331472
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4355142086130243,
+            "MOS_raw": -0.3278139866012223,
+            "MOS_sigmoid_to_lin": 0.402917081258197,
+            "MOS_sigmoid_to_std": -0.4389836100642488
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6710847530333746,
+            "MOS_raw": 0.5606980278003609,
+            "MOS_sigmoid_to_lin": 0.6641086158582195,
+            "MOS_sigmoid_to_std": 1.0592980577765418
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.886559144706007,
+            "MOS_raw": 1.3734124792955429,
+            "MOS_sigmoid_to_lin": 0.8408994671834612,
+            "MOS_sigmoid_to_std": 2.073429285223121
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.1858081584573525,
+            "MOS_raw": -1.2696415235626402,
+            "MOS_sigmoid_to_lin": 0.1775824713590587,
+            "MOS_sigmoid_to_std": -1.7315780107937504
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6916762205711584,
+            "MOS_raw": 0.6383637917714045,
+            "MOS_sigmoid_to_lin": 0.684736061091793,
+            "MOS_sigmoid_to_std": 1.1776239564132678
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1386247554356451,
+            "MOS_raw": -1.4476052862575717,
+            "MOS_sigmoid_to_lin": 0.1482837319243976,
+            "MOS_sigmoid_to_std": -1.899645342122156
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7589763342199135,
+            "MOS_raw": 0.8922026564505537,
+            "MOS_sigmoid_to_lin": 0.7470112109249086,
+            "MOS_sigmoid_to_std": 1.5348549650670518
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.694431903605677,
+            "MOS_raw": 0.6487575253770937,
+            "MOS_sigmoid_to_lin": 0.6874443436161756,
+            "MOS_sigmoid_to_std": 1.1931595673350763
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.600812777612594,
+            "MOS_raw": 0.2956500584511737,
+            "MOS_sigmoid_to_lin": 0.5892787487734567,
+            "MOS_sigmoid_to_std": 0.6300490079106913
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6353740387371766,
+            "MOS_raw": 0.426006321020516,
+            "MOS_sigmoid_to_lin": 0.6268433951578277,
+            "MOS_sigmoid_to_std": 0.8455323355874995
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8318853928770085,
+            "MOS_raw": 1.1671970312139144,
+            "MOS_sigmoid_to_lin": 0.8046228973161865,
+            "MOS_sigmoid_to_std": 1.8653347936175015
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.8637278632997029,
+            "MOS_raw": 1.287298708647347,
+            "MOS_sigmoid_to_lin": 0.8264608684031813,
+            "MOS_sigmoid_to_std": 1.9906046718797763
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.0845067995264127,
+            "MOS_raw": -1.6517244138782414,
+            "MOS_sigmoid_to_lin": 0.1197201116336064,
+            "MOS_sigmoid_to_std": -2.0634957851098825
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.3488196758930163,
+            "MOS_raw": -0.6548036537270413,
+            "MOS_sigmoid_to_lin": 0.3123963502332207,
+            "MOS_sigmoid_to_std": -0.9582406834681024
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.613086832476118,
+            "MOS_raw": 0.3419446630610153,
+            "MOS_sigmoid_to_lin": 0.6027639493003832,
+            "MOS_sigmoid_to_std": 0.7074046112138062
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.2437909812227606,
+            "MOS_raw": -1.0509451038436552,
+            "MOS_sigmoid_to_lin": 0.2195622690649845,
+            "MOS_sigmoid_to_std": -1.490767904069686
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4013103523607453,
+            "MOS_raw": -0.4568222091436211,
+            "MOS_sigmoid_to_lin": 0.366001710696214,
+            "MOS_sigmoid_to_std": -0.6507424752941939
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6820656522149425,
+            "MOS_raw": 0.6021151789801193,
+            "MOS_sigmoid_to_lin": 0.6751929508891126,
+            "MOS_sigmoid_to_std": 1.1228814966595233
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6265268655355453,
+            "MOS_raw": 0.3926370400584854,
+            "MOS_sigmoid_to_lin": 0.6173525301038001,
+            "MOS_sigmoid_to_std": 0.791089571413782
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.4805040083489416,
+            "MOS_raw": -0.1581239360507835,
+            "MOS_sigmoid_to_lin": 0.4531323700988362,
+            "MOS_sigmoid_to_std": -0.1509319822407278
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3371475146508289,
+            "MOS_raw": -0.6988280691022096,
+            "MOS_sigmoid_to_lin": 0.3010708794943404,
+            "MOS_sigmoid_to_std": -1.023207357115152
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3465554559163805,
+            "MOS_raw": -0.6633437140195504,
+            "MOS_sigmoid_to_lin": 0.310181223839444,
+            "MOS_sigmoid_to_std": -0.9709473865120136
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3971151308388106,
+            "MOS_raw": -0.4726455147885907,
+            "MOS_sigmoid_to_lin": 0.3615709239200517,
+            "MOS_sigmoid_to_std": -0.6761589445185945
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.4205019337159848,
+            "MOS_raw": -0.3844364588306775,
+            "MOS_sigmoid_to_lin": 0.3865515547955978,
+            "MOS_sigmoid_to_std": -0.5328617226187955
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.4583300652199136,
+            "MOS_raw": -0.241758394362528,
+            "MOS_sigmoid_to_lin": 0.4281974736184356,
+            "MOS_sigmoid_to_std": -0.2939668564119095
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.422882120689253,
+            "MOS_raw": -0.3754590006027199,
+            "MOS_sigmoid_to_lin": 0.3891302998865659,
+            "MOS_sigmoid_to_std": -0.5180691815751182
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7858690288879872,
+            "MOS_raw": 0.9936350421124034,
+            "MOS_sigmoid_to_lin": 0.7694937596951685,
+            "MOS_sigmoid_to_std": 1.6638223556848255
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.8641047198223667,
+            "MOS_raw": 1.2887201153385623,
+            "MOS_sigmoid_to_lin": 0.8267073772631729,
+            "MOS_sigmoid_to_std": 1.9920187288340008
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6663580764957187,
+            "MOS_raw": 0.5428702093766645,
+            "MOS_sigmoid_to_lin": 0.659280278451345,
+            "MOS_sigmoid_to_std": 1.031601105676053
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5200416121637982,
+            "MOS_raw": -0.00899817800412,
+            "MOS_sigmoid_to_lin": 0.4981000419072773,
+            "MOS_sigmoid_to_std": 0.1070175658533267
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.0779396742894935,
+            "MOS_raw": -1.6764939354134578,
+            "MOS_sigmoid_to_lin": 0.1165976983228471,
+            "MOS_sigmoid_to_std": -2.081406988204947
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.277814341379505,
+            "MOS_raw": -0.9226176665404708,
+            "MOS_sigmoid_to_lin": 0.2473195210740916,
+            "MOS_sigmoid_to_std": -1.33154305821636
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.8219412215236148,
+            "MOS_raw": 1.1296901529983072,
+            "MOS_sigmoid_to_lin": 0.7973904547057876,
+            "MOS_sigmoid_to_std": 1.8238470930552864
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6718275888073323,
+            "MOS_raw": 0.5634998148892889,
+            "MOS_sigmoid_to_lin": 0.6648643507728282,
+            "MOS_sigmoid_to_std": 1.0636332050470672
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6763092854127303,
+            "MOS_raw": 0.5804036314874008,
+            "MOS_sigmoid_to_lin": 0.6694058561475131,
+            "MOS_sigmoid_to_std": 1.0896847930424856
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.14431287803838,
+            "MOS_raw": -1.426151138480501,
+            "MOS_sigmoid_to_lin": 0.1515919679644163,
+            "MOS_sigmoid_to_std": -1.880668197938518
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.8119677323625205,
+            "MOS_raw": 1.0920726954891726,
+            "MOS_sigmoid_to_lin": 0.7899379718898866,
+            "MOS_sigmoid_to_std": 1.781097168559984
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.4657046887600087,
+            "MOS_raw": -0.2139431951694954,
+            "MOS_sigmoid_to_lin": 0.4364563366287754,
+            "MOS_sigmoid_to_std": -0.2465912664466767
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6535487425292227,
+            "MOS_raw": 0.4945566685062687,
+            "MOS_sigmoid_to_lin": 0.6460303919633329,
+            "MOS_sigmoid_to_std": 0.955595342103507
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6645989980904844,
+            "MOS_raw": 0.536235414261804,
+            "MOS_sigmoid_to_lin": 0.6574748241674909,
+            "MOS_sigmoid_to_std": 1.0212444183516896
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3586837517028027,
+            "MOS_raw": -0.617598875474612,
+            "MOS_sigmoid_to_lin": 0.3221460273269172,
+            "MOS_sigmoid_to_std": -0.902313287202284
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.7309196967208966,
+            "MOS_raw": 0.7863801752786128,
+            "MOS_sigmoid_to_lin": 0.7220601426090493,
+            "MOS_sigmoid_to_std": 1.3917273238594483
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4161048796875271,
+            "MOS_raw": -0.4010210252155404,
+            "MOS_sigmoid_to_lin": 0.3818044817596134,
+            "MOS_sigmoid_to_std": -0.560092515211704
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5121950555453817,
+            "MOS_raw": -0.0385933884082906,
+            "MOS_sigmoid_to_lin": 0.489150154862951,
+            "MOS_sigmoid_to_std": 0.0556780317895815
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8553317976020524,
+            "MOS_raw": 1.2556308901413291,
+            "MOS_sigmoid_to_lin": 0.820896846892174,
+            "MOS_sigmoid_to_std": 1.9586875906383037
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.5052782745264297,
+            "MOS_raw": -0.0646817223782516,
+            "MOS_sigmoid_to_lin": 0.4812663587180321,
+            "MOS_sigmoid_to_std": 0.0104539503314495
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5471336888997479,
+            "MOS_raw": 0.0931862259679986,
+            "MOS_sigmoid_to_lin": 0.5289749665095852,
+            "MOS_sigmoid_to_std": 0.284126420466261
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.460015395343771,
+            "MOS_raw": -0.2354017589564979,
+            "MOS_sigmoid_to_lin": 0.4300815284702995,
+            "MOS_sigmoid_to_std": -0.2831592900408286
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7286283164820975,
+            "MOS_raw": 0.7777376734040887,
+            "MOS_sigmoid_to_lin": 0.7199568116492452,
+            "MOS_sigmoid_to_std": 1.379661916673483
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4346072675761188,
+            "MOS_raw": -0.3312347368891126,
+            "MOS_sigmoid_to_lin": 0.4019218249472724,
+            "MOS_sigmoid_to_std": -0.4446927318692282
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5633775994583988,
+            "MOS_raw": 0.1544541138006644,
+            "MOS_sigmoid_to_lin": 0.5473962630006985,
+            "MOS_sigmoid_to_std": 0.3897971148582555
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.4845470580477922,
+            "MOS_raw": -0.1428745837130757,
+            "MOS_sigmoid_to_lin": 0.4577081001152747,
+            "MOS_sigmoid_to_std": -0.1246840702970377
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.521771243943789,
+            "MOS_raw": -0.0024744480497057,
+            "MOS_sigmoid_to_lin": 0.500073247301072,
+            "MOS_sigmoid_to_std": 0.1183365294366396
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.0894046503865659,
+            "MOS_raw": -1.6332509695658322,
+            "MOS_sigmoid_to_lin": 0.1220956545868762,
+            "MOS_sigmoid_to_std": -2.0498688792321595
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5984459430652863,
+            "MOS_raw": 0.2867229621685794,
+            "MOS_sigmoid_to_lin": 0.5866621854674785,
+            "MOS_sigmoid_to_std": 0.6150395289852146
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.0877722275188737,
+            "MOS_raw": -1.6394080522949033,
+            "MOS_sigmoid_to_lin": 0.121299425851964,
+            "MOS_sigmoid_to_std": -2.054436312547921
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7991940188165165,
+            "MOS_raw": 1.0438935057603551,
+            "MOS_sigmoid_to_lin": 0.7801020316123959,
+            "MOS_sigmoid_to_std": 1.7246749379302329
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6779916714208696,
+            "MOS_raw": 0.5867491624397998,
+            "MOS_sigmoid_to_lin": 0.671102631543747,
+            "MOS_sigmoid_to_std": 1.099418062057171
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.1198379567568191,
+            "MOS_raw": -1.518464299549552,
+            "MOS_sigmoid_to_lin": 0.1377795513520677,
+            "MOS_sigmoid_to_std": -1.959900821731448
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.8362344869570505,
+            "MOS_raw": 1.183600704904904,
+            "MOS_sigmoid_to_lin": 0.8077239821435995,
+            "MOS_sigmoid_to_std": 1.88312364942574
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4698406534276317,
+            "MOS_raw": -0.1983433912663127,
+            "MOS_sigmoid_to_lin": 0.4411039938799068,
+            "MOS_sigmoid_to_std": -0.2199307559196373
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.4233933537091836,
+            "MOS_raw": -0.3735307600347623,
+            "MOS_sigmoid_to_lin": 0.389684996250448,
+            "MOS_sigmoid_to_std": -0.514887258414801
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7341358677696591,
+            "MOS_raw": 0.798510752232652,
+            "MOS_sigmoid_to_lin": 0.7249959200508516,
+            "MOS_sigmoid_to_std": 1.4085679214257083
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.3296797729870431,
+            "MOS_raw": -0.726994486109258,
+            "MOS_sigmoid_to_lin": 0.2939489789337642,
+            "MOS_sigmoid_to_std": -1.0640609516485158
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.753879820752681,
+            "MOS_raw": 0.8729799074505123,
+            "MOS_sigmoid_to_lin": 0.7425907797883048,
+            "MOS_sigmoid_to_std": 1.5094978992415131
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5099711073937375,
+            "MOS_raw": -0.0469815536477277,
+            "MOS_sigmoid_to_lin": 0.4866145053914475,
+            "MOS_sigmoid_to_std": 0.0411327015780118
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8492395120515401,
+            "MOS_raw": 1.2326523428016574,
+            "MOS_sigmoid_to_lin": 0.8167728689802062,
+            "MOS_sigmoid_to_std": 1.935031079283355
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.5510488105179238,
+            "MOS_raw": 0.1079530662117657,
+            "MOS_sigmoid_to_lin": 0.5334240310038105,
+            "MOS_sigmoid_to_std": 0.3096477367713515
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7670188747172042,
+            "MOS_raw": 0.9225370680627416,
+            "MOS_sigmoid_to_lin": 0.7538840257276468,
+            "MOS_sigmoid_to_std": 1.5742797207015573
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.323743619668494,
+            "MOS_raw": -0.7493841424894256,
+            "MOS_sigmoid_to_lin": 0.2883584866013755,
+            "MOS_sigmoid_to_std": -1.096129878341141
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3487417283262012,
+            "MOS_raw": -0.6550976520695719,
+            "MOS_sigmoid_to_lin": 0.3123199493560223,
+            "MOS_sigmoid_to_std": -0.9586789443554188
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4440114470792142,
+            "MOS_raw": -0.2957645702150506,
+            "MOS_sigmoid_to_lin": 0.4122795875476943,
+            "MOS_sigmoid_to_std": -0.3852771545312263
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6052925054933147,
+            "MOS_raw": 0.3125464495218997,
+            "MOS_sigmoid_to_lin": 0.5942172280560034,
+            "MOS_sigmoid_to_std": 0.6583777705077725
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.884124238562429,
+            "MOS_raw": 1.3642286343125776,
+            "MOS_sigmoid_to_lin": 0.8394072836412617,
+            "MOS_sigmoid_to_std": 2.064869623250329
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.312894345349284,
+            "MOS_raw": -0.7903048382575504,
+            "MOS_sigmoid_to_lin": 0.2783062971282005,
+            "MOS_sigmoid_to_std": -1.1537925864085523
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6458162850360533,
+            "MOS_raw": 0.465391810903057,
+            "MOS_sigmoid_to_lin": 0.6379204933476847,
+            "MOS_sigmoid_to_std": 0.9090742615390836
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5946860618071728,
+            "MOS_raw": 0.2725416489709663,
+            "MOS_sigmoid_to_lin": 0.5824955685462131,
+            "MOS_sigmoid_to_std": 0.5911384260662129
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.4659010977509051,
+            "MOS_raw": -0.2132023905473496,
+            "MOS_sigmoid_to_lin": 0.4366767993105166,
+            "MOS_sigmoid_to_std": -0.2453266190491199
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.7244374701178969,
+            "MOS_raw": 0.7619308697382666,
+            "MOS_sigmoid_to_lin": 0.7160848481323003,
+            "MOS_sigmoid_to_std": 1.357451043856067
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4599183704583813,
+            "MOS_raw": -0.2357677120792739,
+            "MOS_sigmoid_to_lin": 0.4299730074539533,
+            "MOS_sigmoid_to_std": -0.2837818027482792
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4627365935050062,
+            "MOS_raw": -0.2251380934979225,
+            "MOS_sigmoid_to_lin": 0.4331278516718268,
+            "MOS_sigmoid_to_std": -0.2656845651644812
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6230254245940566,
+            "MOS_raw": 0.3794304978233961,
+            "MOS_sigmoid_to_lin": 0.6135710190838072,
+            "MOS_sigmoid_to_std": 0.7693975642563924
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8597663448617484,
+            "MOS_raw": 1.2723568714322702,
+            "MOS_sigmoid_to_lin": 0.8238527891271658,
+            "MOS_sigmoid_to_std": 1.9756438601769253
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4684008613075262,
+            "MOS_raw": -0.2037739199434113,
+            "MOS_sigmoid_to_lin": 0.4394848596790289,
+            "MOS_sigmoid_to_std": -0.2292186491687977
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4739703841814041,
+            "MOS_raw": -0.1827671000962969,
+            "MOS_sigmoid_to_lin": 0.4457549667338675,
+            "MOS_sigmoid_to_std": -0.193251225990056
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6444596348511072,
+            "MOS_raw": 0.4602748724011286,
+            "MOS_sigmoid_to_lin": 0.6364893319683573,
+            "MOS_sigmoid_to_std": 0.9008646430242582
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.2731716470607059,
+            "MOS_raw": -0.9401287254531936,
+            "MOS_sigmoid_to_lin": 0.2433968227359412,
+            "MOS_sigmoid_to_std": -1.354044962872346
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6035626979605963,
+            "MOS_raw": 0.3060220566730208,
+            "MOS_sigmoid_to_lin": 0.5923124774265578,
+            "MOS_sigmoid_to_std": 0.6474514862609388
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.49019983614535,
+            "MOS_raw": -0.1215537463953846,
+            "MOS_sigmoid_to_lin": 0.4641174537512006,
+            "MOS_sigmoid_to_std": -0.0879178823341613
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6926179198349403,
+            "MOS_raw": 0.6419156412264461,
+            "MOS_sigmoid_to_lin": 0.6856629871036268,
+            "MOS_sigmoid_to_std": 1.182941112855961
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6978371164441065,
+            "MOS_raw": 0.6616011197491488,
+            "MOS_sigmoid_to_lin": 0.6907733755494603,
+            "MOS_sigmoid_to_std": 1.2122560036913894
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4440308908155687,
+            "MOS_raw": -0.2956912334003894,
+            "MOS_sigmoid_to_lin": 0.4123010869483425,
+            "MOS_sigmoid_to_std": -0.3851538268058081
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3889665922821786,
+            "MOS_raw": -0.5033797240472105,
+            "MOS_sigmoid_to_lin": 0.3530323175970327,
+            "MOS_sigmoid_to_std": -0.7251392353319237
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.307705819140792,
+            "MOS_raw": -0.8098746358509898,
+            "MOS_sigmoid_to_lin": 0.2735758001845225,
+            "MOS_sigmoid_to_std": -1.1809282930130691
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.5695110008368481,
+            "MOS_raw": 0.1775877395572669,
+            "MOS_sigmoid_to_lin": 0.5543209148771404,
+            "MOS_sigmoid_to_std": 0.429519225218915
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6134232160321169,
+            "MOS_raw": 0.3432134160440661,
+            "MOS_sigmoid_to_lin": 0.6031314369402593,
+            "MOS_sigmoid_to_std": 0.7095126427578893
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.9366425881152712,
+            "MOS_raw": 1.56231445471539,
+            "MOS_sigmoid_to_lin": 0.8691520886682121,
+            "MOS_sigmoid_to_std": 2.235495735438938
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2582189219883573,
+            "MOS_raw": -0.99652659093131,
+            "MOS_sigmoid_to_lin": 0.231052132142658,
+            "MOS_sigmoid_to_std": -1.424858221194085
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.5661591614756164,
+            "MOS_raw": 0.1649454563290021,
+            "MOS_sigmoid_to_lin": 0.5505391034134459,
+            "MOS_sigmoid_to_std": 0.4078254946163495
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.1687442437252556,
+            "MOS_raw": -1.3340022580063242,
+            "MOS_sigmoid_to_lin": 0.166494068721325,
+            "MOS_sigmoid_to_std": -1.7951847828248388
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3847486112580786,
+            "MOS_raw": -0.5192888727298378,
+            "MOS_sigmoid_to_lin": 0.3486486044030817,
+            "MOS_sigmoid_to_std": -0.7502856748044986
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.4750316577386629,
+            "MOS_raw": -0.1787642469021023,
+            "MOS_sigmoid_to_lin": 0.446951760293132,
+            "MOS_sigmoid_to_std": -0.1863860193791993
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4232667182474769,
+            "MOS_raw": -0.3740083966996204,
+            "MOS_sigmoid_to_lin": 0.389547568001021,
+            "MOS_sigmoid_to_std": -0.5156755926426899
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4920007896602543,
+            "MOS_raw": -0.1147610090465423,
+            "MOS_sigmoid_to_lin": 0.4661620440836566,
+            "MOS_sigmoid_to_std": -0.0761894309582227
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.7833867760797999,
+            "MOS_raw": 0.9842726175856724,
+            "MOS_sigmoid_to_lin": 0.7674784696681836,
+            "MOS_sigmoid_to_std": 1.6522619806235208
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.8423632771225261,
+            "MOS_raw": 1.206716938342198,
+            "MOS_sigmoid_to_lin": 0.8120301776833686,
+            "MOS_sigmoid_to_std": 1.9078254218061264
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7244073279112019,
+            "MOS_raw": 0.7618171810219841,
+            "MOS_sigmoid_to_lin": 0.7160568826928725,
+            "MOS_sigmoid_to_std": 1.3572906247778147
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.5559276874581295,
+            "MOS_raw": 0.1263549457371805,
+            "MOS_sigmoid_to_lin": 0.5389607752742178,
+            "MOS_sigmoid_to_std": 0.3414083466723472
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6416529016588131,
+            "MOS_raw": 0.4496885906199771,
+            "MOS_sigmoid_to_lin": 0.6335207845255002,
+            "MOS_sigmoid_to_std": 0.8838360658134401
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4527350713398743,
+            "MOS_raw": -0.2628612843488404,
+            "MOS_sigmoid_to_lin": 0.4219579498724257,
+            "MOS_sigmoid_to_std": -0.3297588435412777
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.4983786784449069,
+            "MOS_raw": -0.0907052391470211,
+            "MOS_sigmoid_to_lin": 0.4734114292452856,
+            "MOS_sigmoid_to_std": -0.0346045422771292
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.4384928060429674,
+            "MOS_raw": -0.3165794767473602,
+            "MOS_sigmoid_to_lin": 0.4061913140045747,
+            "MOS_sigmoid_to_std": -0.420201520102359
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.3853814630040653,
+            "MOS_raw": -0.5169019173444446,
+            "MOS_sigmoid_to_lin": 0.3493047126067967,
+            "MOS_sigmoid_to_std": -0.7465220195418905
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1552862972102576,
+            "MOS_raw": -1.384762199989617,
+            "MOS_sigmoid_to_lin": 0.1581451926984045,
+            "MOS_sigmoid_to_std": -1.8430767174213143
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.444498438028966,
+            "MOS_raw": -0.2939277645531881,
+            "MOS_sigmoid_to_lin": 0.4128181655744557,
+            "MOS_sigmoid_to_std": -0.3821876915230393
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 1.0,
+            "MOS_raw": 1.8012824538745758,
+            "MOS_sigmoid_to_lin": 0.8986762868224193,
+            "MOS_sigmoid_to_std": 2.40485637310236
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6570538242903534,
+            "MOS_raw": 0.5077769429845045,
+            "MOS_sigmoid_to_lin": 0.6496794037950056,
+            "MOS_sigmoid_to_std": 0.9765272897698108
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4123347035697825,
+            "MOS_raw": -0.4152411679981137,
+            "MOS_sigmoid_to_lin": 0.3777520452048835,
+            "MOS_sigmoid_to_std": -0.5833386415049535
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.2369082420680825,
+            "MOS_raw": -1.0769050405835026,
+            "MOS_sigmoid_to_lin": 0.2142277655512145,
+            "MOS_sigmoid_to_std": -1.521368393606812
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7442073994244359,
+            "MOS_raw": 0.8364980010235156,
+            "MOS_sigmoid_to_lin": 0.734063833200582,
+            "MOS_sigmoid_to_std": 1.460584492554704
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3184243751403549,
+            "MOS_raw": -0.7694469762465956,
+            "MOS_sigmoid_to_lin": 0.2834030945097346,
+            "MOS_sigmoid_to_std": -1.124555658446298
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5653317519568777,
+            "MOS_raw": 0.1618246786441756,
+            "MOS_sigmoid_to_lin": 0.5496046371981872,
+            "MOS_sigmoid_to_std": 0.4024650850545206
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7923678603063181,
+            "MOS_raw": 1.0181469767813405,
+            "MOS_sigmoid_to_lin": 0.7747118905873611,
+            "MOS_sigmoid_to_std": 1.6937552930908493
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.3484610568744565,
+            "MOS_raw": -0.6561562732040108,
+            "MOS_sigmoid_to_lin": 0.3120449316900752,
+            "MOS_sigmoid_to_std": -0.9602565373193404
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4893675854610579,
+            "MOS_raw": -0.1246927837220038,
+            "MOS_sigmoid_to_lin": 0.4631730175748314,
+            "MOS_sigmoid_to_std": -0.0933354829147719
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.3591234745310284,
+            "MOS_raw": -0.6159403531120364,
+            "MOS_sigmoid_to_lin": 0.3225843596057751,
+            "MOS_sigmoid_to_std": -0.8997988672045556
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.4545562282250485,
+            "MOS_raw": -0.2559923450399419,
+            "MOS_sigmoid_to_lin": 0.4239862670497865,
+            "MOS_sigmoid_to_std": -0.3181237404049528
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2048743086567948,
+            "MOS_raw": -1.197728867579806,
+            "MOS_sigmoid_to_lin": 0.1906475277565424,
+            "MOS_sigmoid_to_std": -1.6566324942032815
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4007692837850884,
+            "MOS_raw": -0.4588629818186143,
+            "MOS_sigmoid_to_lin": 0.3654289670615883,
+            "MOS_sigmoid_to_std": -0.654027923612595
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3568675955945271,
+            "MOS_raw": -0.6244489531284304,
+            "MOS_sigmoid_to_lin": 0.3203389339990147,
+            "MOS_sigmoid_to_std": -0.912679376629416
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6027505959459867,
+            "MOS_raw": 0.3029590149897921,
+            "MOS_sigmoid_to_lin": 0.5914172824615934,
+            "MOS_sigmoid_to_std": 0.6423163496754309
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3238982975570939,
+            "MOS_raw": -0.748800736942177,
+            "MOS_sigmoid_to_lin": 0.2885033530299198,
+            "MOS_sigmoid_to_std": -1.095298876239538
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.408967529740574,
+            "MOS_raw": -0.4279412889287335,
+            "MOS_sigmoid_to_lin": 0.3741471475469111,
+            "MOS_sigmoid_to_std": -0.6040175355726856
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6701221228103671,
+            "MOS_raw": 0.5570672321052847,
+            "MOS_sigmoid_to_lin": 0.6631280187513119,
+            "MOS_sigmoid_to_std": 1.053673026050046
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3549351316954173,
+            "MOS_raw": -0.6317377141065117,
+            "MOS_sigmoid_to_lin": 0.3184220147527281,
+            "MOS_sigmoid_to_std": -0.923675464116863
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8233362471968536,
+            "MOS_raw": 1.1349518340549152,
+            "MOS_sigmoid_to_lin": 0.7984169829331675,
+            "MOS_sigmoid_to_std": 1.82973560099242
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.539004523907225,
+            "MOS_raw": 0.0625250888522266,
+            "MOS_sigmoid_to_lin": 0.5197232377765997,
+            "MOS_sigmoid_to_std": 0.2310554219069267
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2539824276319706,
+            "MOS_raw": -1.0125055671817418,
+            "MOS_sigmoid_to_lin": 0.2276352620794579,
+            "MOS_sigmoid_to_std": -1.444458526330032
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4239287160451818,
+            "MOS_raw": -0.371511509840461,
+            "MOS_sigmoid_to_lin": 0.3902661794221442,
+            "MOS_sigmoid_to_std": -0.5115533980998279
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7376884805098652,
+            "MOS_raw": 0.8119103014418126,
+            "MOS_sigmoid_to_lin": 0.7282163399209577,
+            "MOS_sigmoid_to_std": 1.4270413227996053
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.4827007342111714,
+            "MOS_raw": -0.1498384463443325,
+            "MOS_sigmoid_to_lin": 0.4556175867726542,
+            "MOS_sigmoid_to_std": -0.1366759513601869
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.2734601877632975,
+            "MOS_raw": -0.9390404235115084,
+            "MOS_sigmoid_to_lin": 0.2436393817894691,
+            "MOS_sigmoid_to_std": -1.352653563324017
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4611014940582119,
+            "MOS_raw": -0.2313052716007406,
+            "MOS_sigmoid_to_lin": 0.4312967713863449,
+            "MOS_sigmoid_to_std": -0.2761882517724081
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7295404463585656,
+            "MOS_raw": 0.7811779946714644,
+            "MOS_sigmoid_to_lin": 0.7207952492089803,
+            "MOS_sigmoid_to_std": 1.38447147387182
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5535829317786175,
+            "MOS_raw": 0.1175111253129885,
+            "MOS_sigmoid_to_lin": 0.5363009677348144,
+            "MOS_sigmoid_to_std": 0.3261508044155681
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4653076131123104,
+            "MOS_raw": -0.2154408632437207,
+            "MOS_sigmoid_to_lin": 0.4360107089599976,
+            "MOS_sigmoid_to_std": -0.2491475352317076
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.455018938172052,
+            "MOS_raw": -0.2542471211278975,
+            "MOS_sigmoid_to_lin": 0.4245020222965681,
+            "MOS_sigmoid_to_std": -0.3151651964669613
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3853986500593516,
+            "MOS_raw": -0.5168370921552359,
+            "MOS_sigmoid_to_lin": 0.3493225392410751,
+            "MOS_sigmoid_to_std": -0.746419760028084
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.670157188094614,
+            "MOS_raw": 0.5571994894145268,
+            "MOS_sigmoid_to_lin": 0.6631637632275297,
+            "MOS_sigmoid_to_std": 1.0538780682751918
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.723208542769038,
+            "MOS_raw": 0.7572956692000389,
+            "MOS_sigmoid_to_lin": 0.7149433232991735,
+            "MOS_sigmoid_to_std": 1.350902877073104
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6087748748515687,
+            "MOS_raw": 0.3256810586089827,
+            "MOS_sigmoid_to_lin": 0.5980431441761134,
+            "MOS_sigmoid_to_std": 0.6803245001145934
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4159390600466289,
+            "MOS_raw": -0.4016464546109017,
+            "MOS_sigmoid_to_lin": 0.3816258969047111,
+            "MOS_sigmoid_to_std": -0.561116937441406
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.0977072270215348,
+            "MOS_raw": -1.6019357679611004,
+            "MOS_sigmoid_to_lin": 0.1262152191506652,
+            "MOS_sigmoid_to_std": -2.026237684312832
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3020589046672743,
+            "MOS_raw": -0.8311733570742416,
+            "MOS_sigmoid_to_lin": 0.268484726880076,
+            "MOS_sigmoid_to_std": -1.2101323857619664
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4626051849919433,
+            "MOS_raw": -0.2256337328951922,
+            "MOS_sigmoid_to_lin": 0.4329806245080479,
+            "MOS_sigmoid_to_std": -0.2665291092299537
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_VMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6159077945304068,
+            "MOS_raw": 0.3525846124807275,
+            "MOS_sigmoid_to_lin": 0.605842126978643,
+            "MOS_sigmoid_to_std": 0.7250620639821586
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.4896893146972336,
+            "MOS_raw": -0.123479303095936,
+            "MOS_sigmoid_to_lin": 0.4635380842256043,
+            "MOS_sigmoid_to_std": -0.0912413389708239
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4928844945343328,
+            "MOS_raw": -0.1114278996387594,
+            "MOS_sigmoid_to_lin": 0.4671657186704971,
+            "MOS_sigmoid_to_std": -0.0704320191177361
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.4097709039412954,
+            "MOS_raw": -0.4249111663335776,
+            "MOS_sigmoid_to_lin": 0.3750059892665323,
+            "MOS_sigmoid_to_std": -0.5990909333148604
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.5366711102893023,
+            "MOS_raw": 0.0537240477917068,
+            "MOS_sigmoid_to_lin": 0.517064820240142,
+            "MOS_sigmoid_to_std": 0.2158058531701736
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.8275095054875454,
+            "MOS_raw": 1.1506922999930684,
+            "MOS_sigmoid_to_lin": 0.8014646354149011,
+            "MOS_sigmoid_to_std": 1.847217951062929
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.1779011361782728,
+            "MOS_raw": -1.2994647950178655,
+            "MOS_sigmoid_to_lin": 0.1723739282717081,
+            "MOS_sigmoid_to_std": -1.761455949356678
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6789432337529101,
+            "MOS_raw": 0.5903382128728685,
+            "MOS_sigmoid_to_lin": 0.6720603635293718,
+            "MOS_sigmoid_to_std": 1.1049119318296494
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_VMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.2607954719598257,
+            "MOS_raw": -0.9868085015539269,
+            "MOS_sigmoid_to_lin": 0.2331476750895833,
+            "MOS_sigmoid_to_std": -1.4128374886448496
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.37235906820381,
+            "MOS_raw": -0.5660190693414324,
+            "MOS_sigmoid_to_lin": 0.3359216621541617,
+            "MOS_sigmoid_to_std": -0.823291655983889
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6911634851621687,
+            "MOS_raw": 0.6364298845750808,
+            "MOS_sigmoid_to_lin": 0.6842307497898877,
+            "MOS_sigmoid_to_std": 1.174725322422864
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.4751747933422219,
+            "MOS_raw": -0.1782243759103205,
+            "MOS_sigmoid_to_lin": 0.4471132210614668,
+            "MOS_sigmoid_to_std": -0.1854598266155558
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4245732572951473,
+            "MOS_raw": -0.3690804646273131,
+            "MOS_sigmoid_to_lin": 0.3909662993516756,
+            "MOS_sigmoid_to_std": -0.5075372769138435
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5535109001228593,
+            "MOS_raw": 0.1172394402781897,
+            "MOS_sigmoid_to_lin": 0.5362192240919388,
+            "MOS_sigmoid_to_std": 0.3256818956441925
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4228408760136961,
+            "MOS_raw": -0.3756145650000115,
+            "MOS_sigmoid_to_lin": 0.389085561213114,
+            "MOS_sigmoid_to_std": -0.51832581751234
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1787949947442013,
+            "MOS_raw": -1.2960933884739894,
+            "MOS_sigmoid_to_lin": 0.1729566153071488,
+            "MOS_sigmoid_to_std": -1.7581134623781998
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_OracleVMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5001372923237445,
+            "MOS_raw": -0.0840721961072582,
+            "MOS_sigmoid_to_lin": 0.4754124502717169,
+            "MOS_sigmoid_to_std": -0.0231260189572326
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_VMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.2925561829341656,
+            "MOS_raw": -0.8670151999080212,
+            "MOS_sigmoid_to_lin": 0.2600539820415574,
+            "MOS_sigmoid_to_std": -1.2584939471622596
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5458017990517526,
+            "MOS_raw": 0.0881626771422522,
+            "MOS_sigmoid_to_lin": 0.5274603481727917,
+            "MOS_sigmoid_to_std": 0.2754380650367167
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.9234056081851534,
+            "MOS_raw": 1.5123879423356603,
+            "MOS_sigmoid_to_lin": 0.8621279869469728,
+            "MOS_sigmoid_to_std": 2.195203147633219
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6493589865038678,
+            "MOS_raw": 0.4787539773204956,
+            "MOS_sigmoid_to_lin": 0.6416462029189605,
+            "MOS_sigmoid_to_std": 0.9304461729943672
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_OracleVMAFViterbiQualityBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.796732045869523,
+            "MOS_raw": 1.0346075716979364,
+            "MOS_sigmoid_to_lin": 0.7781687247647099,
+            "MOS_sigmoid_to_std": 1.7135848457010383
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.655856322743679,
+            "MOS_raw": 0.5032602725573815,
+            "MOS_sigmoid_to_lin": 0.6484346719992895,
+            "MOS_sigmoid_to_std": 0.9693870934623164
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.5296398163389955,
+            "MOS_raw": 0.027203800249684,
+            "MOS_sigmoid_to_lin": 0.5090489567613147,
+            "MOS_sigmoid_to_std": 0.16982418948175
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3413274594833222,
+            "MOS_raw": -0.6830623832336953,
+            "MOS_sigmoid_to_lin": 0.3050998204871382,
+            "MOS_sigmoid_to_std": -1.0000960091935387
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.7964664510671171,
+            "MOS_raw": 1.0336058158397037,
+            "MOS_sigmoid_to_lin": 0.7779594373320446,
+            "MOS_sigmoid_to_std": 1.7123843032556183
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.4648178563372033,
+            "MOS_raw": -0.2172881008934361,
+            "MOS_sigmoid_to_lin": 0.4354612100652317,
+            "MOS_sigmoid_to_std": -0.2522996439774503
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.699392446322778,
+            "MOS_raw": 0.6674674273851812,
+            "MOS_sigmoid_to_lin": 0.69228737656367,
+            "MOS_sigmoid_to_std": 1.2209408179529104
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.7857365513012838,
+            "MOS_raw": 0.9931353704420152,
+            "MOS_sigmoid_to_lin": 0.7693865135757546,
+            "MOS_sigmoid_to_std": 1.6632071562109565
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1078689154785726,
+            "MOS_raw": -1.563608470705408,
+            "MOS_sigmoid_to_lin": 0.1314184975756539,
+            "MOS_sigmoid_to_std": -1.996389945607323
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.4516240939603641,
+            "MOS_raw": -0.2670516076842644,
+            "MOS_sigmoid_to_lin": 0.4207218836502979,
+            "MOS_sigmoid_to_std": -0.3368493312314218
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_OracleVMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.0932319957629987,
+            "MOS_raw": -1.61881519891975,
+            "MOS_sigmoid_to_lin": 0.1239801302873067,
+            "MOS_sigmoid_to_std": -2.03905889873348
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.140650058790728,
+            "MOS_raw": -1.4399663585290354,
+            "MOS_sigmoid_to_lin": 0.1494547674989209,
+            "MOS_sigmoid_to_std": -1.892927891893976
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.497518209214817,
+            "MOS_raw": -0.0939507096316226,
+            "MOS_sigmoid_to_lin": 0.4724326601298193,
+            "MOS_sigmoid_to_std": -0.0402190880356569
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteDance_HuangBufferBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.1831921675372977,
+            "MOS_raw": -1.2795083741391986,
+            "MOS_sigmoid_to_lin": 0.1758457272001018,
+            "MOS_sigmoid_to_std": -1.7415405539484488
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.810098951289525,
+            "MOS_raw": 1.0850241298897316,
+            "MOS_sigmoid_to_lin": 0.7885193974927217,
+            "MOS_sigmoid_to_std": 1.7729597531686498
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_OracleVMAFViterbiQualityBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.3834613391643385,
+            "MOS_raw": -0.5241441347657019,
+            "MOS_sigmoid_to_lin": 0.347315797971871,
+            "MOS_sigmoid_to_std": -0.7579310965664305
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8202565574474077,
+            "MOS_raw": 1.1233360297541468,
+            "MOS_sigmoid_to_lin": 0.796145605393472,
+            "MOS_sigmoid_to_std": 1.8167062226334223
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_VMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.7082465444072366,
+            "MOS_raw": 0.700862827239136,
+            "MOS_sigmoid_to_lin": 0.7008269661413326,
+            "MOS_sigmoid_to_std": 1.2699267490424817
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_HuangBufferBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.3411310097298042,
+            "MOS_raw": -0.6838033416020538,
+            "MOS_sigmoid_to_lin": 0.3049097911719342,
+            "MOS_sigmoid_to_std": -1.0011860806606652
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.4151754372117086,
+            "MOS_raw": -0.4045266451923158,
+            "MOS_sigmoid_to_lin": 0.3808039019831621,
+            "MOS_sigmoid_to_std": -0.5658321741886496
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6651916456676457,
+            "MOS_raw": 0.5384707297759297,
+            "MOS_sigmoid_to_lin": 0.6580836086830251,
+            "MOS_sigmoid_to_std": 1.0247366091713
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6511448415502183,
+            "MOS_raw": 0.4854897670966177,
+            "MOS_sigmoid_to_lin": 0.6435178805644337,
+            "MOS_sigmoid_to_std": 0.9411827395856788
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelRobot_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.4075951991506121,
+            "MOS_raw": -0.4331173699193014,
+            "MOS_sigmoid_to_lin": 0.3726819017209775,
+            "MOS_sigmoid_to_std": -0.6124226738297063
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7767979669400906,
+            "MOS_raw": 0.9594213098993246,
+            "MOS_sigmoid_to_lin": 0.7620697960207258,
+            "MOS_sigmoid_to_std": 1.6212360264871075
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7363284209336922,
+            "MOS_raw": 0.8067805035856963,
+            "MOS_sigmoid_to_lin": 0.7269862509892141,
+            "MOS_sigmoid_to_std": 1.4199851228386549
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5589981783349122,
+            "MOS_raw": 0.1379360542363132,
+            "MOS_sigmoid_to_lin": 0.5424404557698681,
+            "MOS_sigmoid_to_std": 0.3613689533763886
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_OracleVMAFViterbiQualityBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.433610067814569,
+            "MOS_raw": -0.3349959200670672,
+            "MOS_sigmoid_to_lin": 0.4008284532774784,
+            "MOS_sigmoid_to_std": -0.4509646760633519
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6118450133989738,
+            "MOS_raw": 0.3372608382115603,
+            "MOS_sigmoid_to_lin": 0.6014063027703257,
+            "MOS_sigmoid_to_std": 0.6996166983685148
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5940251770088222,
+            "MOS_raw": 0.2700489600615161,
+            "MOS_sigmoid_to_lin": 0.5817619541373165,
+            "MOS_sigmoid_to_std": 0.5869301693866964
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_SimpleThroughputBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.635674274835458,
+            "MOS_raw": 0.427138735011987,
+            "MOS_sigmoid_to_lin": 0.6271638141141355,
+            "MOS_sigmoid_to_std": 0.8473703654800064
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianDriving_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.7602881086481944,
+            "MOS_raw": 0.8971503350433099,
+            "MOS_sigmoid_to_lin": 0.7481408123230779,
+            "MOS_sigmoid_to_std": 1.541334735054376
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_HuangBufferBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.6163007042768067,
+            "MOS_raw": 0.3540665678377134,
+            "MOS_sigmoid_to_lin": 0.6062702026954028,
+            "MOS_sigmoid_to_std": 0.7275176489223485
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_SimpleThroughputBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.9055808212562618,
+            "MOS_raw": 1.445157392016058,
+            "MOS_sigmoid_to_lin": 0.8521718514559371,
+            "MOS_sigmoid_to_std": 2.1380914372112056
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.1570213292701835,
+            "MOS_raw": -1.378218101556558,
+            "MOS_sigmoid_to_lin": 0.159202146810426,
+            "MOS_sigmoid_to_std": -1.837013676472396
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.5009157654689189,
+            "MOS_raw": -0.0811359939429409,
+            "MOS_sigmoid_to_lin": 0.476298484064075,
+            "MOS_sigmoid_to_std": -0.0180434339101696
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6771732174559149,
+            "MOS_raw": 0.5836621628198505,
+            "MOS_sigmoid_to_lin": 0.6702777314431972,
+            "MOS_sigmoid_to_std": 1.0946861602352134
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/GTA_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.1157864310870542,
+            "MOS_raw": -1.533745621087864,
+            "MOS_sigmoid_to_lin": 0.1355978700353968,
+            "MOS_sigmoid_to_std": -1.972415672669647
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102353_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.299326861659462,
+            "MOS_raw": -0.8414779265282712,
+            "MOS_sigmoid_to_lin": 0.2660432431698355,
+            "MOS_sigmoid_to_std": -1.2241375497922131
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7954660868094487,
+            "MOS_raw": 1.0298326969894531,
+            "MOS_sigmoid_to_lin": 0.7771698889593877,
+            "MOS_sigmoid_to_std": 1.707855190723556
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.5317705877669994,
+            "MOS_raw": 0.0352405266510409,
+            "MOS_sigmoid_to_lin": 0.5114787740263598,
+            "MOS_sigmoid_to_std": 0.1837624308952596
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.6463066067580941,
+            "MOS_raw": 0.4672411793885245,
+            "MOS_sigmoid_to_lin": 0.6384371453208546,
+            "MOS_sigmoid_to_std": 0.9120379493984148
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Chimera1102347_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6593358226739671,
+            "MOS_raw": 0.5163840588939864,
+            "MOS_sigmoid_to_lin": 0.6520457616682352,
+            "MOS_sigmoid_to_std": 0.9901015069680832
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.4396509712987205,
+            "MOS_raw": -0.3122111727773912,
+            "MOS_sigmoid_to_lin": 0.40746670313484,
+            "MOS_sigmoid_to_std": -0.4128854631092933
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/ElFuenteMask_OracleVMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.8547907572311818,
+            "MOS_raw": 1.2535902238475964,
+            "MOS_sigmoid_to_lin": 0.8205335630106337,
+            "MOS_sigmoid_to_std": 1.956603673252668
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_HuangBufferBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.6221793677810424,
+            "MOS_raw": 0.3762393873003082,
+            "MOS_sigmoid_to_lin": 0.6126552106738986,
+            "MOS_sigmoid_to_std": 0.7641441820825725
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_HuangBufferBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.3148782645425642,
+            "MOS_raw": -0.7828220010328507,
+            "MOS_sigmoid_to_lin": 0.2801283044743952,
+            "MOS_sigmoid_to_std": -1.1433409452033538
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.5246683410598653,
+            "MOS_raw": 0.0084526634058278,
+            "MOS_sigmoid_to_lin": 0.5033782890438937,
+            "MOS_sigmoid_to_std": 0.13729535006726
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_SimpleThroughputBasedAdaptor_Trace_0.mp4",
+        "scores": {
+            "MOS_minmax": 0.4180767481542681,
+            "MOS_raw": -0.393583640257968,
+            "MOS_sigmoid_to_lin": 0.3839305865500505,
+            "MOS_sigmoid_to_std": -0.547896469745305
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_SimpleThroughputBasedAdaptor_Trace_4.mp4",
+        "scores": {
+            "MOS_minmax": 0.0,
+            "MOS_raw": -1.9704625093502377,
+            "MOS_sigmoid_to_lin": 0.0846551748136962,
+            "MOS_sigmoid_to_std": -2.264639945856593
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_SimpleThroughputBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4170995357094405,
+            "MOS_raw": -0.3972694363747471,
+            "MOS_sigmoid_to_lin": 0.3828763779802581,
+            "MOS_sigmoid_to_std": -0.5539437613492209
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AirShow_VMAFViterbiQualityBasedAdaptor_Trace_6.mp4",
+        "scores": {
+            "MOS_minmax": 0.4718933974594592,
+            "MOS_raw": -0.1906009643034773,
+            "MOS_sigmoid_to_lin": 0.4434145893848555,
+            "MOS_sigmoid_to_std": -0.206676410245068
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Soccer_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.595043044695841,
+            "MOS_raw": 0.2738880973832586,
+            "MOS_sigmoid_to_lin": 0.5828916853815054,
+            "MOS_sigmoid_to_std": 0.5934106842140521
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.5590170572538892,
+            "MOS_raw": 0.1380072607038761,
+            "MOS_sigmoid_to_lin": 0.5424618381411898,
+            "MOS_sigmoid_to_std": 0.3614916097825973
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/AsianFusion_HuangBufferBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7209696454826526,
+            "MOS_raw": 0.7488511196369366,
+            "MOS_sigmoid_to_lin": 0.7128565819024795,
+            "MOS_sigmoid_to_std": 1.338932633148549
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_HuangBufferBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.6189443826681434,
+            "MOS_raw": 0.3640378484946237,
+            "MOS_sigmoid_to_lin": 0.6091462239044267,
+            "MOS_sigmoid_to_std": 0.7440154648274491
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/CosmosLaundromat_VMAFViterbiQualityBasedAdaptor_Trace_3.mp4",
+        "scores": {
+            "MOS_minmax": 0.7295501803523355,
+            "MOS_raw": 0.7812147088134382,
+            "MOS_sigmoid_to_lin": 0.7208041884812594,
+            "MOS_sigmoid_to_std": 1.384522752516054
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Skateboarding_SimpleThroughputBasedAdaptor_Trace_2.mp4",
+        "scores": {
+            "MOS_minmax": 0.3334136709598129,
+            "MOS_raw": -0.7129111752372679,
+            "MOS_sigmoid_to_lin": 0.2974976686766051,
+            "MOS_sigmoid_to_std": -1.043704484909671
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/TearsOfSteelStatic_OracleVMAFViterbiQualityBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.6552501102880185,
+            "MOS_raw": 0.5009737937810997,
+            "MOS_sigmoid_to_lin": 0.6478037787892621,
+            "MOS_sigmoid_to_std": 0.965768079804784
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/MeridianConversation_SimpleThroughputBasedAdaptor_Trace_1.mp4",
+        "scores": {
+            "MOS_minmax": 0.797308690223104,
+            "MOS_raw": 1.036782527134128,
+            "MOS_sigmoid_to_lin": 0.7786226321053276,
+            "MOS_sigmoid_to_std": 1.716188609442414
+        }
+    },
+    {
+        "path": "LIVE-NFLX-II/Test/Sparks_VMAFViterbiQualityBasedAdaptor_Trace_5.mp4",
+        "scores": {
+            "MOS_minmax": 0.7880673054015187,
+            "MOS_raw": 1.0019263804800915,
+            "MOS_sigmoid_to_lin": 0.7712682540732766,
+            "MOS_sigmoid_to_std": 1.674001446674422
+        }
+    }
+]

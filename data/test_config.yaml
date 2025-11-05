@@ -1,0 +1,36 @@
+filters:
+  - field: path
+    condition: not_null
+
+output_format:
+  image:
+    type: get_field
+    field: path
+  
+  conversations:
+    type: template
+    template: '[{{"from": "human", "value": "What is the quality of this video?"}}, {{"from": "gpt", "value": "The video quality is {quality}. The MOS score is {score:.2f}."}}]'
+    variables:
+      quality:
+        type: map_field
+        field: scores/MOS_minmax
+        mapping:
+          - min: 0.0
+            max: 0.2
+            label: bad
+          - min: 0.2
+            max: 0.4
+            label: poor
+          - min: 0.4
+            max: 0.6
+            label: fair
+          - min: 0.6
+            max: 0.8
+            label: good
+          - min: 0.8
+            max: 1.0
+            label: excellent
+            inclusive_max: true
+      score:
+        type: get_field
+        field: scores/MOS_minmax
