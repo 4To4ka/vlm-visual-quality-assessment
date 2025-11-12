@@ -1,4 +1,3 @@
-
 import json
 import yaml
 from typing import Any, Dict, List, Union, Optional
@@ -267,6 +266,9 @@ class DataTransformer:
             if len(per_dataset_data) > 1:
                 self._plot_per_dataset_distributions(pdf, per_dataset_data)
 
+            # Detailed per-dataset, per-metric pages
+            self._plot_detailed_dataset_metrics(pdf, per_dataset_data)
+
             # Output label distributions (mapped from input)
             label_data = self._extract_mapped_labels(all_input_data)
             if label_data:
@@ -364,21 +366,136 @@ class DataTransformer:
                 axes[0].grid(True, alpha=0.3, axis='y')
                 axes[0].tick_params(axis='x', rotation=45)
 
-                # Overlaid histograms
+                # Overlaid KDE curves
                 colors = plt.cm.tab10(np.linspace(0, 1, len(box_data)))
-                for idx, (data, label) in enumerate(zip(box_data, labels)):
-                    axes[1].hist(data, bins=30, alpha=0.5, label=f'{label} (n={len(data)})',
-                               color=colors[idx], edgecolor='black')
+                try:
+                    from scipy import stats
+                    for idx, (data, label) in enumerate(zip(box_data, labels)):
+                        # Calculate KDE
+                        kde = stats.gaussian_kde(data)
+                        x_range = np.linspace(min(data), max(data), 200)
+                        kde_values = kde(x_range)
+                        # Plot KDE curve
+                        axes[1].plot(x_range, kde_values, linewidth=2.5, 
+                                   label=f'{label} (n={len(data)})',
+                                   color=colors[idx], alpha=0.8)
+                        # Fill under the curve
+                        axes[1].fill_between(x_range, kde_values, alpha=0.2, color=colors[idx])
+                except:
+                    # Fallback: if scipy not available, plot simple histograms
+                    for idx, (data, label) in enumerate(zip(box_data, labels)):
+                        axes[1].hist(data, bins=30, alpha=0.5, density=True,
+                                   label=f'{label} (n={len(data)})',
+                                   color=colors[idx], edgecolor='black')
 
                 axes[1].set_xlabel('Value', fontsize=10)
-                axes[1].set_ylabel('Frequency', fontsize=10)
-                axes[1].set_title('Distribution Overlay', fontsize=11)
+                axes[1].set_ylabel('Density', fontsize=10)
+                axes[1].set_title('KDE Overlay', fontsize=11)
                 axes[1].legend(fontsize=8, loc='best')
                 axes[1].grid(True, alpha=0.3)
 
             plt.tight_layout()
             pdf.savefig(fig, bbox_inches='tight')
             plt.close()
+
+    def _plot_detailed_dataset_metrics(self, pdf: PdfPages, per_dataset_data: Dict[str, List[Dict]]):
+        """
+        Plot detailed pages for each metric on each dataset.
+        Creates a summary page per dataset, then detailed pages for each metric.
+        Simplified to show only Histogram+KDE and Cumulative Distribution.
+        """
+        # Extract numeric fields from each dataset
+        dataset_fields = {}
+        for dataset_name, data in per_dataset_data.items():
+            dataset_fields[dataset_name] = self._extract_numeric_fields(data)
+
+        # For each dataset, create detailed pages for each metric
+        for dataset_name in sorted(per_dataset_data.keys()):
+            dataset_display_name = Path(dataset_name).stem
+            data = per_dataset_data[dataset_name]
+            fields = dataset_fields.get(dataset_name, {})
+
+            if not fields:
+                continue
+
+            # Create a summary page for this dataset
+            fig = plt.figure(figsize=(11, 8.5))
+            fig.suptitle(f'Dataset: {dataset_display_name}', fontsize=20, weight='bold', y=0.95)
+
+            y_pos = 0.75
+            fig.text(0.5, y_pos, f'Total Records: {len(data):,}', 
+                    ha='center', fontsize=16, weight='bold', color='#2E86AB')
+            y_pos -= 0.10
+
+            fig.text(0.5, y_pos, f'Numeric Metrics: {len(fields)}', 
+                    ha='center', fontsize=14, color='#A23B72')
+            y_pos -= 0.12
+
+            # List all metrics
+            fig.text(0.3, y_pos, 'Available Metrics:', fontsize=13, weight='bold')
+            y_pos -= 0.06
+            for field_name in sorted(fields.keys()):
+                fig.text(0.35, y_pos, f'• {field_name}', fontsize=12)
+                y_pos -= 0.045
+
+            plt.axis('off')
+            pdf.savefig(fig, bbox_inches='tight')
+            plt.close()
+
+            # Create detailed page for each metric (simplified to 1x2 layout)
+            for field_name in sorted(fields.keys()):
+                values = fields[field_name]
+
+                fig = plt.figure(figsize=(11, 5.5))
+                fig.suptitle(f'{dataset_display_name}: {field_name}', 
+                           fontsize=16, weight='bold', y=0.98)
+
+                # Create a 1x2 grid of plots (simplified)
+                gs = fig.add_gridspec(1, 2, hspace=0.25, wspace=0.3, 
+                                     left=0.1, right=0.95, top=0.88, bottom=0.12)
+
+                # 1. Histogram with KDE (left)
+                ax1 = fig.add_subplot(gs[0, 0])
+                n, bins, patches = ax1.hist(values, bins=50, alpha=0.7, color='steelblue', 
+                                            edgecolor='black', density=True)
+                try:
+                    from scipy import stats
+                    kde = stats.gaussian_kde(values)
+                    x_range = np.linspace(min(values), max(values), 200)
+                    ax1.plot(x_range, kde(x_range), 'r-', linewidth=2.5, label='KDE')
+                    ax1.legend(fontsize=10)
+                except:
+                    pass
+                ax1.set_xlabel('Value', fontsize=11)
+                ax1.set_ylabel('Density', fontsize=11)
+                ax1.set_title('Distribution (Histogram + KDE)', fontsize=13, weight='bold', pad=10)
+                ax1.grid(True, alpha=0.3, linestyle='--')
+
+                # Add basic stats to the plot
+                mean_val = np.mean(values)
+                std_val = np.std(values)
+                ax1.text(0.02, 0.98, f'n={len(values):,}\nμ={mean_val:.4f}\nσ={std_val:.4f}',
+                        transform=ax1.transAxes, va='top', fontsize=10,
+                        bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
+
+                # 2. Cumulative distribution (right)
+                ax3 = fig.add_subplot(gs[0, 1])
+                sorted_values = np.sort(values)
+                cumulative = np.arange(1, len(sorted_values) + 1) / len(sorted_values) * 100
+                ax3.plot(sorted_values, cumulative, linewidth=2.5, color='green')
+                ax3.fill_between(sorted_values, cumulative, alpha=0.3, color='green')
+                ax3.set_xlabel('Value', fontsize=11)
+                ax3.set_ylabel('Cumulative Percentage (%)', fontsize=11)
+                ax3.set_title('Cumulative Distribution Function', fontsize=13, weight='bold', pad=10)
+                ax3.grid(True, alpha=0.3, linestyle='--')
+                ax3.axhline(y=50, color='r', linestyle='--', linewidth=1.5, alpha=0.7, label='Median (50%)')
+                ax3.axhline(y=25, color='orange', linestyle='--', linewidth=1.5, alpha=0.7, label='Q1 (25%)')
+                ax3.axhline(y=75, color='orange', linestyle='--', linewidth=1.5, alpha=0.7, label='Q3 (75%)')
+                ax3.legend(fontsize=9, loc='lower right')
+                ax3.set_ylim([0, 105])
+
+                pdf.savefig(fig, bbox_inches='tight', dpi=100)
+                plt.close()
 
     def _plot_label_distributions(self, pdf: PdfPages, label_data: Dict[str, List[str]], 
                                   total_records: int):
@@ -560,13 +677,13 @@ def main():
         epilog="""
 Examples:
   # Basic transformation
-  python data_transformer.py -d input.json -c config.yaml -o output.json
+  python data_transformer_enhanced.py -d input.json -c config.yaml -o output.json
 
   # Multiple input files with report
-  python data_transformer.py -d data1.json -d data2.json -c config.yaml -o output.json --report
+  python data_transformer_enhanced.py -d data1.json -d data2.json -c config.yaml -o output.json --report
 
   # Custom report path
-  python data_transformer.py -d data.json -c config.yaml -o output.json --report my_report.pdf
+  python data_transformer_enhanced.py -d data.json -c config.yaml -o output.json --report my_report.pdf
         """
     )
 

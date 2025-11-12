@@ -33,4 +33,4 @@ output_format:
             inclusive_max: true
       score:
         type: get_field
-        field: scores/MOS_minmax
+        field: scores/MOS_sigmoid_to_lin
