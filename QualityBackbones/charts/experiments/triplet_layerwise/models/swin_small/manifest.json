@@ -1,0 +1,9 @@
+{
+  "model_key": "swin_small",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/swin_small/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

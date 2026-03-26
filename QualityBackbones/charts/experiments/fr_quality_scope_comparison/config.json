@@ -1,0 +1,15 @@
+{
+  "slug": "fr_quality_scope_comparison",
+  "title": "FR Quality: Within-Group vs Global Aggregation",
+  "kind": "quality_scope_comparison",
+  "slice_name": "fr",
+  "quality_report": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped_fr.json",
+  "quality_report_alt": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal.json",
+  "alignment_report": null,
+  "top_k": 12,
+  "exclude_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "depends_on": []
+}

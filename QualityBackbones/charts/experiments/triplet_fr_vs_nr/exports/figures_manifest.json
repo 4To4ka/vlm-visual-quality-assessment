@@ -1,0 +1,31 @@
+{
+  "experiment": "triplet_fr_vs_nr",
+  "style_profile": "research_charts_acmmm_2026",
+  "seed": 0,
+  "generated_at": "2026-03-22T06:07:57Z",
+  "git_commit": null,
+  "figures": [
+    {
+      "figure_id": "triplet_fr_vs_nr/triplet_fr_vs_nr_delta",
+      "title": "Triplet Fr Vs Nr Delta",
+      "inputs": {
+        "fr_manifest": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr/manifest.json",
+        "nr_manifest": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/manifest.json"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr_vs_nr/figures/paper/triplet_fr_vs_nr_delta.pdf"
+      },
+      "timestamp": "2026-03-22T06:07:56Z",
+      "git_commit": null,
+      "renderer": "triplet_fr_vs_nr_delta",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "layout": "dumbbell_plus_signed_lollipop",
+      "variant": "triplet",
+      "annotation_policy": "largest_gaps",
+      "review_priority": "high"
+    }
+  ]
+}

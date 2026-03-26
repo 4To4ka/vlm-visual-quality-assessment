@@ -1,0 +1,5 @@
+dataset	model_key	family	best_layer	best_layer_index	quality_score
+AGIQA-3K	internvit_6b_v25	InternViT	hidden_state_034	34	0.9980277795927631
+LIVEC	vit_mae_huge	MAE	hidden_state_025	25	0.996987062647815
+SPAQ	siglip_so400m	SigLIP	hidden_state_013	13	1.0
+koniq10k	internvit_6b_v25	InternViT	hidden_state_031	31	0.9984942247020431

@@ -1,0 +1,12 @@
+{
+  "depends_on": [
+    "overall",
+    "fr",
+    "nr"
+  ],
+  "slice_manifests": {
+    "overall": "/mnt/l/QualityBackbones/charts/experiments/overall/manifest.json",
+    "fr": "/mnt/l/QualityBackbones/charts/experiments/fr/manifest.json",
+    "nr": "/mnt/l/QualityBackbones/charts/experiments/nr/manifest.json"
+  }
+}

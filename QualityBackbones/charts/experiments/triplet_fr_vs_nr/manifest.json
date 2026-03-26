@@ -1,0 +1,18 @@
+{
+  "slug": "triplet_fr_vs_nr",
+  "title": "Triplet FR vs NR Differences",
+  "kind": "triplet_delta",
+  "depends_on": [
+    "triplet_fr",
+    "triplet_nr"
+  ],
+  "aggregates": {
+    "triplet_fr_nr_gap": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr_vs_nr/aggregates/paper/triplet_fr_nr_gap.tsv",
+    "triplet_full_table": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr_vs_nr/aggregates/supplementary/triplet_fr_nr_gap_full.tsv"
+  },
+  "figure_manifest": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr_vs_nr/exports/figures_manifest.json",
+  "figures": {
+    "triplet_fr_vs_nr_delta": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr_vs_nr/figures/paper/triplet_fr_vs_nr_delta.pdf",
+    "paper_bundle": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr_vs_nr/exports/paper_bundle.pdf"
+  }
+}

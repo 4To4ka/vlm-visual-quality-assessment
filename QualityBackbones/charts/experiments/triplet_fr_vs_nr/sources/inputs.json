@@ -1,0 +1,8 @@
+{
+  "depends_on": [
+    "triplet_fr",
+    "triplet_nr"
+  ],
+  "fr_manifest": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr/manifest.json",
+  "nr_manifest": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/manifest.json"
+}

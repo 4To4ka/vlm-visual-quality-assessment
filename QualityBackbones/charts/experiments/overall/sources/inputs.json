@@ -1,0 +1,10 @@
+{
+  "quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+  "alignment_source": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+  "slice": "overall",
+  "excluded_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "top_k": 10
+}

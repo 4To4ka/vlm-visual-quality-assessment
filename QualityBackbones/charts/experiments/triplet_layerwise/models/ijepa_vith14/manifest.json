@@ -1,0 +1,9 @@
+{
+  "model_key": "ijepa_vith14",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/ijepa_vith14/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

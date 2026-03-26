@@ -1,0 +1,6 @@
+# Ignore all files by default to keep build context minimal.
+**
+
+# Keep only Docker build recipe files.
+!Dockerfile
+!.dockerignore

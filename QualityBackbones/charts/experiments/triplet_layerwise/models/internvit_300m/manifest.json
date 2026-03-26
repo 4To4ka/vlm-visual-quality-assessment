@@ -1,0 +1,9 @@
+{
+  "model_key": "internvit_300m",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/internvit_300m/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

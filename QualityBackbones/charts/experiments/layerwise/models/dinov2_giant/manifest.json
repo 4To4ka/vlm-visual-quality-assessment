@@ -1,0 +1,9 @@
+{
+  "model_key": "dinov2_giant",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov2_giant/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

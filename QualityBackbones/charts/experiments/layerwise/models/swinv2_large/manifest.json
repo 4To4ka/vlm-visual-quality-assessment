@@ -1,0 +1,9 @@
+{
+  "model_key": "swinv2_large",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/swinv2_large/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

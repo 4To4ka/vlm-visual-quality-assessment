@@ -1,0 +1,9 @@
+{
+  "model_key": "vgg16_bn",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg16_bn/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

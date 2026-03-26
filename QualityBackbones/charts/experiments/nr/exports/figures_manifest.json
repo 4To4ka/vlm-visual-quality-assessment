@@ -1,0 +1,170 @@
+{
+  "experiment": "nr",
+  "style_profile": "research_charts_acmmm_2026",
+  "seed": 0,
+  "generated_at": "2026-03-22T04:50:29Z",
+  "git_commit": null,
+  "figures": [
+    {
+      "figure_id": "nr/quality_ranking",
+      "title": "Quality Ranking",
+      "inputs": {
+        "quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+        "alignment_source": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+        "slice": "nr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/nr/figures/paper/quality_ranking.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:27Z",
+      "git_commit": null,
+      "renderer": "quality_ranking",
+      "tier": "paper",
+      "preset": "paper_2col",
+      "layout": "lollipop_plus_layer_index",
+      "variant": "quality",
+      "annotation_policy": "top3_scores",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "nr/alignment_ranking",
+      "title": "Alignment Ranking",
+      "inputs": {
+        "quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+        "alignment_source": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+        "slice": "nr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/nr/figures/paper/alignment_ranking.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:27Z",
+      "git_commit": null,
+      "renderer": "alignment_ranking",
+      "tier": "paper",
+      "preset": "paper_2col",
+      "layout": "lollipop_plus_layer_index",
+      "variant": "alignment",
+      "annotation_policy": "top3_scores",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "nr/quality_vs_alignment",
+      "title": "Quality Vs Alignment",
+      "inputs": {
+        "quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+        "alignment_source": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+        "slice": "nr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/nr/figures/paper/quality_vs_alignment.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:28Z",
+      "git_commit": null,
+      "renderer": "quality_vs_alignment",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "layout": "scatter_plus_family_medians",
+      "variant": "pareto_tradeoff",
+      "annotation_policy": "frontier_plus_extremes",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "nr/quality_heatmap",
+      "title": "Quality Heatmap",
+      "inputs": {
+        "quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+        "alignment_source": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+        "slice": "nr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/nr/figures/supplementary/quality_heatmap.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:28Z",
+      "git_commit": null,
+      "renderer": "quality_heatmap",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "quality",
+      "annotation_policy": "column_maxima",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "nr/alignment_heatmap__arniqa_kadid10k",
+      "title": "Alignment to arniqa_kadid10k",
+      "inputs": {
+        "quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+        "alignment_source": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+        "slice": "nr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/nr/figures/supplementary/alignment_heatmap__arniqa_kadid10k.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:28Z",
+      "git_commit": null,
+      "renderer": "alignment_reference_heatmaps",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "reference_specific",
+      "annotation_policy": "none",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "nr/alignment_heatmap__maniqa_kadid10k",
+      "title": "Alignment to maniqa_kadid10k",
+      "inputs": {
+        "quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+        "alignment_source": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+        "slice": "nr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/nr/figures/supplementary/alignment_heatmap__maniqa_kadid10k.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:29Z",
+      "git_commit": null,
+      "renderer": "alignment_reference_heatmaps",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "reference_specific",
+      "annotation_policy": "none",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "nr/family_summary",
+      "title": "Family Summary",
+      "inputs": {
+        "quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+        "alignment_source": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+        "slice": "nr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/nr/figures/supplementary/family_summary.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:29Z",
+      "git_commit": null,
+      "renderer": "family_summary",
+      "tier": "supplementary",
+      "preset": "supp_tall",
+      "layout": "strip_plus_iqr",
+      "variant": "family_summary",
+      "annotation_policy": "none",
+      "review_priority": "medium"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "triplet_nr",
+  "title": "No-Reference Triplet Agreement",
+  "kind": "triplet_report",
+  "slice": "nr",
+  "sources": {
+    "triplet": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json"
+  },
+  "excluded_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "aggregates": {
+    "triplet_model_ranking": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/aggregates/paper/triplet_model_ranking.tsv",
+    "triplet_best_layers_by_dataset": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/aggregates/supplementary/triplet_best_layers_by_dataset.tsv",
+    "triplet_dataset_winners": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/aggregates/supplementary/triplet_dataset_winners.tsv",
+    "triplet_family_scores": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/aggregates/supplementary/triplet_family_scores.tsv",
+    "triplet_family_scores_by_dataset": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/aggregates/supplementary/triplet_family_scores_by_dataset.tsv",
+    "triplet_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/aggregates/supplementary/triplet_layer_profiles.tsv"
+  },
+  "figure_manifest": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/exports/figures_manifest.json",
+  "figures": {
+    "triplet_ranking": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/figures/paper/triplet_ranking.pdf",
+    "triplet_heatmap": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/figures/supplementary/triplet_heatmap.pdf",
+    "triplet_family_summary": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/figures/supplementary/triplet_family_summary.pdf",
+    "paper_bundle": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/exports/paper_bundle.pdf",
+    "supplementary_bundle": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/exports/supplementary_bundle.pdf"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "model_key": "fastvithd_7b",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvithd_7b/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

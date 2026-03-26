@@ -1,0 +1,9 @@
+{
+  "model_key": "clip_vit_l14_336",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/clip_vit_l14_336/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

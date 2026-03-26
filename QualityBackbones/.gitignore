@@ -1,0 +1,10 @@
+weights/
+outputs/
+logs/
+.opencode.json
+qualitybackbones.sqsh
+slurm-qb_loo_heads_multi-126551.out
+__pycache__/
+*.py[codz]
+*.nbi
+*.nbc

@@ -1,0 +1,13 @@
+{
+  "models_compared": 75,
+  "datasets_compared": 4,
+  "top_overlap_count": 0,
+  "top_overlap_models": [],
+  "spearman_rank": 0.24241820768136554,
+  "layer_changed_models": 71,
+  "mean_abs_delta_quality": 0.1424115566915266,
+  "max_abs_delta_quality": 0.5474556110344704,
+  "mean_abs_rank_delta": 21.866666666666667,
+  "largest_positive_model": "siglip2_base",
+  "largest_negative_model": "internvit_300m"
+}

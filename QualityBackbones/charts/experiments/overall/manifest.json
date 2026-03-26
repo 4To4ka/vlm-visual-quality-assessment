@@ -1,0 +1,46 @@
+{
+  "slug": "overall",
+  "title": "Overall Quality and Alignment",
+  "kind": "report",
+  "slice": "overall",
+  "sources": {
+    "quality": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+    "alignment": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json"
+  },
+  "excluded_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "aggregates": {
+    "quality_model_ranking": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/paper/quality_model_ranking.tsv",
+    "alignment_model_ranking": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/paper/alignment_model_ranking.tsv",
+    "quality_alignment_joint": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/paper/quality_alignment_joint.tsv",
+    "quality_best_layers_by_dataset": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/quality_best_layers_by_dataset.tsv",
+    "quality_dataset_winners": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/quality_dataset_winners.tsv",
+    "quality_selected_layer_flops": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/quality_selected_layer_flops.tsv",
+    "alignment_best_layers_by_dataset": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/alignment_best_layers_by_dataset.tsv",
+    "alignment_reference_ranking": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/alignment_reference_ranking.tsv",
+    "alignment_selected_layer_flops": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/alignment_selected_layer_flops.tsv",
+    "quality_family_scc_pcc": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/quality_family_scc_pcc.tsv",
+    "alignment_family_scc_pcc": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/alignment_family_scc_pcc.tsv",
+    "quality_family_scc_pcc_by_dataset": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/quality_family_scc_pcc_by_dataset.tsv",
+    "alignment_family_scc_pcc_by_dataset": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/alignment_family_scc_pcc_by_dataset.tsv",
+    "quality_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/quality_layer_profiles.tsv",
+    "alignment_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/alignment_layer_profiles.tsv",
+    "joint_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/overall/aggregates/supplementary/joint_layer_profiles.tsv"
+  },
+  "figure_manifest": "/mnt/l/QualityBackbones/charts/experiments/overall/exports/figures_manifest.json",
+  "figures": {
+    "quality_ranking": "/mnt/l/QualityBackbones/charts/experiments/overall/figures/paper/quality_ranking.pdf",
+    "alignment_ranking": "/mnt/l/QualityBackbones/charts/experiments/overall/figures/paper/alignment_ranking.pdf",
+    "quality_flops": "/mnt/l/QualityBackbones/charts/experiments/overall/figures/supplementary/quality_flops.pdf",
+    "alignment_flops": "/mnt/l/QualityBackbones/charts/experiments/overall/figures/supplementary/alignment_flops.pdf",
+    "quality_vs_alignment": "/mnt/l/QualityBackbones/charts/experiments/overall/figures/paper/quality_vs_alignment.pdf",
+    "quality_heatmap": "/mnt/l/QualityBackbones/charts/experiments/overall/figures/supplementary/quality_heatmap.pdf",
+    "alignment_heatmap__arniqa_kadid10k": "/mnt/l/QualityBackbones/charts/experiments/overall/figures/supplementary/alignment_heatmap__arniqa_kadid10k.pdf",
+    "alignment_heatmap__maniqa_kadid10k": "/mnt/l/QualityBackbones/charts/experiments/overall/figures/supplementary/alignment_heatmap__maniqa_kadid10k.pdf",
+    "family_summary": "/mnt/l/QualityBackbones/charts/experiments/overall/figures/supplementary/family_summary.pdf",
+    "paper_bundle": "/mnt/l/QualityBackbones/charts/experiments/overall/exports/paper_bundle.pdf",
+    "supplementary_bundle": "/mnt/l/QualityBackbones/charts/experiments/overall/exports/supplementary_bundle.pdf"
+  }
+}

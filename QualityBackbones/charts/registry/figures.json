@@ -1,0 +1,280 @@
+{
+  "report_experiment": [
+    {
+      "slug": "quality_ranking",
+      "renderer": "quality_ranking",
+      "tier": "paper",
+      "preset": "paper_2col",
+      "family": "ranking",
+      "layout": "lollipop_plus_layer_index",
+      "variant": "quality",
+      "annotation_policy": "top3_scores",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "alignment_ranking",
+      "renderer": "alignment_ranking",
+      "tier": "paper",
+      "preset": "paper_2col",
+      "family": "ranking",
+      "layout": "lollipop_plus_layer_index",
+      "variant": "alignment",
+      "annotation_policy": "top3_scores",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "quality_flops",
+      "renderer": "quality_flops",
+      "tier": "supplementary",
+      "preset": "paper_2col_tall",
+      "family": "tradeoff",
+      "layout": "stacked_ratio_bar_with_annotations",
+      "variant": "quality_selected_vs_full_flops",
+      "annotation_policy": "share_plus_absolute_flops",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "alignment_flops",
+      "renderer": "alignment_flops",
+      "tier": "supplementary",
+      "preset": "paper_2col_tall",
+      "family": "tradeoff",
+      "layout": "stacked_ratio_bar_with_annotations",
+      "variant": "alignment_selected_vs_full_flops",
+      "annotation_policy": "share_plus_absolute_flops",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "quality_vs_alignment",
+      "renderer": "quality_vs_alignment",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "family": "tradeoff",
+      "layout": "scatter_plus_family_medians",
+      "variant": "pareto_tradeoff",
+      "annotation_policy": "frontier_plus_extremes",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "quality_heatmap",
+      "renderer": "quality_heatmap",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "family": "heatmap",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "quality",
+      "annotation_policy": "column_maxima",
+      "export_formats": ["pdf"],
+      "review_priority": "medium"
+    },
+    {
+      "slug": "alignment_reference_heatmaps",
+      "renderer": "alignment_reference_heatmaps",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "family": "heatmap",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "reference_specific",
+      "annotation_policy": "none",
+      "export_formats": ["pdf"],
+      "review_priority": "medium"
+    },
+    {
+      "slug": "family_summary",
+      "renderer": "family_summary",
+      "tier": "supplementary",
+      "preset": "supp_tall",
+      "family": "distribution",
+      "layout": "strip_plus_iqr",
+      "variant": "family_summary",
+      "annotation_policy": "none",
+      "export_formats": ["pdf"],
+      "review_priority": "medium"
+    }
+  ],
+  "delta_experiment": [
+    {
+      "slug": "quality_fr_vs_nr_delta",
+      "renderer": "quality_fr_vs_nr_delta",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "family": "delta",
+      "layout": "dumbbell_plus_signed_lollipop",
+      "variant": "quality",
+      "annotation_policy": "largest_gaps",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "alignment_fr_vs_nr_delta",
+      "renderer": "alignment_fr_vs_nr_delta",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "family": "delta",
+      "layout": "dumbbell_plus_signed_lollipop",
+      "variant": "alignment",
+      "annotation_policy": "largest_gaps",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "joint_fr_vs_nr_shift",
+      "renderer": "joint_fr_vs_nr_shift",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "family": "delta",
+      "layout": "quadrant_scatter_plus_signed_lollipop",
+      "variant": "joint",
+      "annotation_policy": "largest_gaps",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    }
+  ],
+  "quality_scope_comparison_experiment": [
+    {
+      "slug": "quality_scope_gap",
+      "renderer": "quality_scope_gap",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "family": "comparison",
+      "layout": "dumbbell_plus_signed_lollipop",
+      "variant": "within_group_vs_global",
+      "annotation_policy": "largest_gaps",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "quality_scope_scatter",
+      "renderer": "quality_scope_scatter",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "family": "comparison",
+      "layout": "scatter_plus_family_shift",
+      "variant": "within_group_vs_global",
+      "annotation_policy": "largest_gaps",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "quality_scope_dataset_heatmap",
+      "renderer": "quality_scope_dataset_heatmap",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "family": "comparison",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "dataset_model_deltas",
+      "annotation_policy": "column_maxima",
+      "export_formats": ["pdf"],
+      "review_priority": "medium"
+    },
+    {
+      "slug": "quality_scope_family_shift",
+      "renderer": "quality_scope_family_shift",
+      "tier": "supplementary",
+      "preset": "supp_tall",
+      "family": "comparison",
+      "layout": "distribution_plus_bar",
+      "variant": "family_shift",
+      "annotation_policy": "none",
+      "export_formats": ["pdf"],
+      "review_priority": "medium"
+    }
+  ],
+  "layerwise_experiment": [
+    {
+      "slug": "model_layer_bundle",
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "family": "layerwise",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "export_formats": ["pdf"],
+      "review_priority": "medium"
+    }
+  ],
+  "triplet_experiment": [
+    {
+      "slug": "triplet_ranking",
+      "renderer": "triplet_ranking",
+      "tier": "paper",
+      "preset": "paper_2col",
+      "family": "ranking",
+      "layout": "lollipop_plus_layer_index",
+      "variant": "triplet",
+      "annotation_policy": "top3_scores",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "triplet_heatmap",
+      "renderer": "triplet_heatmap",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "family": "heatmap",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "triplet",
+      "annotation_policy": "column_maxima",
+      "export_formats": ["pdf"],
+      "review_priority": "medium"
+    },
+    {
+      "slug": "triplet_flops",
+      "renderer": "triplet_flops",
+      "tier": "supplementary",
+      "preset": "paper_2col_tall",
+      "family": "tradeoff",
+      "layout": "stacked_ratio_bar_with_annotations",
+      "variant": "triplet_selected_vs_full_flops",
+      "annotation_policy": "share_plus_absolute_flops",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    },
+    {
+      "slug": "triplet_family_summary",
+      "renderer": "triplet_family_summary",
+      "tier": "supplementary",
+      "preset": "supp_tall",
+      "family": "distribution",
+      "layout": "strip_plus_relative_layer_depth",
+      "variant": "triplet_family_summary",
+      "annotation_policy": "none",
+      "export_formats": ["pdf"],
+      "review_priority": "medium"
+    }
+  ],
+  "triplet_delta_experiment": [
+    {
+      "slug": "triplet_fr_vs_nr_delta",
+      "renderer": "triplet_fr_vs_nr_delta",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "family": "delta",
+      "layout": "dumbbell_plus_signed_lollipop",
+      "variant": "triplet",
+      "annotation_policy": "largest_gaps",
+      "export_formats": ["pdf"],
+      "review_priority": "high"
+    }
+  ],
+  "triplet_layerwise_experiment": [
+    {
+      "slug": "model_triplet_layer_bundle",
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "family": "layerwise",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "export_formats": ["pdf"],
+      "review_priority": "medium"
+    }
+  ]
+}

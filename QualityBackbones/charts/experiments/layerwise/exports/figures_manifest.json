@@ -1,0 +1,1959 @@
+{
+  "experiment": "layerwise",
+  "style_profile": "research_charts_acmmm_2026",
+  "seed": 0,
+  "generated_at": "2026-03-22T04:50:59Z",
+  "git_commit": null,
+  "figures": [
+    {
+      "figure_id": "layerwise/clip_vit_b16_layerwise_bundle",
+      "title": "clip_vit_b16 layerwise bundle",
+      "inputs": {
+        "model_key": "clip_vit_b16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/clip_vit_b16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:33Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/clip_vit_b32_layerwise_bundle",
+      "title": "clip_vit_b32 layerwise bundle",
+      "inputs": {
+        "model_key": "clip_vit_b32",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/clip_vit_b32/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:33Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/clip_vit_l14_layerwise_bundle",
+      "title": "clip_vit_l14 layerwise bundle",
+      "inputs": {
+        "model_key": "clip_vit_l14",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/clip_vit_l14/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:33Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/clip_vit_l14_336_layerwise_bundle",
+      "title": "clip_vit_l14_336 layerwise bundle",
+      "inputs": {
+        "model_key": "clip_vit_l14_336",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/clip_vit_l14_336/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:34Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/convnext_base_layerwise_bundle",
+      "title": "convnext_base layerwise bundle",
+      "inputs": {
+        "model_key": "convnext_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/convnext_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:34Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/convnext_large_layerwise_bundle",
+      "title": "convnext_large layerwise bundle",
+      "inputs": {
+        "model_key": "convnext_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/convnext_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:34Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/convnext_small_layerwise_bundle",
+      "title": "convnext_small layerwise bundle",
+      "inputs": {
+        "model_key": "convnext_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/convnext_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:35Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/convnext_tiny_layerwise_bundle",
+      "title": "convnext_tiny layerwise bundle",
+      "inputs": {
+        "model_key": "convnext_tiny",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/convnext_tiny/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:35Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dino_vitb16_layerwise_bundle",
+      "title": "dino_vitb16 layerwise bundle",
+      "inputs": {
+        "model_key": "dino_vitb16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dino_vitb16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:35Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dino_vitb8_layerwise_bundle",
+      "title": "dino_vitb8 layerwise bundle",
+      "inputs": {
+        "model_key": "dino_vitb8",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dino_vitb8/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:35Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dino_vits16_layerwise_bundle",
+      "title": "dino_vits16 layerwise bundle",
+      "inputs": {
+        "model_key": "dino_vits16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dino_vits16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:36Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dino_vits8_layerwise_bundle",
+      "title": "dino_vits8 layerwise bundle",
+      "inputs": {
+        "model_key": "dino_vits8",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dino_vits8/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:36Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov2_base_layerwise_bundle",
+      "title": "dinov2_base layerwise bundle",
+      "inputs": {
+        "model_key": "dinov2_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov2_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:36Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov2_giant_layerwise_bundle",
+      "title": "dinov2_giant layerwise bundle",
+      "inputs": {
+        "model_key": "dinov2_giant",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov2_giant/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:37Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov2_large_layerwise_bundle",
+      "title": "dinov2_large layerwise bundle",
+      "inputs": {
+        "model_key": "dinov2_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov2_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:37Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov2_small_layerwise_bundle",
+      "title": "dinov2_small layerwise bundle",
+      "inputs": {
+        "model_key": "dinov2_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov2_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:38Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov3_vit7b16_layerwise_bundle",
+      "title": "dinov3_vit7b16 layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vit7b16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov3_vit7b16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:38Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov3_vitb16_layerwise_bundle",
+      "title": "dinov3_vitb16 layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vitb16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov3_vitb16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:38Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov3_vith16plus_layerwise_bundle",
+      "title": "dinov3_vith16plus layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vith16plus",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov3_vith16plus/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:39Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov3_vitl16_layerwise_bundle",
+      "title": "dinov3_vitl16 layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vitl16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov3_vitl16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:39Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov3_vits16_layerwise_bundle",
+      "title": "dinov3_vits16 layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vits16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov3_vits16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:39Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/dinov3_vits16plus_layerwise_bundle",
+      "title": "dinov3_vits16plus layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vits16plus",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov3_vits16plus/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:40Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvit_ma36_layerwise_bundle",
+      "title": "fastvit_ma36 layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_ma36",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvit_ma36/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:40Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvit_s12_layerwise_bundle",
+      "title": "fastvit_s12 layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_s12",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvit_s12/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:40Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvit_sa12_layerwise_bundle",
+      "title": "fastvit_sa12 layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_sa12",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvit_sa12/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:41Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvit_sa24_layerwise_bundle",
+      "title": "fastvit_sa24 layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_sa24",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvit_sa24/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:41Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvit_sa36_layerwise_bundle",
+      "title": "fastvit_sa36 layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_sa36",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvit_sa36/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:41Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvit_t12_layerwise_bundle",
+      "title": "fastvit_t12 layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_t12",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvit_t12/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:42Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvit_t8_layerwise_bundle",
+      "title": "fastvit_t8 layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_t8",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvit_t8/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:42Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvithd_05b_layerwise_bundle",
+      "title": "fastvithd_05b layerwise bundle",
+      "inputs": {
+        "model_key": "fastvithd_05b",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvithd_05b/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:42Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvithd_15b_layerwise_bundle",
+      "title": "fastvithd_15b layerwise bundle",
+      "inputs": {
+        "model_key": "fastvithd_15b",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvithd_15b/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:43Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/fastvithd_7b_layerwise_bundle",
+      "title": "fastvithd_7b layerwise bundle",
+      "inputs": {
+        "model_key": "fastvithd_7b",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvithd_7b/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:43Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/ijepa_vith14_layerwise_bundle",
+      "title": "ijepa_vith14 layerwise bundle",
+      "inputs": {
+        "model_key": "ijepa_vith14",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/ijepa_vith14/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:43Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/internvit_300m_layerwise_bundle",
+      "title": "internvit_300m layerwise bundle",
+      "inputs": {
+        "model_key": "internvit_300m",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/internvit_300m/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:44Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/internvit_300m_v25_layerwise_bundle",
+      "title": "internvit_300m_v25 layerwise bundle",
+      "inputs": {
+        "model_key": "internvit_300m_v25",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/internvit_300m_v25/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:44Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/internvit_6b_v25_layerwise_bundle",
+      "title": "internvit_6b_v25 layerwise bundle",
+      "inputs": {
+        "model_key": "internvit_6b_v25",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/internvit_6b_v25/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:44Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/resnet101_layerwise_bundle",
+      "title": "resnet101 layerwise bundle",
+      "inputs": {
+        "model_key": "resnet101",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/resnet101/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:45Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/resnet152_layerwise_bundle",
+      "title": "resnet152 layerwise bundle",
+      "inputs": {
+        "model_key": "resnet152",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/resnet152/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:45Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/resnet18_layerwise_bundle",
+      "title": "resnet18 layerwise bundle",
+      "inputs": {
+        "model_key": "resnet18",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/resnet18/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:46Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/resnet34_layerwise_bundle",
+      "title": "resnet34 layerwise bundle",
+      "inputs": {
+        "model_key": "resnet34",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/resnet34/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:46Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/resnet50_layerwise_bundle",
+      "title": "resnet50 layerwise bundle",
+      "inputs": {
+        "model_key": "resnet50",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/resnet50/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:46Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/resnext101_32x8d_layerwise_bundle",
+      "title": "resnext101_32x8d layerwise bundle",
+      "inputs": {
+        "model_key": "resnext101_32x8d",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/resnext101_32x8d/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:47Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/resnext50_32x4d_layerwise_bundle",
+      "title": "resnext50_32x4d layerwise bundle",
+      "inputs": {
+        "model_key": "resnext50_32x4d",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/resnext50_32x4d/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:47Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/siglip2_base_layerwise_bundle",
+      "title": "siglip2_base layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/siglip2_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:47Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/siglip2_base_naflex_layerwise_bundle",
+      "title": "siglip2_base_naflex layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_base_naflex",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/siglip2_base_naflex/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:48Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/siglip2_large_layerwise_bundle",
+      "title": "siglip2_large layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/siglip2_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:48Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/siglip2_so400m_layerwise_bundle",
+      "title": "siglip2_so400m layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_so400m",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/siglip2_so400m/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:48Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/siglip2_so400m_naflex_layerwise_bundle",
+      "title": "siglip2_so400m_naflex layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_so400m_naflex",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/siglip2_so400m_naflex/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:49Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/siglip_base_layerwise_bundle",
+      "title": "siglip_base layerwise bundle",
+      "inputs": {
+        "model_key": "siglip_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/siglip_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:49Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/siglip_large_layerwise_bundle",
+      "title": "siglip_large layerwise bundle",
+      "inputs": {
+        "model_key": "siglip_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/siglip_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:50Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/siglip_so400m_layerwise_bundle",
+      "title": "siglip_so400m layerwise bundle",
+      "inputs": {
+        "model_key": "siglip_so400m",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/siglip_so400m/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:50Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/swin_base_layerwise_bundle",
+      "title": "swin_base layerwise bundle",
+      "inputs": {
+        "model_key": "swin_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/swin_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:50Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/swin_large_layerwise_bundle",
+      "title": "swin_large layerwise bundle",
+      "inputs": {
+        "model_key": "swin_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/swin_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:51Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/swin_small_layerwise_bundle",
+      "title": "swin_small layerwise bundle",
+      "inputs": {
+        "model_key": "swin_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/swin_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:51Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/swin_tiny_layerwise_bundle",
+      "title": "swin_tiny layerwise bundle",
+      "inputs": {
+        "model_key": "swin_tiny",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/swin_tiny/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:51Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/swinv2_base_layerwise_bundle",
+      "title": "swinv2_base layerwise bundle",
+      "inputs": {
+        "model_key": "swinv2_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/swinv2_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:52Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/swinv2_large_layerwise_bundle",
+      "title": "swinv2_large layerwise bundle",
+      "inputs": {
+        "model_key": "swinv2_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/swinv2_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:52Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/swinv2_small_layerwise_bundle",
+      "title": "swinv2_small layerwise bundle",
+      "inputs": {
+        "model_key": "swinv2_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/swinv2_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:52Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/swinv2_tiny_layerwise_bundle",
+      "title": "swinv2_tiny layerwise bundle",
+      "inputs": {
+        "model_key": "swinv2_tiny",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/swinv2_tiny/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:53Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vgg11_layerwise_bundle",
+      "title": "vgg11 layerwise bundle",
+      "inputs": {
+        "model_key": "vgg11",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg11/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:53Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vgg11_bn_layerwise_bundle",
+      "title": "vgg11_bn layerwise bundle",
+      "inputs": {
+        "model_key": "vgg11_bn",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg11_bn/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:53Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vgg13_layerwise_bundle",
+      "title": "vgg13 layerwise bundle",
+      "inputs": {
+        "model_key": "vgg13",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg13/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:54Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vgg13_bn_layerwise_bundle",
+      "title": "vgg13_bn layerwise bundle",
+      "inputs": {
+        "model_key": "vgg13_bn",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg13_bn/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:54Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vgg16_layerwise_bundle",
+      "title": "vgg16 layerwise bundle",
+      "inputs": {
+        "model_key": "vgg16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:55Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vgg16_bn_layerwise_bundle",
+      "title": "vgg16_bn layerwise bundle",
+      "inputs": {
+        "model_key": "vgg16_bn",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg16_bn/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:55Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vgg19_layerwise_bundle",
+      "title": "vgg19 layerwise bundle",
+      "inputs": {
+        "model_key": "vgg19",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg19/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:55Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vgg19_bn_layerwise_bundle",
+      "title": "vgg19_bn layerwise bundle",
+      "inputs": {
+        "model_key": "vgg19_bn",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg19_bn/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:56Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vit_base_layerwise_bundle",
+      "title": "vit_base layerwise bundle",
+      "inputs": {
+        "model_key": "vit_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:56Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vit_huge_layerwise_bundle",
+      "title": "vit_huge layerwise bundle",
+      "inputs": {
+        "model_key": "vit_huge",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_huge/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:56Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vit_large_layerwise_bundle",
+      "title": "vit_large layerwise bundle",
+      "inputs": {
+        "model_key": "vit_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:57Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vit_mae_base_layerwise_bundle",
+      "title": "vit_mae_base layerwise bundle",
+      "inputs": {
+        "model_key": "vit_mae_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_mae_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:57Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vit_mae_huge_layerwise_bundle",
+      "title": "vit_mae_huge layerwise bundle",
+      "inputs": {
+        "model_key": "vit_mae_huge",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_mae_huge/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:58Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vit_mae_large_layerwise_bundle",
+      "title": "vit_mae_large layerwise bundle",
+      "inputs": {
+        "model_key": "vit_mae_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_mae_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:58Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vit_small_layerwise_bundle",
+      "title": "vit_small layerwise bundle",
+      "inputs": {
+        "model_key": "vit_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:58Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "layerwise/vit_tiny_layerwise_bundle",
+      "title": "vit_tiny layerwise bundle",
+      "inputs": {
+        "model_key": "vit_tiny",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_tiny/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:59Z",
+      "git_commit": null,
+      "renderer": "model_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x3_bundle_with_shared_colorbar",
+      "variant": "quality_alignment_joint",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    }
+  ]
+}

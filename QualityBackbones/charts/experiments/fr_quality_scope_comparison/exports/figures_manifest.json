@@ -1,0 +1,101 @@
+{
+  "experiment": "fr_quality_scope_comparison",
+  "style_profile": "research_charts_acmmm_2026",
+  "seed": 0,
+  "generated_at": "2026-03-22T04:50:32Z",
+  "git_commit": null,
+  "figures": [
+    {
+      "figure_id": "fr_quality_scope_comparison/quality_scope_gap",
+      "title": "Quality Scope Gap",
+      "inputs": {
+        "correct_quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped_fr.json",
+        "wrong_quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal.json",
+        "slice": "fr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/figures/paper/quality_scope_gap.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:31Z",
+      "git_commit": null,
+      "renderer": "quality_scope_gap",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "layout": "dumbbell_plus_signed_lollipop",
+      "variant": "within_group_vs_global",
+      "annotation_policy": "largest_gaps",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "fr_quality_scope_comparison/quality_scope_scatter",
+      "title": "Quality Scope Scatter",
+      "inputs": {
+        "correct_quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped_fr.json",
+        "wrong_quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal.json",
+        "slice": "fr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/figures/paper/quality_scope_scatter.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:32Z",
+      "git_commit": null,
+      "renderer": "quality_scope_scatter",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "layout": "scatter_plus_family_shift",
+      "variant": "within_group_vs_global",
+      "annotation_policy": "largest_gaps",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "fr_quality_scope_comparison/quality_scope_dataset_heatmap",
+      "title": "Quality Scope Dataset Heatmap",
+      "inputs": {
+        "correct_quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped_fr.json",
+        "wrong_quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal.json",
+        "slice": "fr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/figures/supplementary/quality_scope_dataset_heatmap.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:32Z",
+      "git_commit": null,
+      "renderer": "quality_scope_dataset_heatmap",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "dataset_model_deltas",
+      "annotation_policy": "column_maxima",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "fr_quality_scope_comparison/quality_scope_family_shift",
+      "title": "Quality Scope Family Shift",
+      "inputs": {
+        "correct_quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped_fr.json",
+        "wrong_quality_source": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal.json",
+        "slice": "fr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/figures/supplementary/quality_scope_family_shift.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:32Z",
+      "git_commit": null,
+      "renderer": "quality_scope_family_shift",
+      "tier": "supplementary",
+      "preset": "supp_tall",
+      "layout": "distribution_plus_bar",
+      "variant": "family_shift",
+      "annotation_policy": "none",
+      "review_priority": "medium"
+    }
+  ]
+}

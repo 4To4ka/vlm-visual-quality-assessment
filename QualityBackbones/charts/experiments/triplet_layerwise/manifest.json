@@ -1,0 +1,21 @@
+{
+  "slug": "triplet_layerwise",
+  "title": "Triplet Layerwise Model Bundles",
+  "kind": "triplet_layerwise",
+  "depends_on": [
+    "triplet_overall",
+    "triplet_fr",
+    "triplet_nr"
+  ],
+  "model_count": 75,
+  "aggregates": {
+    "overall_triplet_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/aggregates/supplementary/overall_triplet_layer_profiles.tsv",
+    "overall_triplet_best_layers": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/aggregates/supplementary/overall_triplet_best_layers.tsv",
+    "fr_triplet_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/aggregates/supplementary/fr_triplet_layer_profiles.tsv",
+    "fr_triplet_best_layers": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/aggregates/supplementary/fr_triplet_best_layers.tsv",
+    "nr_triplet_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/aggregates/supplementary/nr_triplet_layer_profiles.tsv",
+    "nr_triplet_best_layers": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/aggregates/supplementary/nr_triplet_best_layers.tsv",
+    "model_index": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/exports/model_index.tsv"
+  },
+  "figure_manifest": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/exports/figures_manifest.json"
+}

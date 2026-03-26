@@ -1,0 +1,75 @@
+{
+  "experiment": "fr_vs_nr",
+  "style_profile": "research_charts_acmmm_2026",
+  "seed": 0,
+  "generated_at": "2026-03-22T04:50:30Z",
+  "git_commit": null,
+  "figures": [
+    {
+      "figure_id": "fr_vs_nr/quality_fr_vs_nr_delta",
+      "title": "Quality Fr Vs Nr Delta",
+      "inputs": {
+        "fr_manifest": "/mnt/l/QualityBackbones/charts/experiments/fr/manifest.json",
+        "nr_manifest": "/mnt/l/QualityBackbones/charts/experiments/nr/manifest.json"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/figures/paper/quality_fr_vs_nr_delta.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:29Z",
+      "git_commit": null,
+      "renderer": "quality_fr_vs_nr_delta",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "layout": "dumbbell_plus_signed_lollipop",
+      "variant": "quality",
+      "annotation_policy": "largest_gaps",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "fr_vs_nr/alignment_fr_vs_nr_delta",
+      "title": "Alignment Fr Vs Nr Delta",
+      "inputs": {
+        "fr_manifest": "/mnt/l/QualityBackbones/charts/experiments/fr/manifest.json",
+        "nr_manifest": "/mnt/l/QualityBackbones/charts/experiments/nr/manifest.json"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/figures/paper/alignment_fr_vs_nr_delta.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:30Z",
+      "git_commit": null,
+      "renderer": "alignment_fr_vs_nr_delta",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "layout": "dumbbell_plus_signed_lollipop",
+      "variant": "alignment",
+      "annotation_policy": "largest_gaps",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "fr_vs_nr/joint_fr_vs_nr_shift",
+      "title": "Joint Fr Vs Nr Shift",
+      "inputs": {
+        "fr_manifest": "/mnt/l/QualityBackbones/charts/experiments/fr/manifest.json",
+        "nr_manifest": "/mnt/l/QualityBackbones/charts/experiments/nr/manifest.json"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/figures/paper/joint_fr_vs_nr_shift.pdf"
+      },
+      "timestamp": "2026-03-22T04:50:30Z",
+      "git_commit": null,
+      "renderer": "joint_fr_vs_nr_shift",
+      "tier": "paper",
+      "preset": "paper_2col_tall",
+      "layout": "quadrant_scatter_plus_signed_lollipop",
+      "variant": "joint",
+      "annotation_policy": "largest_gaps",
+      "review_priority": "high"
+    }
+  ]
+}

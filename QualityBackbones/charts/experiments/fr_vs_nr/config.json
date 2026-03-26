@@ -1,0 +1,18 @@
+{
+  "slug": "fr_vs_nr",
+  "title": "FR vs NR Differences",
+  "kind": "delta",
+  "slice_name": null,
+  "quality_report": null,
+  "quality_report_alt": null,
+  "alignment_report": null,
+  "top_k": 10,
+  "exclude_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "depends_on": [
+    "fr",
+    "nr"
+  ]
+}

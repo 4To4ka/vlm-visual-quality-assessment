@@ -1,0 +1,134 @@
+{
+  "experiments": [
+    {
+      "slug": "overall",
+      "title": "Overall Quality and Alignment",
+      "kind": "report",
+      "slice": "overall",
+      "quality_report": "outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+      "quality_report_alt": null,
+      "alignment_report": "outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+      "top_k": 10,
+      "exclude_families": ["ARNIQA", "MANIQA"]
+    },
+    {
+      "slug": "fr",
+      "title": "Full-Reference Quality and Alignment",
+      "kind": "report",
+      "slice": "fr",
+      "quality_report": "outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+      "quality_report_alt": null,
+      "alignment_report": "outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+      "top_k": 10,
+      "exclude_families": ["ARNIQA", "MANIQA"]
+    },
+    {
+      "slug": "nr",
+      "title": "No-Reference Quality and Alignment",
+      "kind": "report",
+      "slice": "nr",
+      "quality_report": "outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+      "quality_report_alt": null,
+      "alignment_report": "outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+      "top_k": 10,
+      "exclude_families": ["ARNIQA", "MANIQA"]
+    },
+    {
+      "slug": "fr_quality_scope_comparison",
+      "title": "FR Quality: Within-Group vs Global Aggregation",
+      "kind": "quality_scope_comparison",
+      "slice": "fr",
+      "quality_report": "outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped_fr.json",
+      "quality_report_alt": "outputs/embedding_quality_runs/stage1_without_flive_pipal.json",
+      "alignment_report": null,
+      "top_k": 12,
+      "exclude_families": ["ARNIQA", "MANIQA"]
+    },
+    {
+      "slug": "fr_vs_nr",
+      "title": "FR vs NR Differences",
+      "kind": "delta",
+      "slice": null,
+      "quality_report": null,
+      "quality_report_alt": null,
+      "alignment_report": null,
+      "top_k": 10,
+      "exclude_families": ["ARNIQA", "MANIQA"],
+      "depends_on": ["fr", "nr"]
+    },
+    {
+      "slug": "layerwise",
+      "title": "Layerwise Model Bundles",
+      "kind": "layerwise",
+      "slice": null,
+      "quality_report": null,
+      "quality_report_alt": null,
+      "alignment_report": null,
+      "top_k": 10,
+      "exclude_families": ["ARNIQA", "MANIQA"],
+      "depends_on": ["overall", "fr", "nr"]
+    },
+    {
+      "slug": "triplet_overall",
+      "title": "Overall Triplet Agreement",
+      "kind": "triplet_report",
+      "slice": "overall",
+      "quality_report": null,
+      "quality_report_alt": null,
+      "alignment_report": null,
+      "triplet_report": "outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+      "top_k": 12,
+      "exclude_families": ["ARNIQA", "MANIQA"]
+    },
+    {
+      "slug": "triplet_fr",
+      "title": "Full-Reference Triplet Agreement",
+      "kind": "triplet_report",
+      "slice": "fr",
+      "quality_report": null,
+      "quality_report_alt": null,
+      "alignment_report": null,
+      "triplet_report": "outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+      "top_k": 12,
+      "exclude_families": ["ARNIQA", "MANIQA"]
+    },
+    {
+      "slug": "triplet_nr",
+      "title": "No-Reference Triplet Agreement",
+      "kind": "triplet_report",
+      "slice": "nr",
+      "quality_report": null,
+      "quality_report_alt": null,
+      "alignment_report": null,
+      "triplet_report": "outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+      "top_k": 12,
+      "exclude_families": ["ARNIQA", "MANIQA"]
+    },
+    {
+      "slug": "triplet_fr_vs_nr",
+      "title": "Triplet FR vs NR Differences",
+      "kind": "triplet_delta",
+      "slice": null,
+      "quality_report": null,
+      "quality_report_alt": null,
+      "alignment_report": null,
+      "triplet_report": null,
+      "top_k": 12,
+      "exclude_families": ["ARNIQA", "MANIQA"],
+      "depends_on": ["triplet_fr", "triplet_nr"]
+    },
+    {
+      "slug": "triplet_layerwise",
+      "title": "Triplet Layerwise Model Bundles",
+      "kind": "triplet_layerwise",
+      "slice": null,
+      "quality_report": null,
+      "quality_report_alt": null,
+      "alignment_report": null,
+      "triplet_report": null,
+      "top_k": 12,
+      "exclude_families": ["ARNIQA", "MANIQA"],
+      "depends_on": ["triplet_overall", "triplet_fr", "triplet_nr"]
+    }
+  ]
+}

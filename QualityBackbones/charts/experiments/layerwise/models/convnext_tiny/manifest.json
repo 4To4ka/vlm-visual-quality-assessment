@@ -1,0 +1,9 @@
+{
+  "model_key": "convnext_tiny",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/convnext_tiny/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

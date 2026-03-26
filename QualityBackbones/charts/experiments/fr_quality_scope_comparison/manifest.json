@@ -1,0 +1,48 @@
+{
+  "slug": "fr_quality_scope_comparison",
+  "title": "FR Quality: Within-Group vs Global Aggregation",
+  "kind": "quality_scope_comparison",
+  "slice": "fr",
+  "sources": {
+    "correct_quality": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped_fr.json",
+    "wrong_quality": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal.json"
+  },
+  "comparison": {
+    "correct_label": "within_group",
+    "wrong_label": "global"
+  },
+  "excluded_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "summary_metrics": {
+    "models_compared": 75,
+    "datasets_compared": 4,
+    "top_overlap_count": 0,
+    "top_overlap_models": [],
+    "spearman_rank": 0.24241820768136554,
+    "layer_changed_models": 71,
+    "mean_abs_delta_quality": 0.1424115566915266,
+    "max_abs_delta_quality": 0.5474556110344704,
+    "mean_abs_rank_delta": 21.866666666666667,
+    "largest_positive_model": "siglip2_base",
+    "largest_negative_model": "internvit_300m"
+  },
+  "aggregates": {
+    "model_comparison": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/aggregates/paper/quality_scope_model_comparison.tsv",
+    "dataset_summary": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/aggregates/paper/quality_scope_dataset_summary.tsv",
+    "dataset_model_comparison": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/aggregates/supplementary/quality_scope_dataset_model_comparison.tsv",
+    "family_shift": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/aggregates/supplementary/quality_scope_family_shift.tsv",
+    "layer_changes": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/aggregates/supplementary/quality_scope_layer_changes.tsv",
+    "summary_metrics": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/aggregates/paper/quality_scope_summary.json"
+  },
+  "figure_manifest": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/exports/figures_manifest.json",
+  "figures": {
+    "quality_scope_gap": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/figures/paper/quality_scope_gap.pdf",
+    "quality_scope_scatter": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/figures/paper/quality_scope_scatter.pdf",
+    "quality_scope_dataset_heatmap": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/figures/supplementary/quality_scope_dataset_heatmap.pdf",
+    "quality_scope_family_shift": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/figures/supplementary/quality_scope_family_shift.pdf",
+    "paper_bundle": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/exports/paper_bundle.pdf",
+    "supplementary_bundle": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/exports/supplementary_bundle.pdf"
+  }
+}

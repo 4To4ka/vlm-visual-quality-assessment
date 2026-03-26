@@ -1,0 +1,1959 @@
+{
+  "experiment": "triplet_layerwise",
+  "style_profile": "research_charts_acmmm_2026",
+  "seed": 0,
+  "generated_at": "2026-03-22T06:08:29Z",
+  "git_commit": null,
+  "figures": [
+    {
+      "figure_id": "triplet_layerwise/clip_vit_b16_triplet_layerwise_bundle",
+      "title": "clip_vit_b16 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "clip_vit_b16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/clip_vit_b16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:07:57Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/clip_vit_b32_triplet_layerwise_bundle",
+      "title": "clip_vit_b32 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "clip_vit_b32",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/clip_vit_b32/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:07:58Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/clip_vit_l14_triplet_layerwise_bundle",
+      "title": "clip_vit_l14 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "clip_vit_l14",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/clip_vit_l14/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:07:58Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/clip_vit_l14_336_triplet_layerwise_bundle",
+      "title": "clip_vit_l14_336 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "clip_vit_l14_336",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/clip_vit_l14_336/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:07:59Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/convnext_base_triplet_layerwise_bundle",
+      "title": "convnext_base triplet layerwise bundle",
+      "inputs": {
+        "model_key": "convnext_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/convnext_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:07:59Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/convnext_large_triplet_layerwise_bundle",
+      "title": "convnext_large triplet layerwise bundle",
+      "inputs": {
+        "model_key": "convnext_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/convnext_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:00Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/convnext_small_triplet_layerwise_bundle",
+      "title": "convnext_small triplet layerwise bundle",
+      "inputs": {
+        "model_key": "convnext_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/convnext_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:00Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/convnext_tiny_triplet_layerwise_bundle",
+      "title": "convnext_tiny triplet layerwise bundle",
+      "inputs": {
+        "model_key": "convnext_tiny",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/convnext_tiny/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:01Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dino_vitb16_triplet_layerwise_bundle",
+      "title": "dino_vitb16 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dino_vitb16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dino_vitb16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:01Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dino_vitb8_triplet_layerwise_bundle",
+      "title": "dino_vitb8 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dino_vitb8",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dino_vitb8/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:01Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dino_vits16_triplet_layerwise_bundle",
+      "title": "dino_vits16 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dino_vits16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dino_vits16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:02Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dino_vits8_triplet_layerwise_bundle",
+      "title": "dino_vits8 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dino_vits8",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dino_vits8/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:02Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov2_base_triplet_layerwise_bundle",
+      "title": "dinov2_base triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov2_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov2_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:03Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov2_giant_triplet_layerwise_bundle",
+      "title": "dinov2_giant triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov2_giant",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov2_giant/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:03Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov2_large_triplet_layerwise_bundle",
+      "title": "dinov2_large triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov2_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov2_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:04Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov2_small_triplet_layerwise_bundle",
+      "title": "dinov2_small triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov2_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov2_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:04Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov3_vit7b16_triplet_layerwise_bundle",
+      "title": "dinov3_vit7b16 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vit7b16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov3_vit7b16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:05Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov3_vitb16_triplet_layerwise_bundle",
+      "title": "dinov3_vitb16 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vitb16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov3_vitb16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:05Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov3_vith16plus_triplet_layerwise_bundle",
+      "title": "dinov3_vith16plus triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vith16plus",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov3_vith16plus/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:05Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov3_vitl16_triplet_layerwise_bundle",
+      "title": "dinov3_vitl16 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vitl16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov3_vitl16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:06Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov3_vits16_triplet_layerwise_bundle",
+      "title": "dinov3_vits16 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vits16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov3_vits16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:06Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/dinov3_vits16plus_triplet_layerwise_bundle",
+      "title": "dinov3_vits16plus triplet layerwise bundle",
+      "inputs": {
+        "model_key": "dinov3_vits16plus",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/dinov3_vits16plus/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:07Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvit_ma36_triplet_layerwise_bundle",
+      "title": "fastvit_ma36 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_ma36",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvit_ma36/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:07Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvit_s12_triplet_layerwise_bundle",
+      "title": "fastvit_s12 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_s12",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvit_s12/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:08Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvit_sa12_triplet_layerwise_bundle",
+      "title": "fastvit_sa12 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_sa12",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvit_sa12/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:08Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvit_sa24_triplet_layerwise_bundle",
+      "title": "fastvit_sa24 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_sa24",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvit_sa24/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:08Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvit_sa36_triplet_layerwise_bundle",
+      "title": "fastvit_sa36 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_sa36",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvit_sa36/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:09Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvit_t12_triplet_layerwise_bundle",
+      "title": "fastvit_t12 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_t12",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvit_t12/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:09Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvit_t8_triplet_layerwise_bundle",
+      "title": "fastvit_t8 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvit_t8",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvit_t8/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:10Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvithd_05b_triplet_layerwise_bundle",
+      "title": "fastvithd_05b triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvithd_05b",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvithd_05b/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:10Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvithd_15b_triplet_layerwise_bundle",
+      "title": "fastvithd_15b triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvithd_15b",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvithd_15b/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:11Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/fastvithd_7b_triplet_layerwise_bundle",
+      "title": "fastvithd_7b triplet layerwise bundle",
+      "inputs": {
+        "model_key": "fastvithd_7b",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/fastvithd_7b/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:11Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/ijepa_vith14_triplet_layerwise_bundle",
+      "title": "ijepa_vith14 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "ijepa_vith14",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/ijepa_vith14/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:12Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/internvit_300m_triplet_layerwise_bundle",
+      "title": "internvit_300m triplet layerwise bundle",
+      "inputs": {
+        "model_key": "internvit_300m",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/internvit_300m/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:12Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/internvit_300m_v25_triplet_layerwise_bundle",
+      "title": "internvit_300m_v25 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "internvit_300m_v25",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/internvit_300m_v25/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:13Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/internvit_6b_v25_triplet_layerwise_bundle",
+      "title": "internvit_6b_v25 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "internvit_6b_v25",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/internvit_6b_v25/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:11Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/resnet101_triplet_layerwise_bundle",
+      "title": "resnet101 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "resnet101",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/resnet101/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:12Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/resnet152_triplet_layerwise_bundle",
+      "title": "resnet152 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "resnet152",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/resnet152/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:12Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/resnet18_triplet_layerwise_bundle",
+      "title": "resnet18 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "resnet18",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/resnet18/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:13Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/resnet34_triplet_layerwise_bundle",
+      "title": "resnet34 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "resnet34",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/resnet34/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:13Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/resnet50_triplet_layerwise_bundle",
+      "title": "resnet50 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "resnet50",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/resnet50/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:14Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/resnext101_32x8d_triplet_layerwise_bundle",
+      "title": "resnext101_32x8d triplet layerwise bundle",
+      "inputs": {
+        "model_key": "resnext101_32x8d",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/resnext101_32x8d/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:14Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/resnext50_32x4d_triplet_layerwise_bundle",
+      "title": "resnext50_32x4d triplet layerwise bundle",
+      "inputs": {
+        "model_key": "resnext50_32x4d",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/resnext50_32x4d/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:15Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/siglip2_base_triplet_layerwise_bundle",
+      "title": "siglip2_base triplet layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/siglip2_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:15Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/siglip2_base_naflex_triplet_layerwise_bundle",
+      "title": "siglip2_base_naflex triplet layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_base_naflex",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/siglip2_base_naflex/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:15Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/siglip2_large_triplet_layerwise_bundle",
+      "title": "siglip2_large triplet layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/siglip2_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:16Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/siglip2_so400m_triplet_layerwise_bundle",
+      "title": "siglip2_so400m triplet layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_so400m",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/siglip2_so400m/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:16Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/siglip2_so400m_naflex_triplet_layerwise_bundle",
+      "title": "siglip2_so400m_naflex triplet layerwise bundle",
+      "inputs": {
+        "model_key": "siglip2_so400m_naflex",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/siglip2_so400m_naflex/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:17Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/siglip_base_triplet_layerwise_bundle",
+      "title": "siglip_base triplet layerwise bundle",
+      "inputs": {
+        "model_key": "siglip_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/siglip_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:17Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/siglip_large_triplet_layerwise_bundle",
+      "title": "siglip_large triplet layerwise bundle",
+      "inputs": {
+        "model_key": "siglip_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/siglip_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:18Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/siglip_so400m_triplet_layerwise_bundle",
+      "title": "siglip_so400m triplet layerwise bundle",
+      "inputs": {
+        "model_key": "siglip_so400m",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/siglip_so400m/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:18Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/swin_base_triplet_layerwise_bundle",
+      "title": "swin_base triplet layerwise bundle",
+      "inputs": {
+        "model_key": "swin_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/swin_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:19Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/swin_large_triplet_layerwise_bundle",
+      "title": "swin_large triplet layerwise bundle",
+      "inputs": {
+        "model_key": "swin_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/swin_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:19Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/swin_small_triplet_layerwise_bundle",
+      "title": "swin_small triplet layerwise bundle",
+      "inputs": {
+        "model_key": "swin_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/swin_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:20Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/swin_tiny_triplet_layerwise_bundle",
+      "title": "swin_tiny triplet layerwise bundle",
+      "inputs": {
+        "model_key": "swin_tiny",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/swin_tiny/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:20Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/swinv2_base_triplet_layerwise_bundle",
+      "title": "swinv2_base triplet layerwise bundle",
+      "inputs": {
+        "model_key": "swinv2_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/swinv2_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:20Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/swinv2_large_triplet_layerwise_bundle",
+      "title": "swinv2_large triplet layerwise bundle",
+      "inputs": {
+        "model_key": "swinv2_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/swinv2_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:21Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/swinv2_small_triplet_layerwise_bundle",
+      "title": "swinv2_small triplet layerwise bundle",
+      "inputs": {
+        "model_key": "swinv2_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/swinv2_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:21Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/swinv2_tiny_triplet_layerwise_bundle",
+      "title": "swinv2_tiny triplet layerwise bundle",
+      "inputs": {
+        "model_key": "swinv2_tiny",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/swinv2_tiny/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:22Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vgg11_triplet_layerwise_bundle",
+      "title": "vgg11 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vgg11",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vgg11/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:22Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vgg11_bn_triplet_layerwise_bundle",
+      "title": "vgg11_bn triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vgg11_bn",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vgg11_bn/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:23Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vgg13_triplet_layerwise_bundle",
+      "title": "vgg13 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vgg13",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vgg13/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:23Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vgg13_bn_triplet_layerwise_bundle",
+      "title": "vgg13_bn triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vgg13_bn",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vgg13_bn/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:23Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vgg16_triplet_layerwise_bundle",
+      "title": "vgg16 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vgg16",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vgg16/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:24Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vgg16_bn_triplet_layerwise_bundle",
+      "title": "vgg16_bn triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vgg16_bn",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vgg16_bn/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:24Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vgg19_triplet_layerwise_bundle",
+      "title": "vgg19 triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vgg19",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vgg19/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:25Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vgg19_bn_triplet_layerwise_bundle",
+      "title": "vgg19_bn triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vgg19_bn",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vgg19_bn/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:25Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vit_base_triplet_layerwise_bundle",
+      "title": "vit_base triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vit_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vit_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:26Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vit_huge_triplet_layerwise_bundle",
+      "title": "vit_huge triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vit_huge",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vit_huge/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:26Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vit_large_triplet_layerwise_bundle",
+      "title": "vit_large triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vit_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vit_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:26Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vit_mae_base_triplet_layerwise_bundle",
+      "title": "vit_mae_base triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vit_mae_base",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vit_mae_base/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:27Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vit_mae_huge_triplet_layerwise_bundle",
+      "title": "vit_mae_huge triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vit_mae_huge",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vit_mae_huge/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:27Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vit_mae_large_triplet_layerwise_bundle",
+      "title": "vit_mae_large triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vit_mae_large",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vit_mae_large/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:28Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vit_small_triplet_layerwise_bundle",
+      "title": "vit_small triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vit_small",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vit_small/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:28Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_layerwise/vit_tiny_triplet_layerwise_bundle",
+      "title": "vit_tiny triplet layerwise bundle",
+      "inputs": {
+        "model_key": "vit_tiny",
+        "slices": [
+          "overall",
+          "fr",
+          "nr"
+        ]
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/vit_tiny/figures/supplementary/layerwise_bundle.pdf"
+      },
+      "timestamp": "2026-03-22T06:08:29Z",
+      "git_commit": null,
+      "renderer": "model_triplet_layer_bundle",
+      "tier": "supplementary",
+      "preset": "layerwise_sheet",
+      "layout": "3x2_bundle_with_shared_colorbar",
+      "variant": "triplet",
+      "annotation_policy": "best_layer_only",
+      "review_priority": "medium"
+    }
+  ]
+}

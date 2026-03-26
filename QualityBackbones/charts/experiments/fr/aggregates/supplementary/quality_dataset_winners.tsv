@@ -1,0 +1,5 @@
+dataset	model_key	family	best_layer	best_layer_index	quality_score
+CSIQ	fastvithd_15b	FastViTHD	image_embeddings	44	0.9963986988847584
+PieAPP	fastvithd_05b	FastViTHD	image_embeddings	44	0.9967472118959108
+TID2013	fastvithd_15b	FastViTHD	image_embeddings	44	0.9897769516728625
+kadid10k	fastvithd_05b	FastViTHD	image_embeddings	44	0.9968633828996283

@@ -1,0 +1,15 @@
+{
+  "experiments": {
+    "fr": "/mnt/l/QualityBackbones/charts/experiments/fr/manifest.json",
+    "fr_quality_scope_comparison": "/mnt/l/QualityBackbones/charts/experiments/fr_quality_scope_comparison/manifest.json",
+    "fr_vs_nr": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/manifest.json",
+    "layerwise": "/mnt/l/QualityBackbones/charts/experiments/layerwise/manifest.json",
+    "nr": "/mnt/l/QualityBackbones/charts/experiments/nr/manifest.json",
+    "overall": "/mnt/l/QualityBackbones/charts/experiments/overall/manifest.json",
+    "triplet_fr": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr/manifest.json",
+    "triplet_fr_vs_nr": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr_vs_nr/manifest.json",
+    "triplet_layerwise": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/manifest.json",
+    "triplet_nr": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/manifest.json",
+    "triplet_overall": "/mnt/l/QualityBackbones/charts/experiments/triplet_overall/manifest.json"
+  }
+}

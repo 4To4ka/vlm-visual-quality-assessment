@@ -1,0 +1,20 @@
+{
+  "slug": "triplet_layerwise",
+  "title": "Triplet Layerwise Model Bundles",
+  "kind": "triplet_layerwise",
+  "slice_name": null,
+  "quality_report": null,
+  "quality_report_alt": null,
+  "alignment_report": null,
+  "triplet_report": null,
+  "top_k": 12,
+  "exclude_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "depends_on": [
+    "triplet_overall",
+    "triplet_fr",
+    "triplet_nr"
+  ]
+}

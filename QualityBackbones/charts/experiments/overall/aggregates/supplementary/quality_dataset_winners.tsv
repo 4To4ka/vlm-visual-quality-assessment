@@ -1,0 +1,9 @@
+dataset	model_key	family	best_layer	best_layer_index	quality_score
+AGIQA-3K	internvit_6b_v25	InternViT	hidden_state_034	34	0.9980277795927631
+CSIQ	fastvithd_15b	FastViTHD	image_embeddings	44	0.9963986988847584
+LIVEC	vit_mae_huge	MAE	hidden_state_025	25	0.996987062647815
+PieAPP	fastvithd_05b	FastViTHD	image_embeddings	44	0.9967472118959108
+SPAQ	siglip_so400m	SigLIP	hidden_state_013	13	1.0
+TID2013	fastvithd_15b	FastViTHD	image_embeddings	44	0.9897769516728625
+kadid10k	fastvithd_05b	FastViTHD	image_embeddings	44	0.9968633828996283
+koniq10k	internvit_6b_v25	InternViT	hidden_state_031	31	0.9984942247020431

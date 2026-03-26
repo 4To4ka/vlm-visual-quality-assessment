@@ -1,0 +1,100 @@
+{
+  "conference": "ACM Multimedia 2026",
+  "style_profile": "research_charts_acmmm_2026",
+  "palette_policy": "preserve_existing_palette_where_possible",
+  "font_family": "DejaVu Serif",
+  "export": {
+    "creator": "research-charts",
+    "subject": "QualityBackbones publication figures",
+    "pad_inches": 0.04
+  },
+  "typography": {
+    "figure_title_size": 11.0,
+    "panel_title_size": 10.0,
+    "panel_subtitle_size": 8.0,
+    "axis_label_size": 9.2,
+    "tick_label_size": 8.2,
+    "legend_size": 7.8,
+    "annotation_size": 7.5,
+    "footnote_size": 7.4
+  },
+  "lines": {
+    "thin": 0.9,
+    "normal": 1.2,
+    "thick": 1.8,
+    "grid_alpha": 0.22
+  },
+  "markers": {
+    "small": 18,
+    "medium": 34,
+    "large": 58,
+    "highlight": 92
+  },
+  "presets": {
+    "paper_1col": {
+      "width": 3.35,
+      "height": 2.45,
+      "dpi": 320
+    },
+    "paper_1p5col": {
+      "width": 5.3,
+      "height": 3.2,
+      "dpi": 320
+    },
+    "paper_2col": {
+      "width": 7.1,
+      "height": 3.9,
+      "dpi": 320
+    },
+    "paper_2col_tall": {
+      "width": 7.1,
+      "height": 4.75,
+      "dpi": 320
+    },
+    "supp_fullwidth": {
+      "width": 10.4,
+      "height": 4.9,
+      "dpi": 320
+    },
+    "supp_tall": {
+      "width": 10.4,
+      "height": 6.6,
+      "dpi": 320
+    },
+    "layerwise_sheet": {
+      "width": 11.6,
+      "height": 10.6,
+      "dpi": 320
+    },
+    "single_column": {
+      "width": 3.35,
+      "height": 2.45,
+      "dpi": 320
+    },
+    "one_and_half_column": {
+      "width": 5.3,
+      "height": 3.2,
+      "dpi": 320
+    },
+    "double_column": {
+      "width": 7.1,
+      "height": 3.9,
+      "dpi": 320
+    },
+    "paper_landscape": {
+      "width": 7.1,
+      "height": 3.9,
+      "dpi": 320
+    },
+    "supplementary_page": {
+      "width": 10.4,
+      "height": 6.6,
+      "dpi": 320
+    },
+    "layerwise_page": {
+      "width": 11.6,
+      "height": 9.8,
+      "dpi": 320
+    }
+  }
+}

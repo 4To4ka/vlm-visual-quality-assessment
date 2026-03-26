@@ -1,0 +1,9 @@
+{
+  "model_key": "vgg11",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vgg11/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

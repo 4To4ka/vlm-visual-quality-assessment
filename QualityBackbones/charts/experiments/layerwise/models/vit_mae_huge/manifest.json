@@ -1,0 +1,9 @@
+{
+  "model_key": "vit_mae_huge",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_mae_huge/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

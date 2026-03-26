@@ -1,0 +1,9 @@
+{
+  "model_key": "dinov3_vits16plus",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/dinov3_vits16plus/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

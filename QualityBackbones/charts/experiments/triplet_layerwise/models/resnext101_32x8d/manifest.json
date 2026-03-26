@@ -1,0 +1,9 @@
+{
+  "model_key": "resnext101_32x8d",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/resnext101_32x8d/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "layerwise",
+  "title": "Layerwise Model Bundles",
+  "kind": "layerwise",
+  "slice_name": null,
+  "quality_report": null,
+  "quality_report_alt": null,
+  "alignment_report": null,
+  "top_k": 10,
+  "exclude_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "depends_on": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "model_key": "clip_vit_b32",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/clip_vit_b32/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

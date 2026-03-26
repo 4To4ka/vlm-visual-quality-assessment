@@ -1,0 +1,12 @@
+{
+  "depends_on": [
+    "triplet_overall",
+    "triplet_fr",
+    "triplet_nr"
+  ],
+  "slice_manifests": {
+    "overall": "/mnt/l/QualityBackbones/charts/experiments/triplet_overall/manifest.json",
+    "fr": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr/manifest.json",
+    "nr": "/mnt/l/QualityBackbones/charts/experiments/triplet_nr/manifest.json"
+  }
+}

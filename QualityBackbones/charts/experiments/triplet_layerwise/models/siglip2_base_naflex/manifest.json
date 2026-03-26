@@ -1,0 +1,9 @@
+{
+  "model_key": "siglip2_base_naflex",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_layerwise/models/siglip2_base_naflex/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

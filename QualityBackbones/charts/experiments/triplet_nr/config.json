@@ -1,0 +1,16 @@
+{
+  "slug": "triplet_nr",
+  "title": "No-Reference Triplet Agreement",
+  "kind": "triplet_report",
+  "slice_name": "nr",
+  "quality_report": null,
+  "quality_report_alt": null,
+  "alignment_report": null,
+  "triplet_report": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+  "top_k": 12,
+  "exclude_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "depends_on": []
+}

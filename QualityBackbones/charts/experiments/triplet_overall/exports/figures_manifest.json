@@ -1,0 +1,97 @@
+{
+  "experiment": "triplet_overall",
+  "style_profile": "research_charts_acmmm_2026",
+  "seed": 0,
+  "generated_at": "2026-03-24T23:27:22Z",
+  "git_commit": null,
+  "figures": [
+    {
+      "figure_id": "triplet_overall/triplet_ranking",
+      "title": "Triplet Ranking",
+      "inputs": {
+        "triplet_source": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+        "slice": "overall"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_overall/figures/paper/triplet_ranking.pdf"
+      },
+      "timestamp": "2026-03-24T23:27:21Z",
+      "git_commit": null,
+      "renderer": "triplet_ranking",
+      "tier": "paper",
+      "preset": "paper_2col",
+      "layout": "lollipop_plus_layer_index",
+      "variant": "triplet",
+      "annotation_policy": "top3_scores",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "triplet_overall/triplet_heatmap",
+      "title": "Triplet Heatmap",
+      "inputs": {
+        "triplet_source": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+        "slice": "overall"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_overall/figures/supplementary/triplet_heatmap.pdf"
+      },
+      "timestamp": "2026-03-24T23:27:21Z",
+      "git_commit": null,
+      "renderer": "triplet_heatmap",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "triplet",
+      "annotation_policy": "column_maxima",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_overall/triplet_flops",
+      "title": "Triplet Flops",
+      "inputs": {
+        "triplet_source": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+        "slice": "overall"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_overall/figures/supplementary/triplet_flops.pdf"
+      },
+      "timestamp": "2026-03-24T23:27:22Z",
+      "git_commit": null,
+      "renderer": "triplet_flops",
+      "tier": "supplementary",
+      "preset": "paper_2col_tall",
+      "layout": "stacked_ratio_bar_with_annotations",
+      "variant": "triplet_selected_vs_full_flops",
+      "annotation_policy": "share_plus_absolute_flops",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "triplet_overall/triplet_family_summary",
+      "title": "Triplet Family Summary",
+      "inputs": {
+        "triplet_source": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+        "slice": "overall"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_overall/figures/supplementary/triplet_family_summary.pdf"
+      },
+      "timestamp": "2026-03-24T23:27:22Z",
+      "git_commit": null,
+      "renderer": "triplet_family_summary",
+      "tier": "supplementary",
+      "preset": "supp_tall",
+      "layout": "strip_plus_relative_layer_depth",
+      "variant": "triplet_family_summary",
+      "annotation_policy": "none",
+      "review_priority": "medium"
+    }
+  ]
+}

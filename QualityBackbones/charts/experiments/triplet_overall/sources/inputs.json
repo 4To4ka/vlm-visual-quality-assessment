@@ -1,0 +1,9 @@
+{
+  "triplet_source": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+  "slice": "overall",
+  "excluded_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "top_k": 12
+}

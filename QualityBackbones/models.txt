@@ -1,0 +1,367 @@
+QualityBackbones embedding extraction audit and progress log
+Generated: 2026-02-16
+
+Objective
+- Align extraction with original model semantics (CLS vs token mean vs global average pooling vs attention pooling, plus projection and L2 normalization where applicable).
+- Ensure per-layer embeddings use family-appropriate pooling.
+- Document all enabled models and applied extraction method.
+
+Execution log
+1) Audited enabled models in src/quality_backbones/manifest.py.
+2) Audited extraction code in src/quality_backbones/extractors.py.
+3) Compared HF/timm implementations for ViT, DINOv2, CLIP, SigLIP, SigLIP2, ConvNeXt, ResNet, and I-JEPA semantics.
+4) Implemented extraction updates in src/quality_backbones/extractors.py:
+   - Added explicit pooling policies for token/spatial/prefix-token cases.
+   - Added canonical embedding outputs per extractor (pooler/projection/normalization where relevant).
+   - Added CLIP projection and normalized embedding outputs.
+   - Added SigLIP/SigLIP2 attention-pool handling for per-layer states and canonical outputs.
+   - Added timm ViT canonical embedding via forward_head(pre_logits=True).
+   - Added DINOv3-aware token pooling (avg over patch tokens after prefix tokens).
+   - Added I-JEPA token-mean pooling for per-layer and canonical extraction in HF auto-image path.
+5) Ran smoke validation across representative families; see logs/smoke_semantics_v3.json and logs/smoke_semantics_siglip2_fix2.json.
+
+Canonical extraction rules and original-style snippets
+
+1) ResNet and ResNeXt CNN families
+Method:
+- Per-layer: global average pooling over spatial dimensions for feature maps.
+- Canonical embedding: model pooled output for HF ResNet; stage feature-map GAP for timm feature extractors.
+Snippet:
+```python
+# x: [B, C, H, W]
+emb = x.mean(dim=(-2, -1))
+```
+
+2) ConvNeXt
+Method:
+- Per-layer: global average pooling over spatial maps.
+- Canonical embedding: LayerNorm(global_avg(last_hidden_state)) via HF pooler_output.
+Snippet:
+```python
+# x: [B, C, H, W]
+emb = layernorm(x.mean(dim=(-2, -1)))
+```
+
+3) ViT, DINOv1, DINOv2, MAE, InternViT
+Method:
+- Per-layer: CLS/first-token pooling for token sequences.
+- Canonical embedding:
+  - DINOv2: pooler_output (post-layernorm CLS).
+  - ViT/DINO/MAE/InternViT: first token from final hidden state path.
+Snippet:
+```python
+# tokens: [B, N, D]
+emb = tokens[:, 0]
+```
+
+4) DINOv3 (timm Eva models with prefix tokens)
+Method:
+- Per-layer: average over patch tokens, excluding prefix tokens.
+- Canonical embedding: model.forward_head(model.forward_features(x), pre_logits=True).
+Snippet:
+```python
+# tokens: [B, N, D], num_prefix_tokens = p
+emb = tokens[:, p:, :].mean(dim=1)
+```
+
+5) I-JEPA
+Method:
+- Per-layer: mean over all patch tokens (no CLS token in embeddings path).
+- Canonical embedding: mean of final token sequence (HF path aligned to patch-token semantics).
+Snippet:
+```python
+# patch_tokens: [B, N, D]
+emb = patch_tokens.mean(dim=1)
+```
+
+6) CLIP vision
+Method:
+- Per-layer: CLS/first-token pooling from hidden states.
+- Canonical outputs exported:
+  - pooler_output (post-layernorm CLS)
+  - image_embeds (visual projection)
+  - image_embeds_l2 (L2-normalized projected embedding)
+Snippet:
+```python
+pool = post_layernorm(tokens[:, 0])
+img = visual_projection(pool)
+img = img / img.norm(dim=-1, keepdim=True)
+```
+
+7) SigLIP and SigLIP2 vision
+Method:
+- Per-layer: post_layernorm + attention pooling head (model head) when available.
+- Canonical outputs exported:
+  - pooler_output (attention-pooled)
+  - image_embeds_l2 (L2-normalized pooler output)
+Snippet:
+```python
+tokens_ln = post_layernorm(tokens)
+pool = attn_pool_head(tokens_ln)
+img = pool / pool.norm(dim=-1, keepdim=True)
+```
+
+8) ARNIQA
+Method:
+- Canonical embedding: repository return_embedding output (concatenated full-scale + half-scale path).
+Snippet:
+```python
+score, emb = model(full_res, half_res, return_embedding=True)
+```
+
+9) MANIQA
+Method:
+- Canonical project embedding path: internal token features reconstructed then mean pooled over patches.
+Snippet:
+```python
+# h_tokens: [B, N, D]
+emb = h_tokens.mean(dim=1)
+```
+
+Model-by-model extraction map (all enabled image models)
+
+ResNet (HF)
+- resnet18: per-layer spatial GAP; canonical = pooler_output.
+- resnet34: per-layer spatial GAP; canonical = pooler_output.
+- resnet50: per-layer spatial GAP; canonical = pooler_output.
+- resnet101: per-layer spatial GAP; canonical = pooler_output.
+- resnet152: per-layer spatial GAP; canonical = pooler_output.
+
+ResNeXt (timm features_only)
+- resnext50_32x4d: per-layer spatial GAP over feature maps.
+- resnext101_32x8d: per-layer spatial GAP over feature maps.
+
+ConvNeXt (HF)
+- convnext_tiny: per-layer spatial GAP; canonical = LayerNorm(GAP(last_hidden)).
+- convnext_small: per-layer spatial GAP; canonical = LayerNorm(GAP(last_hidden)).
+- convnext_base: per-layer spatial GAP; canonical = LayerNorm(GAP(last_hidden)).
+- convnext_large: per-layer spatial GAP; canonical = LayerNorm(GAP(last_hidden)).
+
+ViT (timm + HF)
+- vit_tiny: per-layer token pooling follows global_pool (token for this family); canonical = timm pre_logits.
+- vit_small: per-layer token pooling follows global_pool (token for this family); canonical = timm pre_logits.
+- vit_base: per-layer CLS pooling; canonical = first token from final hidden path.
+- vit_large: per-layer CLS pooling; canonical = first token from final hidden path.
+- vit_huge: per-layer CLS pooling; canonical = first token from final hidden path.
+
+MAE (HF)
+- vit_mae_base: per-layer CLS pooling; canonical = first token from final hidden path.
+- vit_mae_large: per-layer CLS pooling; canonical = first token from final hidden path.
+- vit_mae_huge: per-layer CLS pooling; canonical = first token from final hidden path.
+
+CLIP vision (HF)
+- clip_vit_b32: per-layer CLS pooling; canonical exports pooler_output, image_embeds, image_embeds_l2.
+- clip_vit_b16: per-layer CLS pooling; canonical exports pooler_output, image_embeds, image_embeds_l2.
+- clip_vit_l14: per-layer CLS pooling; canonical exports pooler_output, image_embeds, image_embeds_l2.
+- clip_vit_l14_336: per-layer CLS pooling; canonical exports pooler_output, image_embeds, image_embeds_l2.
+
+DINOv1 (HF)
+- dino_vits8: per-layer CLS pooling; canonical = first token from final hidden path.
+- dino_vits16: per-layer CLS pooling; canonical = first token from final hidden path.
+- dino_vitb8: per-layer CLS pooling; canonical = first token from final hidden path.
+- dino_vitb16: per-layer CLS pooling; canonical = first token from final hidden path.
+
+DINOv2 (HF)
+- dinov2_small: per-layer CLS pooling; canonical = pooler_output (post-layernorm CLS).
+- dinov2_base: per-layer CLS pooling; canonical = pooler_output (post-layernorm CLS).
+- dinov2_large: per-layer CLS pooling; canonical = pooler_output (post-layernorm CLS).
+- dinov2_giant: per-layer CLS pooling; canonical = pooler_output (post-layernorm CLS).
+
+DINOv3 (timm Eva)
+- dinov3_vits16: per-layer avg over patch tokens after prefix tokens; canonical = timm pre_logits.
+- dinov3_vits16plus: per-layer avg over patch tokens after prefix tokens; canonical = timm pre_logits.
+- dinov3_vitb16: per-layer avg over patch tokens after prefix tokens; canonical = timm pre_logits.
+- dinov3_vitl16: per-layer avg over patch tokens after prefix tokens; canonical = timm pre_logits.
+- dinov3_vith16plus: per-layer avg over patch tokens after prefix tokens; canonical = timm pre_logits.
+- dinov3_vit7b16: per-layer avg over patch tokens after prefix tokens; canonical = timm pre_logits.
+
+SigLIP (HF)
+- siglip_base: per-layer attention pooling (post-layernorm + head); canonical exports pooler_output, image_embeds_l2.
+- siglip_large: per-layer attention pooling (post-layernorm + head); canonical exports pooler_output, image_embeds_l2.
+- siglip_so400m: per-layer attention pooling (post-layernorm + head); canonical exports pooler_output, image_embeds_l2.
+
+SigLIP2 (HF)
+- siglip2_base: per-layer attention pooling where available; canonical exports pooler_output, image_embeds_l2.
+- siglip2_large: per-layer attention pooling where available; canonical exports pooler_output, image_embeds_l2.
+- siglip2_so400m: per-layer attention pooling where available; canonical exports pooler_output, image_embeds_l2.
+- siglip2_base_naflex: per-layer attention pooling where available; canonical exports pooler_output, image_embeds_l2.
+- siglip2_so400m_naflex: per-layer attention pooling where available; canonical exports pooler_output, image_embeds_l2.
+
+I-JEPA (HF)
+- ijepa_vith14: per-layer mean-token pooling; canonical = mean of final token sequence.
+
+InternViT (HF remote code)
+- internvit_300m: per-layer CLS pooling; canonical = pooler_output (fallback to first token).
+- internvit_300m_v25: per-layer CLS pooling; canonical = pooler_output (fallback to first token).
+- internvit_6b_v25: per-layer CLS pooling; canonical = pooler_output (fallback to first token).
+
+ARNIQA (torch.hub)
+- arniqa_live: canonical embedding from return_embedding output.
+- arniqa_csiq: canonical embedding from return_embedding output.
+- arniqa_tid2013: canonical embedding from return_embedding output.
+- arniqa_kadid10k: canonical embedding from return_embedding output.
+- arniqa_flive: canonical embedding from return_embedding output.
+- arniqa_spaq: canonical embedding from return_embedding output.
+- arniqa_clive: canonical embedding from return_embedding output.
+- arniqa_koniq10k: canonical embedding from return_embedding output.
+
+MANIQA (official repo checkpoints)
+- maniqa_pipal22: canonical internal feature embedding with mean over patch tokens.
+- maniqa_kadid10k: canonical internal feature embedding with mean over patch tokens.
+- maniqa_koniq10k: canonical internal feature embedding with mean over patch tokens.
+
+Validation status
+- logs/smoke_semantics_v3.json: PASS for representative families (ConvNeXt, ViT, DINOv2, I-JEPA, CLIP, SigLIP, SigLIP2, DINOv3, ResNeXt, ARNIQA).
+- logs/smoke_semantics_siglip2_fix2.json: PASS for siglip2_base after dtype alignment fixes.
+
+Notes
+- HF warnings about UNEXPECTED classifier/task-head keys are expected when loading backbone-only variants and do not indicate extraction failure.
+- Some HF endpoints can intermittently fail without auth/rate-limit headroom; extraction logic changes are independent of those transient fetch issues.
+
+2026-02-14 incremental update
+- Added FastViT and VGG embedding extraction support from timm.
+- FastViT source preference applied via timm names tagged like `fastvit_s12.apple_in1k`.
+
+FastViT (timm features_only)
+- fastvit_t8: per-layer spatial GAP over feature maps.
+- fastvit_t12: per-layer spatial GAP over feature maps.
+- fastvit_s12: per-layer spatial GAP over feature maps.
+- fastvit_sa12: per-layer spatial GAP over feature maps.
+- fastvit_sa24: per-layer spatial GAP over feature maps.
+- fastvit_sa36: per-layer spatial GAP over feature maps.
+- fastvit_ma36: per-layer spatial GAP over feature maps.
+
+VGG (timm features_only)
+- vgg11: per-layer spatial GAP over feature maps.
+- vgg11_bn: per-layer spatial GAP over feature maps.
+- vgg13: per-layer spatial GAP over feature maps.
+- vgg13_bn: per-layer spatial GAP over feature maps.
+- vgg16: per-layer spatial GAP over feature maps.
+- vgg16_bn: per-layer spatial GAP over feature maps.
+- vgg19: per-layer spatial GAP over feature maps.
+- vgg19_bn: per-layer spatial GAP over feature maps.
+
+2026-02-14 FastViTHD repo integration update
+- Added FastViTHD extractor using the official `apple/ml-fastvlm` repository code path.
+- Added model keys: `fastvithd_05b`, `fastvithd_15b`, `fastvithd_7b`.
+- Weights are loaded from corresponding HF checkpoints (`apple/FastVLM-*`) by extracting only vision-tower tensors.
+- Per-layer embeddings: pooled outputs from all FastViTHD intermediate blocks (`block_000` .. `block_043`).
+- Additional exported layers: `image_embeddings` (GAP over conv-exp map) and `canonical_embedding` (global pooled projection / logits).
+
+2026-02-16 Swin/SwinV2 integration update
+- Added Swin Transformer and Swin Transformer V2 embedding extraction support using Transformers-native classes.
+- Implemented explicit model classes per docs: `SwinModel` and `Swinv2Model`.
+- Added 8-model set (one per size): `swin_tiny`, `swin_small`, `swin_base`, `swin_large`, `swinv2_tiny`, `swinv2_small`, `swinv2_base`, `swinv2_large`.
+- Source preference applied to Microsoft HF checkpoints.
+
+Swin Transformer (HF SwinModel)
+- swin_tiny: per-layer mean over token sequence; canonical = `pooler_output` from `microsoft/swin-tiny-patch4-window7-224`.
+- swin_small: per-layer mean over token sequence; canonical = `pooler_output` from `microsoft/swin-small-patch4-window7-224`.
+- swin_base: per-layer mean over token sequence; canonical = `pooler_output` from `microsoft/swin-base-patch4-window7-224`.
+- swin_large: per-layer mean over token sequence; canonical = `pooler_output` from `microsoft/swin-large-patch4-window7-224`.
+
+Swin Transformer V2 (HF Swinv2Model)
+- swinv2_tiny: per-layer mean over token sequence; canonical = `pooler_output` from `microsoft/swinv2-tiny-patch4-window8-256`.
+- swinv2_small: per-layer mean over token sequence; canonical = `pooler_output` from `microsoft/swinv2-small-patch4-window8-256`.
+- swinv2_base: per-layer mean over token sequence; canonical = `pooler_output` from `microsoft/swinv2-base-patch4-window8-256`.
+- swinv2_large: per-layer mean over token sequence; canonical = `pooler_output` from `microsoft/swinv2-large-patch4-window12to16-192to256-22kto1k-ft`.
+
+2026-02-16 manifest completeness update
+- Verified against src/quality_backbones/manifest.py.
+- ModelSpec counts: total=89, enabled image=86, disabled/non-image=3.
+- Added full manifest inventory so models.txt includes all model metadata fields:
+  key, family, size, modality, enabled, source, loader, reference id, and notes.
+
+Full model manifest inventory
+Format:
+- key | family | size | modality | enabled | source | loader | reference | notes
+
+resnet18 | ResNet | 18 | image | True | hf | hf_auto_image | microsoft/resnet-18 | -
+resnet34 | ResNet | 34 | image | True | hf | hf_auto_image | microsoft/resnet-34 | -
+resnet50 | ResNet | 50 | image | True | hf | hf_auto_image | microsoft/resnet-50 | -
+resnet101 | ResNet | 101 | image | True | hf | hf_auto_image | microsoft/resnet-101 | -
+resnet152 | ResNet | 152 | image | True | hf | hf_auto_image | microsoft/resnet-152 | -
+resnext50_32x4d | ResNeXt | 50-32x4d | image | True | timm | timm_cnn_features | resnext50_32x4d.a1_in1k | -
+resnext101_32x8d | ResNeXt | 101-32x8d | image | True | timm | timm_cnn_features | resnext101_32x8d.fb_swsl_ig1b_ft_in1k | -
+convnext_tiny | ConvNeXt | tiny | image | True | hf | hf_auto_image | facebook/convnext-tiny-224 | -
+convnext_small | ConvNeXt | small | image | True | hf | hf_auto_image | facebook/convnext-small-224 | -
+convnext_base | ConvNeXt | base | image | True | hf | hf_auto_image | facebook/convnext-base-224 | -
+convnext_large | ConvNeXt | large | image | True | hf | hf_auto_image | facebook/convnext-large-224 | -
+swin_tiny | Swin | tiny | image | True | hf | hf_swin_vision | microsoft/swin-tiny-patch4-window7-224 | -
+swin_small | Swin | small | image | True | hf | hf_swin_vision | microsoft/swin-small-patch4-window7-224 | -
+swin_base | Swin | base | image | True | hf | hf_swin_vision | microsoft/swin-base-patch4-window7-224 | -
+swin_large | Swin | large | image | True | hf | hf_swin_vision | microsoft/swin-large-patch4-window7-224 | -
+swinv2_tiny | SwinV2 | tiny | image | True | hf | hf_swin_vision | microsoft/swinv2-tiny-patch4-window8-256 | -
+swinv2_small | SwinV2 | small | image | True | hf | hf_swin_vision | microsoft/swinv2-small-patch4-window8-256 | -
+swinv2_base | SwinV2 | base | image | True | hf | hf_swin_vision | microsoft/swinv2-base-patch4-window8-256 | -
+swinv2_large | SwinV2 | large | image | True | hf | hf_swin_vision | microsoft/swinv2-large-patch4-window12to16-192to256-22kto1k-ft | -
+fastvit_t8 | FastViT | t8 | image | True | timm | timm_cnn_features | fastvit_t8.apple_in1k | -
+fastvit_t12 | FastViT | t12 | image | True | timm | timm_cnn_features | fastvit_t12.apple_in1k | -
+fastvit_s12 | FastViT | s12 | image | True | timm | timm_cnn_features | fastvit_s12.apple_in1k | -
+fastvit_sa12 | FastViT | sa12 | image | True | timm | timm_cnn_features | fastvit_sa12.apple_in1k | -
+fastvit_sa24 | FastViT | sa24 | image | True | timm | timm_cnn_features | fastvit_sa24.apple_in1k | -
+fastvit_sa36 | FastViT | sa36 | image | True | timm | timm_cnn_features | fastvit_sa36.apple_in1k | -
+fastvit_ma36 | FastViT | ma36 | image | True | timm | timm_cnn_features | fastvit_ma36.apple_in1k | -
+vgg11 | VGG | 11 | image | True | timm | timm_cnn_features | vgg11.tv_in1k | -
+vgg11_bn | VGG | 11-bn | image | True | timm | timm_cnn_features | vgg11_bn.tv_in1k | -
+vgg13 | VGG | 13 | image | True | timm | timm_cnn_features | vgg13.tv_in1k | -
+vgg13_bn | VGG | 13-bn | image | True | timm | timm_cnn_features | vgg13_bn.tv_in1k | -
+vgg16 | VGG | 16 | image | True | timm | timm_cnn_features | vgg16.tv_in1k | -
+vgg16_bn | VGG | 16-bn | image | True | timm | timm_cnn_features | vgg16_bn.tv_in1k | -
+vgg19 | VGG | 19 | image | True | timm | timm_cnn_features | vgg19.tv_in1k | -
+vgg19_bn | VGG | 19-bn | image | True | timm | timm_cnn_features | vgg19_bn.tv_in1k | -
+vit_tiny | ViT | tiny | image | True | timm | timm_vit_blocks | vit_tiny_patch16_224.augreg_in21k_ft_in1k | -
+vit_small | ViT | small | image | True | timm | timm_vit_blocks | vit_small_patch16_224.augreg_in21k_ft_in1k | -
+vit_base | ViT | base | image | True | hf | hf_auto_image | google/vit-base-patch16-224 | -
+vit_large | ViT | large | image | True | hf | hf_auto_image | google/vit-large-patch16-224 | -
+vit_huge | ViT | huge | image | True | hf | hf_auto_image | google/vit-huge-patch14-224-in21k | -
+vit_mae_base | MAE | base | image | True | hf | hf_auto_image | facebook/vit-mae-base | -
+vit_mae_large | MAE | large | image | True | hf | hf_auto_image | facebook/vit-mae-large | -
+vit_mae_huge | MAE | huge | image | True | hf | hf_auto_image | facebook/vit-mae-huge | -
+clip_vit_b32 | CLIP | base-patch32 | image | True | hf | hf_clip_vision | openai/clip-vit-base-patch32 | -
+clip_vit_b16 | CLIP | base-patch16 | image | True | hf | hf_clip_vision | openai/clip-vit-base-patch16 | -
+clip_vit_l14 | CLIP | large-patch14 | image | True | hf | hf_clip_vision | openai/clip-vit-large-patch14 | -
+clip_vit_l14_336 | CLIP | large-patch14-336 | image | True | hf | hf_clip_vision | openai/clip-vit-large-patch14-336 | -
+dino_vits8 | DINO | vits8 | image | True | hf | hf_auto_image | facebook/dino-vits8 | -
+dino_vits16 | DINO | vits16 | image | True | hf | hf_auto_image | facebook/dino-vits16 | -
+dino_vitb8 | DINO | vitb8 | image | True | hf | hf_auto_image | facebook/dino-vitb8 | -
+dino_vitb16 | DINO | vitb16 | image | True | hf | hf_auto_image | facebook/dino-vitb16 | -
+dinov2_small | DINOv2 | small | image | True | hf | hf_auto_image | facebook/dinov2-small | -
+dinov2_base | DINOv2 | base | image | True | hf | hf_auto_image | facebook/dinov2-base | -
+dinov2_large | DINOv2 | large | image | True | hf | hf_auto_image | facebook/dinov2-large | -
+dinov2_giant | DINOv2 | giant | image | True | hf | hf_auto_image | facebook/dinov2-giant | -
+dinov3_vits16 | DINOv3 | vits16 | image | True | timm | timm_vit_blocks | vit_small_patch16_dinov3.lvd1689m | -
+dinov3_vits16plus | DINOv3 | vits16plus | image | True | timm | timm_vit_blocks | vit_small_plus_patch16_dinov3.lvd1689m | -
+dinov3_vitb16 | DINOv3 | vitb16 | image | True | timm | timm_vit_blocks | vit_base_patch16_dinov3.lvd1689m | -
+dinov3_vitl16 | DINOv3 | vitl16 | image | True | timm | timm_vit_blocks | vit_large_patch16_dinov3.lvd1689m | -
+dinov3_vith16plus | DINOv3 | vith16plus | image | True | timm | timm_vit_blocks | vit_huge_plus_patch16_dinov3.lvd1689m | -
+dinov3_vit7b16 | DINOv3 | vit7b16 | image | True | timm | timm_vit_blocks | vit_7b_patch16_dinov3.lvd1689m | -
+siglip_base | SigLIP | base | image | True | hf | hf_siglip_vision | google/siglip-base-patch16-224 | -
+siglip_large | SigLIP | large | image | True | hf | hf_siglip_vision | google/siglip-large-patch16-256 | -
+siglip_so400m | SigLIP | so400m | image | True | hf | hf_siglip_vision | google/siglip-so400m-patch14-384 | -
+siglip2_base | SigLIP2 | base | image | True | hf | hf_siglip2_vision | google/siglip2-base-patch16-224 | -
+siglip2_large | SigLIP2 | large | image | True | hf | hf_siglip2_vision | google/siglip2-large-patch16-384 | -
+siglip2_so400m | SigLIP2 | so400m | image | True | hf | hf_siglip2_vision | google/siglip2-so400m-patch14-384 | -
+siglip2_base_naflex | SigLIP2 | base-naflex | image | True | hf | hf_siglip2_vision | google/siglip2-base-patch16-naflex | -
+siglip2_so400m_naflex | SigLIP2 | so400m-naflex | image | True | hf | hf_siglip2_vision | google/siglip2-so400m-patch16-naflex | -
+ijepa_vith14 | I-JEPA | vith14 | image | True | hf | hf_auto_image | facebook/ijepa_vith14_1k | -
+internvit_300m | InternViT | 300M | image | True | hf | hf_auto_image_remote | OpenGVLab/InternViT-300M-448px | Local patched remote-code load without flash-attn
+internvit_300m_v25 | InternViT | 300M-V2_5 | image | True | hf | hf_auto_image_remote | OpenGVLab/InternViT-300M-448px-V2_5 | Local patched remote-code load without flash-attn
+internvit_6b_v25 | InternViT | 6B-V2_5 | image | True | hf | hf_auto_image_remote | OpenGVLab/InternViT-6B-448px-V2_5 | Local patched remote-code load without flash-attn
+fastvithd_05b | FastViTHD | 0.5B | image | True | github | fastvlm_fastvithd | apple/FastVLM-0.5B | Loads FastViTHD vision tower from apple/ml-fastvlm with per-block embeddings
+fastvithd_15b | FastViTHD | 1.5B | image | True | github | fastvlm_fastvithd | apple/FastVLM-1.5B | Loads FastViTHD vision tower from apple/ml-fastvlm with per-block embeddings
+fastvithd_7b | FastViTHD | 7B | image | True | github | fastvlm_fastvithd | apple/FastVLM-7B | Loads FastViTHD vision tower from apple/ml-fastvlm with per-block embeddings
+arniqa_live | ARNIQA | regressor-live | image | True | github | arniqa_torchhub | regressor_dataset=live | -
+arniqa_csiq | ARNIQA | regressor-csiq | image | True | github | arniqa_torchhub | regressor_dataset=csiq | -
+arniqa_tid2013 | ARNIQA | regressor-tid2013 | image | True | github | arniqa_torchhub | regressor_dataset=tid2013 | -
+arniqa_kadid10k | ARNIQA | regressor-kadid10k | image | True | github | arniqa_torchhub | regressor_dataset=kadid10k | -
+arniqa_flive | ARNIQA | regressor-flive | image | True | github | arniqa_torchhub | regressor_dataset=flive | -
+arniqa_spaq | ARNIQA | regressor-spaq | image | True | github | arniqa_torchhub | regressor_dataset=spaq | -
+arniqa_clive | ARNIQA | regressor-clive | image | True | github | arniqa_torchhub | regressor_dataset=clive | -
+arniqa_koniq10k | ARNIQA | regressor-koniq10k | image | True | github | arniqa_torchhub | regressor_dataset=koniq10k | -
+maniqa_pipal22 | MANIQA | PIPAL22 | image | True | github | maniqa_repo | n/a | Auto-clone MANIQA repo + auto-download checkpoint
+maniqa_kadid10k | MANIQA | KADID10K | image | True | github | maniqa_repo | n/a | Auto-clone MANIQA repo + auto-download checkpoint
+maniqa_koniq10k | MANIQA | KONIQ10K | image | True | github | maniqa_repo | n/a | Auto-clone MANIQA repo + auto-download checkpoint
+vjepa_skipped | V-JEPA | n/a | video | False | github | skipped | n/a | Skipped: video-only
+vjepa2_skipped | V-JEPA2 | n/a | video | False | hf | skipped | n/a | Skipped: video-only
+dover_skipped | DOVER | n/a | video | False | github | skipped | n/a | Skipped: video-only

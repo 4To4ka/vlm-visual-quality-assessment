@@ -1,0 +1,8 @@
+{
+  "depends_on": [
+    "fr",
+    "nr"
+  ],
+  "fr_manifest": "/mnt/l/QualityBackbones/charts/experiments/fr/manifest.json",
+  "nr_manifest": "/mnt/l/QualityBackbones/charts/experiments/nr/manifest.json"
+}

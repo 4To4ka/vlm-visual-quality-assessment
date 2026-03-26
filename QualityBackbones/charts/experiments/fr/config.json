@@ -1,0 +1,15 @@
+{
+  "slug": "fr",
+  "title": "Full-Reference Quality and Alignment",
+  "kind": "report",
+  "slice_name": "fr",
+  "quality_report": "/mnt/l/QualityBackbones/outputs/embedding_quality_runs/stage1_without_flive_pipal_refgrouped.json",
+  "quality_report_alt": null,
+  "alignment_report": "/mnt/l/QualityBackbones/outputs/embedding_alignment_runs/stage1_kadid_refs_refgrouped.json",
+  "top_k": 10,
+  "exclude_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "depends_on": []
+}

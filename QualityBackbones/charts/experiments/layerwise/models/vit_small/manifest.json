@@ -1,0 +1,9 @@
+{
+  "model_key": "vit_small",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/vit_small/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

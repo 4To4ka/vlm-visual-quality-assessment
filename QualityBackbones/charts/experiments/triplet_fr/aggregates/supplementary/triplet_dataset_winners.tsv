@@ -1,0 +1,5 @@
+dataset	model_key	family	best_layer	best_layer_index	triplet_score
+CSIQ	fastvithd_15b	FastViTHD	image_embeddings	44	0.9963536918869644
+PieAPP	fastvithd_05b	FastViTHD	image_embeddings	44	1.0
+TID2013	fastvithd_15b	FastViTHD	image_embeddings	44	0.9963536918869644
+kadid10k	siglip2_so400m_naflex	SigLIP2	hidden_state_000	0	0.9990884229717412

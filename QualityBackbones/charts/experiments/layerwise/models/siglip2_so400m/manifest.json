@@ -1,0 +1,9 @@
+{
+  "model_key": "siglip2_so400m",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/siglip2_so400m/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

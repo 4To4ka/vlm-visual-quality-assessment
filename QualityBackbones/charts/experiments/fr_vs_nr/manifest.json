@@ -1,0 +1,24 @@
+{
+  "slug": "fr_vs_nr",
+  "title": "FR vs NR Differences",
+  "kind": "delta",
+  "depends_on": [
+    "fr",
+    "nr"
+  ],
+  "aggregates": {
+    "quality_fr_nr_gap": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/aggregates/paper/quality_fr_nr_gap.tsv",
+    "alignment_fr_nr_gap": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/aggregates/paper/alignment_fr_nr_gap.tsv",
+    "joint_fr_nr_gap": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/aggregates/paper/joint_fr_nr_gap.tsv",
+    "quality_full_table": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/aggregates/supplementary/quality_fr_nr_gap_full.tsv",
+    "alignment_full_table": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/aggregates/supplementary/alignment_fr_nr_gap_full.tsv",
+    "joint_full_table": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/aggregates/supplementary/joint_fr_nr_gap_full.tsv"
+  },
+  "figure_manifest": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/exports/figures_manifest.json",
+  "figures": {
+    "quality_fr_vs_nr_delta": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/figures/paper/quality_fr_vs_nr_delta.pdf",
+    "alignment_fr_vs_nr_delta": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/figures/paper/alignment_fr_vs_nr_delta.pdf",
+    "joint_fr_vs_nr_shift": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/figures/paper/joint_fr_vs_nr_shift.pdf",
+    "paper_bundle": "/mnt/l/QualityBackbones/charts/experiments/fr_vs_nr/exports/paper_bundle.pdf"
+  }
+}

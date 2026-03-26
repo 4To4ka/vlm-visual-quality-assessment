@@ -1,0 +1,75 @@
+{
+  "experiment": "triplet_fr",
+  "style_profile": "research_charts_acmmm_2026",
+  "seed": 0,
+  "generated_at": "2026-03-22T06:07:54Z",
+  "git_commit": null,
+  "figures": [
+    {
+      "figure_id": "triplet_fr/triplet_ranking",
+      "title": "Triplet Ranking",
+      "inputs": {
+        "triplet_source": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+        "slice": "fr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr/figures/paper/triplet_ranking.pdf"
+      },
+      "timestamp": "2026-03-22T06:07:52Z",
+      "git_commit": null,
+      "renderer": "triplet_ranking",
+      "tier": "paper",
+      "preset": "paper_2col",
+      "layout": "lollipop_plus_layer_index",
+      "variant": "triplet",
+      "annotation_policy": "top3_scores",
+      "review_priority": "high"
+    },
+    {
+      "figure_id": "triplet_fr/triplet_heatmap",
+      "title": "Triplet Heatmap",
+      "inputs": {
+        "triplet_source": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+        "slice": "fr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr/figures/supplementary/triplet_heatmap.pdf"
+      },
+      "timestamp": "2026-03-22T06:07:52Z",
+      "git_commit": null,
+      "renderer": "triplet_heatmap",
+      "tier": "supplementary",
+      "preset": "supp_fullwidth",
+      "layout": "heatmap_plus_row_summary",
+      "variant": "triplet",
+      "annotation_policy": "column_maxima",
+      "review_priority": "medium"
+    },
+    {
+      "figure_id": "triplet_fr/triplet_family_summary",
+      "title": "Triplet Family Summary",
+      "inputs": {
+        "triplet_source": "/mnt/l/QualityBackbones/outputs/embedding_triplet_runs/all_except_2_largest_auto/report.json",
+        "slice": "fr"
+      },
+      "style_profile": "research_charts_acmmm_2026",
+      "seed": 0,
+      "output_paths": {
+        "pdf": "/mnt/l/QualityBackbones/charts/experiments/triplet_fr/figures/supplementary/triplet_family_summary.pdf"
+      },
+      "timestamp": "2026-03-22T06:07:53Z",
+      "git_commit": null,
+      "renderer": "triplet_family_summary",
+      "tier": "supplementary",
+      "preset": "supp_tall",
+      "layout": "strip_plus_relative_layer_depth",
+      "variant": "triplet_family_summary",
+      "annotation_policy": "none",
+      "review_priority": "medium"
+    }
+  ]
+}

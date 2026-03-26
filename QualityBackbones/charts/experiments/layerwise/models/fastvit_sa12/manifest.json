@@ -1,0 +1,9 @@
+{
+  "model_key": "fastvit_sa12",
+  "bundle_pdf": "/mnt/l/QualityBackbones/charts/experiments/layerwise/models/fastvit_sa12/figures/supplementary/layerwise_bundle.pdf",
+  "slices": [
+    "overall",
+    "fr",
+    "nr"
+  ]
+}

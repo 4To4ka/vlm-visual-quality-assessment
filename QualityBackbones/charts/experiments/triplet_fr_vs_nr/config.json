@@ -1,0 +1,19 @@
+{
+  "slug": "triplet_fr_vs_nr",
+  "title": "Triplet FR vs NR Differences",
+  "kind": "triplet_delta",
+  "slice_name": null,
+  "quality_report": null,
+  "quality_report_alt": null,
+  "alignment_report": null,
+  "triplet_report": null,
+  "top_k": 12,
+  "exclude_families": [
+    "ARNIQA",
+    "MANIQA"
+  ],
+  "depends_on": [
+    "triplet_fr",
+    "triplet_nr"
+  ]
+}

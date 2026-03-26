@@ -1,0 +1,24 @@
+{
+  "slug": "layerwise",
+  "title": "Layerwise Model Bundles",
+  "kind": "layerwise",
+  "depends_on": [
+    "overall",
+    "fr",
+    "nr"
+  ],
+  "model_count": 75,
+  "aggregates": {
+    "overall_quality_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/layerwise/aggregates/supplementary/overall_quality_layer_profiles.tsv",
+    "overall_alignment_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/layerwise/aggregates/supplementary/overall_alignment_layer_profiles.tsv",
+    "overall_joint_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/layerwise/aggregates/supplementary/overall_joint_layer_profiles.tsv",
+    "fr_quality_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/layerwise/aggregates/supplementary/fr_quality_layer_profiles.tsv",
+    "fr_alignment_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/layerwise/aggregates/supplementary/fr_alignment_layer_profiles.tsv",
+    "fr_joint_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/layerwise/aggregates/supplementary/fr_joint_layer_profiles.tsv",
+    "nr_quality_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/layerwise/aggregates/supplementary/nr_quality_layer_profiles.tsv",
+    "nr_alignment_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/layerwise/aggregates/supplementary/nr_alignment_layer_profiles.tsv",
+    "nr_joint_layer_profiles": "/mnt/l/QualityBackbones/charts/experiments/layerwise/aggregates/supplementary/nr_joint_layer_profiles.tsv",
+    "model_index": "/mnt/l/QualityBackbones/charts/experiments/layerwise/exports/model_index.tsv"
+  },
+  "figure_manifest": "/mnt/l/QualityBackbones/charts/experiments/layerwise/exports/figures_manifest.json"
+}
